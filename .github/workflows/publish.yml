@@ -1,0 +1,28 @@
+# This handles publishing of the project on push.
+
+name: Publish
+
+on: push
+
+jobs:
+  publish:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup NodeJS
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - name: Install Project Dependencies
+        run: npm install
+      - name: Build Project
+        run: npm run build
+      - name: Deploy Production Files
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: site
+          FOLDER: dist
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MESSAGE: "Deploy: {sha}: {msg}"
