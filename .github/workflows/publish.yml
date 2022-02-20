@@ -18,6 +18,9 @@ jobs:
         run: npm install
       - name: Build Project
         run: npm run build
+      - name: Fix Angular Routing
+        # Yes, this is a hack, but it gets the job done.
+        run: cp dist/index.html dist/404.html
       - name: Deploy Production Files
         uses: s0/git-publish-subdir-action@develop
         env:
