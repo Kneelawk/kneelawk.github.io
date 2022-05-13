@@ -28,6 +28,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/docs",
               "src/maven"
             ],
             "styles": [
@@ -96,6 +97,7 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
+              "src/docs",
               "src/maven"
             ],
             "styles": [
