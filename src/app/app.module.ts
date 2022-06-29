@@ -6,19 +6,27 @@ import { AppComponent } from './app.component';
 import { MenuBarComponent } from './menu-bar/menu-bar.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { AboutMeComponent } from './about-me/about-me.component';
+import { DocsIndexComponent } from './docs-index/docs-index.component';
+import { HttpClientModule } from "@angular/common/http";
+import { BASE_URL } from "./index-reader.service";
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuBarComponent,
     HomepageComponent,
-    AboutMeComponent
+    AboutMeComponent,
+    DocsIndexComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    { provide: BASE_URL, useValue: '/docs.index' }
+  ],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+}

@@ -29,7 +29,12 @@
               "src/favicon.ico",
               "src/assets",
               "src/docs",
-              "src/maven"
+              "src/maven",
+              {
+                "glob": "**",
+                "input": "build/gen",
+                "output": ""
+              }
             ],
             "styles": [
               "src/styles.css"
