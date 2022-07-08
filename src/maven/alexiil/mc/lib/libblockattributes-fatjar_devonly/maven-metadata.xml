@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>alexiil.mc.lib</groupId>
+  <artifactId>libblockattributes-fatjar_devonly</artifactId>
+  <versioning>
+    <latest>0.11.0-pre.1.1+kneelawk</latest>
+    <release>0.11.0-pre.1.1+kneelawk</release>
+    <versions>
+      <version>0.11.0-pre.1.1+kneelawk</version>
+    </versions>
+    <lastUpdated>20220708084729</lastUpdated>
+  </versioning>
+</metadata>
