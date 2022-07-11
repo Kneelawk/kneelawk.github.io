@@ -3,12 +3,13 @@
   <groupId>alexiil.mc.lib</groupId>
   <artifactId>libmultipart-all</artifactId>
   <versioning>
-    <latest>0.8.0-pre.1.4+kneelawk</latest>
-    <release>0.8.0-pre.1.4+kneelawk</release>
+    <latest>0.8.0-pre.1.5+kneelawk</latest>
+    <release>0.8.0-pre.1.5+kneelawk</release>
     <versions>
       <version>0.8.0-pre.1.2+kneelawk</version>
       <version>0.8.0-pre.1.4+kneelawk</version>
+      <version>0.8.0-pre.1.5+kneelawk</version>
     </versions>
-    <lastUpdated>20220711112440</lastUpdated>
+    <lastUpdated>20220711150118</lastUpdated>
   </versioning>
 </metadata>
