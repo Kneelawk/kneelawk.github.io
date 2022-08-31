@@ -1,0 +1,306 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "jar-it",
+    "version": "0.1.5+1.19.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "jar-it-0.1.5+1.19.2.jar",
+          "url": "jar-it-0.1.5+1.19.2.jar",
+          "size": 276969,
+          "sha512": "083fac0e8c82cb0c5e8d6b351c58d65f02f0b953e20eb9b56e284ce0459abc2dcd76f5de4d04329358247d817cb2a4c3d7fa33e1b0525d8d5cfbe14f20f6d878",
+          "sha256": "d39b286b75199096bdfe4bda0e9514d9f960bf16deb7036cbdd47090d063e6e3",
+          "sha1": "cd5ebb58db7c677bb2045bd5500d3c6676338967",
+          "md5": "c43d075a2c64507f58700e74cc76da9a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-jvm",
+          "version": {
+            "requires": "1.6.4"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.4"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.10"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.10"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.10"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json-jvm",
+          "version": {
+            "requires": "1.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor-jvm",
+          "version": {
+            "requires": "1.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core-jvm",
+          "version": {
+            "requires": "1.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu-jvm",
+          "version": {
+            "requires": "0.18.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime-jvm",
+          "version": {
+            "requires": "0.3.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.10"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.10"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "13.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.quiltmc.quilt-kotlin-libraries",
+          "module": "quilt-kotlin-libraries",
+          "version": {
+            "requires": "0.1.3+kt.1.7.10+flk.1.8.2-SNAPSHOT"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "fabric-loader"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.7.1-pre.0.3+kneelawk"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "fabric-loader"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "4.0.6"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "fabric-loader"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "jar-it-0.1.5+1.19.2.jar",
+          "url": "jar-it-0.1.5+1.19.2.jar",
+          "size": 276969,
+          "sha512": "083fac0e8c82cb0c5e8d6b351c58d65f02f0b953e20eb9b56e284ce0459abc2dcd76f5de4d04329358247d817cb2a4c3d7fa33e1b0525d8d5cfbe14f20f6d878",
+          "sha256": "d39b286b75199096bdfe4bda0e9514d9f960bf16deb7036cbdd47090d063e6e3",
+          "sha1": "cd5ebb58db7c677bb2045bd5500d3c6676338967",
+          "md5": "c43d075a2c64507f58700e74cc76da9a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "jar-it-0.1.5+1.19.2-sources.jar",
+          "url": "jar-it-0.1.5+1.19.2-sources.jar",
+          "size": 102048,
+          "sha512": "e6e0047c9f7c53ccbdd7f9cb6e9de501f79ad0c81a955c70f35e3c194a656173233ac632aef9f674c6a5eff94adb89fcb6835aa40cf70d3aa47957443bf99d39",
+          "sha256": "d836354527811e658b4bed4adf8c27da21bb681505315db984df240cd2ce4ce4",
+          "sha1": "7e868c9542e891a99d8d661277b586a84a7e6705",
+          "md5": "884dc84c7817aefa9cc8a6d67162f190"
+        }
+      ]
+    }
+  ]
+}
