@@ -1,0 +1,516 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "wired-redstone",
+    "version": "0.4.10+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "2.2.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "wired-redstone-0.4.10+1.19.jar",
+          "url": "wired-redstone-0.4.10+1.19.jar",
+          "size": 2499508,
+          "sha512": "db3df19f89c3801deea1bc40c76080779d6b7f9c1512837600ed171acbb2ed42526d0805f2da87270863584e99bd698718f0f9ed95050739dfd75d127d216622",
+          "sha256": "a7099f73ca0e8a4ff176d9b015c74f45d57d6cf9a148fd3af1c3e77edf70eece",
+          "sha1": "346af83bd11c7f4e4511270b7f3c8ebea70b0707",
+          "md5": "82706c758588b1e0e51f30af724b57cb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.LlamaLad7",
+          "module": "MixinExtras",
+          "version": {
+            "requires": "0.0.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-jvm",
+          "version": {
+            "requires": "1.6.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json-jvm",
+          "version": {
+            "requires": "1.3.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor-jvm",
+          "version": {
+            "requires": "1.3.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core-jvm",
+          "version": {
+            "requires": "1.3.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu-jvm",
+          "version": {
+            "requires": "0.18.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime-jvm",
+          "version": {
+            "requires": "0.4.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "13.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "io.netty",
+          "module": "netty-codec-http",
+          "version": {
+            "requires": "4.1.77.Final"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.5"
+          }
+        },
+        {
+          "group": "org.squiddev",
+          "module": "Cobalt",
+          "version": {
+            "requires": "0.5.6"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "blue.endless",
+          "module": "jankson",
+          "version": {
+            "requires": "1.2.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.moandjiezana.toml",
+          "module": "toml4j",
+          "version": {
+            "requires": "0.7.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.yaml",
+          "module": "snakeyaml",
+          "version": {
+            "requires": "1.27"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "2.2.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.6"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.57.0+1.19"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-language-kotlin",
+          "version": {
+            "requires": "1.8.1+kotlin.1.7.0"
+          }
+        },
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libmultipart-all",
+          "version": {
+            "requires": "0.8.0-pre.1.5+kneelawk"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "graphlib",
+          "version": {
+            "requires": "0.3.3+1.19"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "4.0.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "mcp.mobius.waila",
+          "module": "wthit",
+          "version": {
+            "requires": "fabric-5.4.3"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "cc-restitched",
+          "version": {
+            "requires": "1.101.0+1.19"
+          }
+        },
+        {
+          "group": "me.shedaniel.cloth",
+          "module": "cloth-config-fabric",
+          "version": {
+            "requires": "7.0.72"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "me.shedaniel.cloth.api",
+          "module": "cloth-utils-v1",
+          "version": {
+            "requires": "4.0.65"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.squiddev",
+          "module": "Cobalt",
+          "version": {
+            "requires": "0.5.6"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi",
+          "version": {
+            "requires": "0.4.0+1.19"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "wired-redstone-0.4.10+1.19.jar",
+          "url": "wired-redstone-0.4.10+1.19.jar",
+          "size": 2499508,
+          "sha512": "db3df19f89c3801deea1bc40c76080779d6b7f9c1512837600ed171acbb2ed42526d0805f2da87270863584e99bd698718f0f9ed95050739dfd75d127d216622",
+          "sha256": "a7099f73ca0e8a4ff176d9b015c74f45d57d6cf9a148fd3af1c3e77edf70eece",
+          "sha1": "346af83bd11c7f4e4511270b7f3c8ebea70b0707",
+          "md5": "82706c758588b1e0e51f30af724b57cb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wired-redstone-0.4.10+1.19-sources.jar",
+          "url": "wired-redstone-0.4.10+1.19-sources.jar",
+          "size": 1798021,
+          "sha512": "6b88dc47af5236995f6f28aa3ed9e9ef4b4ef64a8d464990d39f0424d75fb2df09e1d165ce14f34eb1de78256d9aad326384aac953060db61ecc7afcb7faa1fc",
+          "sha256": "3619ef5d20af19346cf8ec3319d9388b389bcf6fd1656c7bfe9e44855ab6cbf4",
+          "sha1": "01be80536af99cddc584aaffc3b1748402733ab3",
+          "md5": "941f96e2269701df61f571a5dbe329df"
+        }
+      ]
+    }
+  ]
+}
