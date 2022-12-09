@@ -1,0 +1,200 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "lmp-compat",
+    "version": "0.2.1+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lmp-compat-0.2.1+1.19.jar",
+          "url": "lmp-compat-0.2.1+1.19.jar",
+          "size": 7289,
+          "sha512": "ee214c413bc8a5971428bbe9d431298a8b91e1c144e1c174223cec6c8a24f0c5fc0dcc4eaf2c4e91ac9457cd9f4e5ea3c0b288faa9213538c680addf2b486c7e",
+          "sha256": "94b8650dfefe8c7966444e11ae3baa3c7e20b588642cf46a457ed17834e08eed",
+          "sha1": "2af2591a714d33be95f5b9d450b73b7389d98e52",
+          "md5": "94422427d8419c59bd0decf0a81c51a4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.github.LlamaLad7",
+          "module": "MixinExtras",
+          "version": {
+            "requires": "0.1.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libmultipart-all",
+          "version": {
+            "requires": "0.8.0-pre.1.6+kneelawk"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.6"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.67.0+1.19.2"
+          }
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric-1.19.2",
+          "version": {
+            "requires": "0.5.0g-800+1.19.2"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "lmp-compat-0.2.1+1.19.jar",
+          "url": "lmp-compat-0.2.1+1.19.jar",
+          "size": 7289,
+          "sha512": "ee214c413bc8a5971428bbe9d431298a8b91e1c144e1c174223cec6c8a24f0c5fc0dcc4eaf2c4e91ac9457cd9f4e5ea3c0b288faa9213538c680addf2b486c7e",
+          "sha256": "94b8650dfefe8c7966444e11ae3baa3c7e20b588642cf46a457ed17834e08eed",
+          "sha1": "2af2591a714d33be95f5b9d450b73b7389d98e52",
+          "md5": "94422427d8419c59bd0decf0a81c51a4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lmp-compat-0.2.1+1.19-sources.jar",
+          "url": "lmp-compat-0.2.1+1.19-sources.jar",
+          "size": 4873,
+          "sha512": "b7d1cc32decc6fab46bf580e475c92a9beed33460fc49a5668f65614c70f839508a02615631ddf1f9e4674b45443fc9020d76b5283a6e368e23015c0be20d629",
+          "sha256": "d8a03d1d105929dce3fbdc89ee48eab7ac901d5de4cbd963436c633793a9db14",
+          "sha1": "969692b8a195b77e954c826c7180659d01ac46b7",
+          "md5": "529ce72680d7c199b07e09bcaed68eba"
+        }
+      ]
+    }
+  ]
+}
