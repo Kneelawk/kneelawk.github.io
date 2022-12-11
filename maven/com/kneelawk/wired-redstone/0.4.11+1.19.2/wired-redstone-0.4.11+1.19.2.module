@@ -1,0 +1,470 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "wired-redstone",
+    "version": "0.4.11+1.19.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "2.2.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "wired-redstone-0.4.11+1.19.2.jar",
+          "url": "wired-redstone-0.4.11+1.19.2.jar",
+          "size": 2518789,
+          "sha512": "0f96df9244c22afc074e777df440f909ad0161f0f4befdd516897e9e67136c242f392cb4216a032fa0cffb05e74728e935c936344ac513171b444e7432f603fc",
+          "sha256": "85d022db0f7227127b23ab00ccbb682b2f07dac1a92481bdf18315272f54d4ef",
+          "sha1": "86827f4c3111a221a152c07f9b7b109930123a69",
+          "md5": "2089561b5ba6c4579961a9228aa8d958"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.LlamaLad7",
+          "module": "MixinExtras",
+          "version": {
+            "requires": "0.0.11"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core-jvm",
+          "version": {
+            "requires": "1.6.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-jdk8",
+          "version": {
+            "requires": "1.6.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk7",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-reflect",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json-jvm",
+          "version": {
+            "requires": "1.3.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-cbor-jvm",
+          "version": {
+            "requires": "1.3.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-core-jvm",
+          "version": {
+            "requires": "1.3.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu-jvm",
+          "version": {
+            "requires": "0.18.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime-jvm",
+          "version": {
+            "requires": "0.4.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-common",
+          "version": {
+            "requires": "1.7.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "13.0"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "core",
+          "version": {
+            "requires": "3.6.3"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "javax.annotation",
+          "module": "javax.annotation-api",
+          "version": {
+            "requires": "1.3.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.github.LlamaLad7",
+          "module": "MixinExtras",
+          "version": {
+            "requires": "0.1.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "2.2.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.11"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.68.0+1.19.2"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-language-kotlin",
+          "version": {
+            "requires": "1.8.1+kotlin.1.7.0"
+          }
+        },
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libmultipart-all",
+          "version": {
+            "requires": "0.8.0-pre.1.6+kneelawk"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "graphlib",
+          "version": {
+            "requires": "0.3.3+1.19"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "lmp-compat",
+          "version": {
+            "requires": "0.2.1+1.19"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "4.0.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "mcp.mobius.waila",
+          "module": "wthit",
+          "version": {
+            "requires": "fabric-5.13.4"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "maven.modrinth",
+          "module": "cc-restitched",
+          "version": {
+            "requires": "1.101.2+1.19.1"
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi",
+          "version": {
+            "requires": "0.5.0+1.19.2"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.simibubi.create",
+          "module": "create-fabric-1.19.2",
+          "version": {
+            "requires": "0.5.0g-800+1.19.2"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "wired-redstone-0.4.11+1.19.2.jar",
+          "url": "wired-redstone-0.4.11+1.19.2.jar",
+          "size": 2518789,
+          "sha512": "0f96df9244c22afc074e777df440f909ad0161f0f4befdd516897e9e67136c242f392cb4216a032fa0cffb05e74728e935c936344ac513171b444e7432f603fc",
+          "sha256": "85d022db0f7227127b23ab00ccbb682b2f07dac1a92481bdf18315272f54d4ef",
+          "sha1": "86827f4c3111a221a152c07f9b7b109930123a69",
+          "md5": "2089561b5ba6c4579961a9228aa8d958"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wired-redstone-0.4.11+1.19.2-sources.jar",
+          "url": "wired-redstone-0.4.11+1.19.2-sources.jar",
+          "size": 1801330,
+          "sha512": "d77e15addba69fcce083fbcace143a73bff5c86ee04f83a2885f1b1e6230bcce2b21c512326a21d3dd290499ce98136e1e93bb92152f5c755249ec8c14646c61",
+          "sha256": "8062511274984bd7ea903e53510fcfc59f47ca6a9e885c6097849bdedb02045a",
+          "sha1": "46ec698e1804aac3d55ec1b29894e48058a4ca09",
+          "md5": "99860f00e4776783609bcf4e898c02de"
+        }
+      ]
+    }
+  ]
+}
