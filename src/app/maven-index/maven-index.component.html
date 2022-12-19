@@ -14,10 +14,16 @@
 
 <div *ngIf="display.kind == 'loaded'">
   <h1>{{ asLoaded(display).index.name }}</h1>
+  <div *ngIf="asLoaded(display).maven as maven">
+    You can include this dependency in your build with:
+    <pre class="maven">{{ maven.group }}:{{ maven.artifact }}:{{ maven.version }}</pre>
+  </div>
+  <h2>Contents:</h2>
   <ul class="directory">
     <li *ngFor="let child of asLoaded(display).index.children">
-      <a class="listing" *ngIf="child.type == 'directory'" [routerLink]="'.'" [fragment]="child.path">{{ child.name }}</a>
-      <a class="listing" *ngIf="child.type == 'file'" [href]="'/docs/' + child.path">{{ child.name }}</a>
+      <a class="listing" *ngIf="child.type == 'directory'" [routerLink]="'.'"
+         [fragment]="child.path">{{ child.name }}</a>
+      <a class="listing" *ngIf="child.type == 'file'" [href]="'/maven/' + child.path">{{ child.name }}</a>
     </li>
   </ul>
 </div>

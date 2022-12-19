@@ -15,7 +15,7 @@ export class IndexReaderService {
     this.fullBaseUrl = environment.baseUrl + baseUrl;
   }
 
-  private static sanitizePath(path: string[]): string[] {
+  public static sanitizePath(path: string[]): string[] {
     if (path.length == 0) {
       return path;
     }
@@ -49,13 +49,13 @@ export enum IndexChildType {
   directory = "directory", file = "file"
 }
 
-interface IndexDirectory {
+export interface IndexDirectory {
   name: string;
   path: string;
   children: IndexChild[];
 }
 
-interface IndexChild {
+export interface IndexChild {
   path: string;
   name: string;
   size: number;

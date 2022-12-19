@@ -139,7 +139,29 @@ a.search-menulink:hover {
   background-color: #464646;
 }
 
+/* Directory Listings */
+ul.directory {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+a.listing {
+  display: block;
+  padding: 5px;
+}
+
+a.listing:hover {
+  background-color: #464646;
+}
+
 /* Specific elements */
 #title {
   text-align: center;
+}
+
+pre.maven {
+  padding: 10px;
 }

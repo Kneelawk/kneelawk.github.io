@@ -9,6 +9,7 @@ import { AboutMeComponent } from './about-me/about-me.component';
 import { DocsIndexComponent } from './docs-index/docs-index.component';
 import { HttpClientModule } from "@angular/common/http";
 import { BASE_URL } from "./index-reader.service";
+import { MavenIndexComponent } from './maven-index/maven-index.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { BASE_URL } from "./index-reader.service";
     MenuBarComponent,
     HomepageComponent,
     AboutMeComponent,
-    DocsIndexComponent
+    DocsIndexComponent,
+    MavenIndexComponent
   ],
   imports: [
     BrowserModule,
