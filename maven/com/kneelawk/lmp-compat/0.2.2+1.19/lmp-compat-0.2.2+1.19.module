@@ -1,0 +1,108 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "lmp-compat",
+    "version": "0.2.2+1.19",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "lmp-compat-0.2.2+1.19.jar",
+          "url": "lmp-compat-0.2.2+1.19.jar",
+          "size": 7290,
+          "sha512": "15ed8111dc446bbe6f0ed3e9aa80414a1a5d17b33e7d0dbf3f63e0ed28d38d097c788b245a207c69e333c67c34213e3e92d176ccf14750767fb4ccb067fb4f4e",
+          "sha256": "7f0daf0a1a612d3692a33a143fe8ff733d1bbe420c51bd8d82a407a4363c83f1",
+          "sha1": "f76ada0aa47003250ada428305d485f9ea236266",
+          "md5": "c679bb212b326e6688802b99a678a24f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.findbugs",
+          "module": "jsr305",
+          "version": {
+            "requires": "3.0.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libmultipart-all",
+          "version": {
+            "requires": "0.8.0-pre.1.6+kneelawk"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "lmp-compat-0.2.2+1.19.jar",
+          "url": "lmp-compat-0.2.2+1.19.jar",
+          "size": 7290,
+          "sha512": "15ed8111dc446bbe6f0ed3e9aa80414a1a5d17b33e7d0dbf3f63e0ed28d38d097c788b245a207c69e333c67c34213e3e92d176ccf14750767fb4ccb067fb4f4e",
+          "sha256": "7f0daf0a1a612d3692a33a143fe8ff733d1bbe420c51bd8d82a407a4363c83f1",
+          "sha1": "f76ada0aa47003250ada428305d485f9ea236266",
+          "md5": "c679bb212b326e6688802b99a678a24f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "lmp-compat-0.2.2+1.19-sources.jar",
+          "url": "lmp-compat-0.2.2+1.19-sources.jar",
+          "size": 4873,
+          "sha512": "e2576f842b37159826aa5099eed03a7ddc0ca61860d591e877951f3567c286c5b2ea7c91f72282c392f6cd3eee02b16f2391102fc6709f84551e24da8cc3bddc",
+          "sha256": "ba9e3ca685ce9c4f2e78c1f740da4683482f21e1d114a86de71e3858445d9288",
+          "sha1": "e28a8d65af228180de49ce0fd42344fc87e5c48a",
+          "md5": "991e37db5d76530fd67b5ed3168a6a61"
+        }
+      ]
+    }
+  ]
+}
