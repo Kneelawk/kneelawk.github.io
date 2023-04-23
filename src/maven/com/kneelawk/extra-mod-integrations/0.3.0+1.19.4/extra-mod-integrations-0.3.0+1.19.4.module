@@ -1,0 +1,95 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "extra-mod-integrations",
+    "version": "0.3.0+1.19.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "extra-mod-integrations-0.3.0+1.19.4.jar",
+          "url": "extra-mod-integrations-0.3.0+1.19.4.jar",
+          "size": 87850,
+          "sha512": "531b6ee6d5f74bad617e2989990d763e8aaeca5391cec415bd3e31ab45cba0126b90e423a56f453142163ad07da2079667d4c0fd92a90c7f9404fb076873823d",
+          "sha256": "cc548358c65be4826c9393b68b0eefe38712012b31cd0636b808bb3a11f41538",
+          "sha1": "cfa6086484eb6dee07082c3d0a0b87c190143002",
+          "md5": "9317e19b4eddf140278db72e272d4b1e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.emi",
+          "module": "emi",
+          "version": {
+            "requires": "0.7.3+1.19.4"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "extra-mod-integrations-0.3.0+1.19.4.jar",
+          "url": "extra-mod-integrations-0.3.0+1.19.4.jar",
+          "size": 87850,
+          "sha512": "531b6ee6d5f74bad617e2989990d763e8aaeca5391cec415bd3e31ab45cba0126b90e423a56f453142163ad07da2079667d4c0fd92a90c7f9404fb076873823d",
+          "sha256": "cc548358c65be4826c9393b68b0eefe38712012b31cd0636b808bb3a11f41538",
+          "sha1": "cfa6086484eb6dee07082c3d0a0b87c190143002",
+          "md5": "9317e19b4eddf140278db72e272d4b1e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "extra-mod-integrations-0.3.0+1.19.4-sources.jar",
+          "url": "extra-mod-integrations-0.3.0+1.19.4-sources.jar",
+          "size": 59370,
+          "sha512": "dafe883946f7c4d57f23f8c0896b3b77d2f120c98015b5508afbacf3509f8e8f0db9dd067dc6bdb1a58770ba2d841eb1c97a79ad0b7a434782be3ca58dac8296",
+          "sha256": "0a0c02bc919cb2108cd75a6c3083da91be9a89df306ce5901a24d2b3baebcb6d",
+          "sha1": "0424b589ba8f2a353d88f44a17a3beef1f8f4269",
+          "md5": "373d8d61ba73fbda6df88070c29f2ad4"
+        }
+      ]
+    }
+  ]
+}
