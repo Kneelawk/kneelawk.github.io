@@ -1,1 +1,1 @@
-{"name":"docs","path":"","children":[{"name":"graphlib","path":"graphlib","type":"directory"}]}
+{"name":"docs","path":"","children":[{"name":"graphlib","path":"graphlib","type":"directory"},{"name":"kmodlib-render","path":"kmodlib-render","type":"directory"}]}
