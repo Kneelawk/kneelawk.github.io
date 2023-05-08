@@ -1,0 +1,123 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-render",
+    "version": "0.1.3+1.19.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kmodlib-render-0.1.3+1.19.4.jar",
+          "url": "kmodlib-render-0.1.3+1.19.4.jar",
+          "size": 133409,
+          "sha512": "537fde4015fc584eabd1c48fa07d4085214daf4b77a2cfd064b7808789b6d58f5ff2a9a71d20a40b0f83b90794a866c5b645a3235d6fa2ff0870f544138994d0",
+          "sha256": "dea88e6a86d32ca08d8a0adff729912c8f4a19b25d35dbd1a919e56d30647f59",
+          "sha1": "38c755162bd531a27b72a193092773821c797905",
+          "md5": "0d4cf694d14a141cafe27fd63325ba38"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.17"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.75.3+1.19.4"
+          }
+        },
+        {
+          "group": "me.luligabi",
+          "module": "NoIndium",
+          "version": {
+            "requires": "1.1.0+1.19.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-render-0.1.3+1.19.4.jar",
+          "url": "kmodlib-render-0.1.3+1.19.4.jar",
+          "size": 133409,
+          "sha512": "537fde4015fc584eabd1c48fa07d4085214daf4b77a2cfd064b7808789b6d58f5ff2a9a71d20a40b0f83b90794a866c5b645a3235d6fa2ff0870f544138994d0",
+          "sha256": "dea88e6a86d32ca08d8a0adff729912c8f4a19b25d35dbd1a919e56d30647f59",
+          "sha1": "38c755162bd531a27b72a193092773821c797905",
+          "md5": "0d4cf694d14a141cafe27fd63325ba38"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-render-0.1.3+1.19.4-sources.jar",
+          "url": "kmodlib-render-0.1.3+1.19.4-sources.jar",
+          "size": 46784,
+          "sha512": "4d7c07964d5dcc4f6523c345589eb60fc118bdd5c7513106fd7f9457501bbb125639f2f42bc8416f26cdb7283a4e8b1af87f82c038b56f60f627bbec2afacb62",
+          "sha256": "2926821baf0740fe6263a72cbcddc70c10f218d6942e14da8072ab64035b68f4",
+          "sha1": "c3224b1a2ab4b0f2324afd9b0219a03d4f06dd82",
+          "md5": "af40c5a9ae8d7afb8d272a7a6325b995"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-render-0.1.3+1.19.4-javadoc.jar",
+          "url": "kmodlib-render-0.1.3+1.19.4-javadoc.jar",
+          "size": 244045,
+          "sha512": "f557322171955685a56f625b2ddcf0877cc264588b5913dfd2d6e5eaf5196cfbe24f9b6e9a4a48e4e02381882e967a472b178bdce93c6624ca32c5d390b9f252",
+          "sha256": "f8238ff2cda061c89618d19dff58eac4ed05f533282c574639c83eff22155781",
+          "sha1": "3f24838a5364a2739c92a16b291cde82e5fd7641",
+          "md5": "2e20094e8ce92eb63c68435bde7c900f"
+        }
+      ]
+    }
+  ]
+}
