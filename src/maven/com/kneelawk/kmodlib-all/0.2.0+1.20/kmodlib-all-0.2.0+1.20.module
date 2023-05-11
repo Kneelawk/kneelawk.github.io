@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-all",
+    "version": "0.2.0+1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-blockmodel",
+          "version": {
+            "requires": "0.2.0+1.20"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-renderlayer",
+          "version": {
+            "requires": "0.2.0+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-all-0.2.0+1.20.jar",
+          "url": "kmodlib-all-0.2.0+1.20.jar",
+          "size": 155920,
+          "sha512": "b5962a3375f13f85092d56991466bc10e9dd64aa18e68afd97042ccfb95858c22418d3fdf0cbeb3b25c02f9f8cfd3bf93c40c4b39f44d8c04a762014ce44a28a",
+          "sha256": "0b76ae42cc48d056d9e22ef7da869afaf4c7c24a8631040c63abd1a30aee44da",
+          "sha1": "083f166ccfccc304fc2db4c4d15692532cd5a0c5",
+          "md5": "b7972d1ecbc5bfede27915d4838cbc09"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-blockmodel",
+          "version": {
+            "requires": "0.2.0+1.20"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-renderlayer",
+          "version": {
+            "requires": "0.2.0+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-all-0.2.0+1.20.jar",
+          "url": "kmodlib-all-0.2.0+1.20.jar",
+          "size": 155920,
+          "sha512": "b5962a3375f13f85092d56991466bc10e9dd64aa18e68afd97042ccfb95858c22418d3fdf0cbeb3b25c02f9f8cfd3bf93c40c4b39f44d8c04a762014ce44a28a",
+          "sha256": "0b76ae42cc48d056d9e22ef7da869afaf4c7c24a8631040c63abd1a30aee44da",
+          "sha1": "083f166ccfccc304fc2db4c4d15692532cd5a0c5",
+          "md5": "b7972d1ecbc5bfede27915d4838cbc09"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-all-0.2.0+1.20-javadoc.jar",
+          "url": "kmodlib-all-0.2.0+1.20-javadoc.jar",
+          "size": 261,
+          "sha512": "2926c3d6f3ab87e3c553c0b2f61148bfb9f7b7d18d769ab2bf4f4320bff3f538783b01591d6719db0f81eb8402a58cd104706f82c74e48ce91467ded03db6ce7",
+          "sha256": "fffba493e84b75b7e3b5a20fcd9e517b89de388a53ab41d90834e081576c12b2",
+          "sha1": "84d310f5f69363480d5b70f1f21221df1ddcdd19",
+          "md5": "faa0bd72bf70f4076b2691da6a3f5930"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-all-0.2.0+1.20-sources.jar",
+          "url": "kmodlib-all-0.2.0+1.20-sources.jar",
+          "size": 9402,
+          "sha512": "955411e2bc083090c9f9eb2235f9016ddfde10c2c60a429c50742a370d918870c4a69ba395af5a3f7b17f9e00e0edc41cc2c00096208d847df1ff78f913c8991",
+          "sha256": "b1396de6e9ed61cb9a99b8c1062660c5728a6e5c698e8175052dc95b2c02bcae",
+          "sha1": "8b043d03682a05fbc01e137688df720c569419ff",
+          "md5": "fd41d496beacef797e546c51a498efab"
+        }
+      ]
+    }
+  ]
+}
