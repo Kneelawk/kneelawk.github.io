@@ -1,0 +1,135 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-blockmodel",
+    "version": "0.2.0+1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.2.0+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.0+1.20.jar",
+          "url": "kmodlib-blockmodel-0.2.0+1.20.jar",
+          "size": 143830,
+          "sha512": "e8833a2dc5919375e0d17cb6f067c9c51d04b6b5647a29d63e1847e992fbe8bfcf8b12a390fb8d6c7465e609ad457df05fb38efe92c84ba782dc5792bb4e451e",
+          "sha256": "a5ae5bbbf18033a1215c1ecdaeb05c0c63d91ac7ad011b0711db120c64be4611",
+          "sha1": "96334e41108c07512208d79042a496239559d042",
+          "md5": "9155d6a2099e949e73bfce994053eaed"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.2.0+1.20"
+          }
+        },
+        {
+          "group": "me.luligabi",
+          "module": "NoIndium",
+          "version": {
+            "requires": "1.1.0+1.19.4"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.0+1.20.jar",
+          "url": "kmodlib-blockmodel-0.2.0+1.20.jar",
+          "size": 143830,
+          "sha512": "e8833a2dc5919375e0d17cb6f067c9c51d04b6b5647a29d63e1847e992fbe8bfcf8b12a390fb8d6c7465e609ad457df05fb38efe92c84ba782dc5792bb4e451e",
+          "sha256": "a5ae5bbbf18033a1215c1ecdaeb05c0c63d91ac7ad011b0711db120c64be4611",
+          "sha1": "96334e41108c07512208d79042a496239559d042",
+          "md5": "9155d6a2099e949e73bfce994053eaed"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.0+1.20-javadoc.jar",
+          "url": "kmodlib-blockmodel-0.2.0+1.20-javadoc.jar",
+          "size": 227725,
+          "sha512": "dbd6cbf7082440d79e0021f337d9909daf7a89a26837521dd9e03ede5ace59c2145e8852e728a4966e2dffd4de4fcabbeee1e06cbf2acf7fe00d95fd4ba553b5",
+          "sha256": "1b7d80af1b16d1ceb5150f1781911410f8706555cee238eaa275eeabb4ceb64f",
+          "sha1": "6c5095998609c2bf0c243b6aaf50c7b0b6135ecf",
+          "md5": "89f4612fff3d73af52552e7073f592d6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.0+1.20-sources.jar",
+          "url": "kmodlib-blockmodel-0.2.0+1.20-sources.jar",
+          "size": 43361,
+          "sha512": "1330efd80e65607e4182ce1c594901362cc1b05f0c270424e2994e968cbde22440304cbdfc3e59d684643cb2c4f70fce169222919ad535afdf97ea04f6b652a1",
+          "sha256": "bcfbe563a873e75145f7bd64d2d3bff86a9f2f359e1c86a4ca684a9d0c22c83d",
+          "sha1": "3b87a6655e65b7fc5cc7bbb0ca4e525cc2fcdef8",
+          "md5": "8f3571111a00cf86731e43b72c9bfcca"
+        }
+      ]
+    }
+  ]
+}
