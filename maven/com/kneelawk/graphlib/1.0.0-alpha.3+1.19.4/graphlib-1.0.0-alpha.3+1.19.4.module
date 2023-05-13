@@ -1,0 +1,80 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "graphlib",
+    "version": "1.0.0-alpha.3+1.19.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "graphlib-1.0.0-alpha.3+1.19.4.jar",
+          "url": "graphlib-1.0.0-alpha.3+1.19.4.jar",
+          "size": 252003,
+          "sha512": "f8947d33c1e367f737de9d266267f6ed7dfc82380c493b562fa8ddba087b03c598583f515639b76908fbac696c206689b762657bbc8c307fad03baa3ff3efb03",
+          "sha256": "cea8a0ba67a2bce83c250a89f39ef045f1738ea622e1a4715e73611957b0f7ae",
+          "sha1": "ed8d28f85590df8a4675344b5270a759bad273af",
+          "md5": "bda373ea427b67869bc6963040e76a30"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphlib-1.0.0-alpha.3+1.19.4.jar",
+          "url": "graphlib-1.0.0-alpha.3+1.19.4.jar",
+          "size": 252003,
+          "sha512": "f8947d33c1e367f737de9d266267f6ed7dfc82380c493b562fa8ddba087b03c598583f515639b76908fbac696c206689b762657bbc8c307fad03baa3ff3efb03",
+          "sha256": "cea8a0ba67a2bce83c250a89f39ef045f1738ea622e1a4715e73611957b0f7ae",
+          "sha1": "ed8d28f85590df8a4675344b5270a759bad273af",
+          "md5": "bda373ea427b67869bc6963040e76a30"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphlib-1.0.0-alpha.3+1.19.4-sources.jar",
+          "url": "graphlib-1.0.0-alpha.3+1.19.4-sources.jar",
+          "size": 181822,
+          "sha512": "7eaa4ac6a0d8b3b4c7a210b6d87d5680c0caf30386e565e4fe7239e75d8bc91a2abdffb510ea2ed164e8ebcead3f3f22055a2bd503902a7c514ecaac399add78",
+          "sha256": "d2fed58c271779e6b5d5e082305d7ea62f5fe3a48d65c540b38409e15a17d8e0",
+          "sha1": "eba59a5147cfc790a60d37dae8ec790449a8f897",
+          "md5": "4aeb421010aa90a9e990a61fecdc7448"
+        }
+      ]
+    }
+  ]
+}
