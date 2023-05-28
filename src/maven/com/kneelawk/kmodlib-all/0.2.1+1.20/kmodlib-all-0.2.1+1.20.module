@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-all",
+    "version": "0.2.1+1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-blockmodel",
+          "version": {
+            "requires": "0.2.1+1.20"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-overlay",
+          "version": {
+            "requires": "0.2.1+1.20"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-renderlayer",
+          "version": {
+            "requires": "0.2.1+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-all-0.2.1+1.20.jar",
+          "url": "kmodlib-all-0.2.1+1.20.jar",
+          "size": 125546,
+          "sha512": "db664bf451cff538256984b45374e98461e71652449eb73a4ff562e72e6ee147cb045c822c5d1941ab7d361f436af7c5730aa1177ead63fea8e3e3c9bf6ab840",
+          "sha256": "006667a15554cfc5900b7a9e409d73f7ffda0ac98fcea450d0a3a14b2af1cc7c",
+          "sha1": "287740238d0f2189340bd930a0107ad013969dd4",
+          "md5": "5765be4759860955328c8cc8915bf6ae"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-blockmodel",
+          "version": {
+            "requires": "0.2.1+1.20"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-overlay",
+          "version": {
+            "requires": "0.2.1+1.20"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-renderlayer",
+          "version": {
+            "requires": "0.2.1+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-all-0.2.1+1.20.jar",
+          "url": "kmodlib-all-0.2.1+1.20.jar",
+          "size": 125546,
+          "sha512": "db664bf451cff538256984b45374e98461e71652449eb73a4ff562e72e6ee147cb045c822c5d1941ab7d361f436af7c5730aa1177ead63fea8e3e3c9bf6ab840",
+          "sha256": "006667a15554cfc5900b7a9e409d73f7ffda0ac98fcea450d0a3a14b2af1cc7c",
+          "sha1": "287740238d0f2189340bd930a0107ad013969dd4",
+          "md5": "5765be4759860955328c8cc8915bf6ae"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-all-0.2.1+1.20-javadoc.jar",
+          "url": "kmodlib-all-0.2.1+1.20-javadoc.jar",
+          "size": 261,
+          "sha512": "3b3b4eae44fc79f185e3c0eff1461853da5975af78bf733dd525eca512312453f99018ef006f2be7b2e38c30866d6772e149de05c91098fba2de8fa38e692e29",
+          "sha256": "40ce20c6469420e1fc0f298905ffcaf1f3821424f12bae0ba643219844aac729",
+          "sha1": "52bb9c30765a8a6d97e642f42fb3b89004e68026",
+          "md5": "ba33b7ff92963aca0e0208c16ac9b104"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-all-0.2.1+1.20-sources.jar",
+          "url": "kmodlib-all-0.2.1+1.20-sources.jar",
+          "size": 9394,
+          "sha512": "c0c976a398e67e4d541aeb10b51aa4086ef9efb5e53ed4432af659c2e750d75526e4864f0488f4d080473e7ee3946d75c3ec9ef0b4cc450de8a152582117d827",
+          "sha256": "179cf10be005de06466d78eaad8abb342ad004b26bcc557bab92e372d4b47970",
+          "sha1": "4be44a83fcaf4381acbea30496dd5ee3755730cb",
+          "md5": "e4049638e26749ba759799ab31aa595c"
+        }
+      ]
+    }
+  ]
+}
