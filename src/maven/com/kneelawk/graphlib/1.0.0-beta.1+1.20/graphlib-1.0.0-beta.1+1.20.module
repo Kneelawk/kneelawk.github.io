@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "graphlib",
+    "version": "1.0.0-beta.1+1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.10.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmd.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "graphlib-1.0.0-beta.1+1.20.jar",
+          "url": "graphlib-1.0.0-beta.1+1.20.jar",
+          "size": 544096,
+          "sha512": "4f595d6fb79f1ba2459bb12a2dc7626d94d7311b81d3fe7b999c8b5ac7cf305d7f2b3fbc3f7b9afbb860d204c4d20dc55846c0bce080654b0e951bb6af3c9e84",
+          "sha256": "c090a9b77b1111b68b8965b004bd4755895b1efcf9b8a0453ae2f2b82265d22a",
+          "sha1": "69951bc06353524d2448c358df773b476454b7cf",
+          "md5": "d3a2fad7d780bd9c244cbef5add830d5"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.10.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmd.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "graphlib-1.0.0-beta.1+1.20.jar",
+          "url": "graphlib-1.0.0-beta.1+1.20.jar",
+          "size": 544096,
+          "sha512": "4f595d6fb79f1ba2459bb12a2dc7626d94d7311b81d3fe7b999c8b5ac7cf305d7f2b3fbc3f7b9afbb860d204c4d20dc55846c0bce080654b0e951bb6af3c9e84",
+          "sha256": "c090a9b77b1111b68b8965b004bd4755895b1efcf9b8a0453ae2f2b82265d22a",
+          "sha1": "69951bc06353524d2448c358df773b476454b7cf",
+          "md5": "d3a2fad7d780bd9c244cbef5add830d5"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphlib-1.0.0-beta.1+1.20-javadoc.jar",
+          "url": "graphlib-1.0.0-beta.1+1.20-javadoc.jar",
+          "size": 447414,
+          "sha512": "0557156acf7c8cfcf9ee8a72a096ca23abaf6a5bdcb28ae0e8a8c0eac7a6f9f3043492ad05261359e71a0983db939babe40903dc163065c323e72a0e3eb23c4c",
+          "sha256": "c8167a741ffceaca9a7891aa299fc07a37e5d02e35bd3597a29aa4b1aacbd1d6",
+          "sha1": "c93a956f9d85512afdfad158c7cf3cc00ac20b29",
+          "md5": "bdd48b530d7ca43c43300aa7ecaac40e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphlib-1.0.0-beta.1+1.20-sources.jar",
+          "url": "graphlib-1.0.0-beta.1+1.20-sources.jar",
+          "size": 285002,
+          "sha512": "3e7f702f776f1f22c12e6b462979fee82210f04f182ccc7eb74fac60dd6cb3301220087fa0d84542d8bdd3f5668c586b5a80b262c8ae423881bb254c5ff15d9a",
+          "sha256": "2aeb0318b741a4eb3a235eadb50ce0023ace2ec504aad31743992b7d9e491882",
+          "sha1": "a0903e2a4fc684386de7431723caee6e20c2b105",
+          "md5": "ecc6f7030b1ba9ed316ccf8b9200a862"
+        }
+      ]
+    }
+  ]
+}
