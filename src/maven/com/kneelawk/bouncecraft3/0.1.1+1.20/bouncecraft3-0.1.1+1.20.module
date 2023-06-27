@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "bouncecraft3",
+    "version": "0.1.1+1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "bouncecraft3-0.1.1+1.20.jar",
+          "url": "bouncecraft3-0.1.1+1.20.jar",
+          "size": 771977,
+          "sha512": "aeb0880c1af4278afb78b801e3b44b1f8801dbd2ac89c278548cb41ad5734167275017f032c173f0fa2414bdc817a1066a657a9a3a9bcf72a7c744b9b134c7d2",
+          "sha256": "a80af005fff2fb1855703df2dbb124c5cd6ef63a1c5a7e060552f7db16fc85fd",
+          "sha1": "fd3bb26b9a861fdbfa0eb1fe1a639a3d1006b2f4",
+          "md5": "4aebfca9521b4ce090e4723bc32c2686"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.21"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.84.0+1.20.1"
+          }
+        },
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libmultipart-all",
+          "version": {
+            "requires": "0.11.0"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-all",
+          "version": {
+            "requires": "0.2.3+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bouncecraft3-0.1.1+1.20.jar",
+          "url": "bouncecraft3-0.1.1+1.20.jar",
+          "size": 771977,
+          "sha512": "aeb0880c1af4278afb78b801e3b44b1f8801dbd2ac89c278548cb41ad5734167275017f032c173f0fa2414bdc817a1066a657a9a3a9bcf72a7c744b9b134c7d2",
+          "sha256": "a80af005fff2fb1855703df2dbb124c5cd6ef63a1c5a7e060552f7db16fc85fd",
+          "sha1": "fd3bb26b9a861fdbfa0eb1fe1a639a3d1006b2f4",
+          "md5": "4aebfca9521b4ce090e4723bc32c2686"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bouncecraft3-0.1.1+1.20-sources.jar",
+          "url": "bouncecraft3-0.1.1+1.20-sources.jar",
+          "size": 268985,
+          "sha512": "ccf27c4a9b3974357f41dd227d80ea36991d2708d838217a1c2fa602003d75823a23d038af9f2ca3f4a763d1a9770633d64bdfb6088821d90b0e93bda72668be",
+          "sha256": "500fe6f7d005d5828acc0478f6e05dda0c28b858f4e0335a9cc137dbd1413bc6",
+          "sha1": "1b801b8db2040262dc7f970373a8d3c5b03338f1",
+          "md5": "69d36d0b9b568262452be3488c6cd967"
+        }
+      ]
+    }
+  ]
+}
