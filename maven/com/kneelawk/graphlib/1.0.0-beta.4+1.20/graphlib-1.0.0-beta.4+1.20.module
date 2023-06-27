@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "graphlib",
+    "version": "1.0.0-beta.4+1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphlib-1.0.0-beta.4+1.20.jar",
+          "url": "graphlib-1.0.0-beta.4+1.20.jar",
+          "size": 558862,
+          "sha512": "b283acb9f97adba8255754bd60b68e2bc46137a731a8bd727a7d96d237a8179e05e1809a9d5e1491977e7d67441bb4ec9da026c3e82b272bbcfee6d97e691e90",
+          "sha256": "7dfe9cc6647e1ca6ebf7ce0b3e57d286fd3b94ef4cd9612b7836b42494d402ec",
+          "sha1": "f7d8d0719836ee5c291cc6ff973ad75ebd4ce18e",
+          "md5": "b5d8de55b8ae67c403cb2e76c8cd2133"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-overlay",
+          "version": {
+            "requires": "0.2.3+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphlib-1.0.0-beta.4+1.20.jar",
+          "url": "graphlib-1.0.0-beta.4+1.20.jar",
+          "size": 558862,
+          "sha512": "b283acb9f97adba8255754bd60b68e2bc46137a731a8bd727a7d96d237a8179e05e1809a9d5e1491977e7d67441bb4ec9da026c3e82b272bbcfee6d97e691e90",
+          "sha256": "7dfe9cc6647e1ca6ebf7ce0b3e57d286fd3b94ef4cd9612b7836b42494d402ec",
+          "sha1": "f7d8d0719836ee5c291cc6ff973ad75ebd4ce18e",
+          "md5": "b5d8de55b8ae67c403cb2e76c8cd2133"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphlib-1.0.0-beta.4+1.20-javadoc.jar",
+          "url": "graphlib-1.0.0-beta.4+1.20-javadoc.jar",
+          "size": 447525,
+          "sha512": "c4aaf2c6ab7ab11ad5717dce8ec5c128151aae50b1f04aaca522426271f4d64c17f7ece3f3397f6633ba433ed1b68a18146e4731c8f1d0ba95e95167bc343e03",
+          "sha256": "2d231e1ee4054d3b28a9a0253a63d7891e5fd29e7502a14855256235633f0527",
+          "sha1": "44ac21a1ba28ba6ece58a5ff16a9d7a947db7dee",
+          "md5": "f5f7ec9609bf6ba694e8afed318fec89"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphlib-1.0.0-beta.4+1.20-sources.jar",
+          "url": "graphlib-1.0.0-beta.4+1.20-sources.jar",
+          "size": 284991,
+          "sha512": "e940a7264ece7c1987949fa97cf6832320ad951e2459024ef508cfe7a31b9ba39327c87ace32fd684ff9898d0d8fd82cc2a2ca47df23107ba138e39e7b47f458",
+          "sha256": "96b36657fa8b128e5406eeee6bebc1c760bb6bc6549966132af61bf3a3798883",
+          "sha1": "dc5a67dbb33238088a7f2e2cff6a04c072de2741",
+          "md5": "941166f6c9f62dc9fa30918dd859e557"
+        }
+      ]
+    }
+  ]
+}
