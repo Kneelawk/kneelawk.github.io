@@ -1,0 +1,128 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.hotm",
+    "module": "heart-of-the-machine",
+    "version": "2.0.0-alpha.1+1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "fabric-loader"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "heart-of-the-machine-2.0.0-alpha.1+1.20.jar",
+          "url": "heart-of-the-machine-2.0.0-alpha.1+1.20.jar",
+          "size": 656436,
+          "sha512": "09d766acf3f460bad0d63cdd7817f55ff3969fb0d14d48997d9b04a97384fdf9069300411cf2b505d4c9a3c38294658a8ab7cde7fd7bb1cde977524fade8be71",
+          "sha256": "ce910e999121bf799094b5ea446f66cf5d4012b11a030e3aee1b349c21221df7",
+          "sha1": "5fe840b3facf0d164108f5da76353ad7cb80cad6",
+          "md5": "733a72a7d2f7e7f0e3729433e0a9b64e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "fabric-loader"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-all",
+          "version": {
+            "requires": "0.2.1+1.20"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "fabric-loader"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "heart-of-the-machine-2.0.0-alpha.1+1.20.jar",
+          "url": "heart-of-the-machine-2.0.0-alpha.1+1.20.jar",
+          "size": 656436,
+          "sha512": "09d766acf3f460bad0d63cdd7817f55ff3969fb0d14d48997d9b04a97384fdf9069300411cf2b505d4c9a3c38294658a8ab7cde7fd7bb1cde977524fade8be71",
+          "sha256": "ce910e999121bf799094b5ea446f66cf5d4012b11a030e3aee1b349c21221df7",
+          "sha1": "5fe840b3facf0d164108f5da76353ad7cb80cad6",
+          "md5": "733a72a7d2f7e7f0e3729433e0a9b64e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      }
+    }
+  ]
+}
