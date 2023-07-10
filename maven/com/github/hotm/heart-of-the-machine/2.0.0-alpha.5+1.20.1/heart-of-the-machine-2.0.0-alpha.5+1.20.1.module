@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.github.hotm",
+    "module": "heart-of-the-machine",
+    "version": "2.0.0-alpha.5+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "fabric-loader"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "heart-of-the-machine-2.0.0-alpha.5+1.20.1.jar",
+          "url": "heart-of-the-machine-2.0.0-alpha.5+1.20.1.jar",
+          "size": 680881,
+          "sha512": "90151652e2e39b6b170a6d25eb5a3dadf596d47db3fd9d3b93bab4c756a7eff47f49c417e896c7754b54714adc0a2f9525023c89ac5152629bda60940505af72",
+          "sha256": "25555bb14c1df7ce3e3a73e117d223725c7a30207b998df5d26a6f16044e2a55",
+          "sha1": "b8baedc211e2e9370fbbfc7e10e7839cdee58e59",
+          "md5": "c9743e77a5ac5553a4d65007807fbde4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "fabric-loader"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-all",
+          "version": {
+            "requires": "0.2.4+1.20"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc",
+              "module": "fabric-loader"
+            },
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "heart-of-the-machine-2.0.0-alpha.5+1.20.1.jar",
+          "url": "heart-of-the-machine-2.0.0-alpha.5+1.20.1.jar",
+          "size": 680881,
+          "sha512": "90151652e2e39b6b170a6d25eb5a3dadf596d47db3fd9d3b93bab4c756a7eff47f49c417e896c7754b54714adc0a2f9525023c89ac5152629bda60940505af72",
+          "sha256": "25555bb14c1df7ce3e3a73e117d223725c7a30207b998df5d26a6f16044e2a55",
+          "sha1": "b8baedc211e2e9370fbbfc7e10e7839cdee58e59",
+          "md5": "c9743e77a5ac5553a4d65007807fbde4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "heart-of-the-machine-2.0.0-alpha.5+1.20.1-sources.jar",
+          "url": "heart-of-the-machine-2.0.0-alpha.5+1.20.1-sources.jar",
+          "size": 171888,
+          "sha512": "a8c4bdc1b2b670edc58dc29fa470621e0b8f108fdd9fa2de846dd57764e7f03adfd17a49d115992bba7b87307428ca233207e6b2f6ee7e9ddcdf5f40d038370b",
+          "sha256": "4854d0947cbbfb517feaeb77c9081a2b01b6baac2270f74461d0bdab8021d5bf",
+          "sha1": "96558b710d657c4e0640646756dba86d4d51f56d",
+          "md5": "93eeff493d25c919fc149ec0dc4aec04"
+        }
+      ]
+    }
+  ]
+}
