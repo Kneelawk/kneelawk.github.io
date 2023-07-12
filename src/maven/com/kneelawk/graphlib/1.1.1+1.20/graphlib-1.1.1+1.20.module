@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "graphlib",
+    "version": "1.1.1+1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.10.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphlib-1.1.1+1.20.jar",
+          "url": "graphlib-1.1.1+1.20.jar",
+          "size": 560671,
+          "sha512": "4e11159b9a1f3ede9ed33750217933d493b0ce2765d9ac4c09551be0ee39e167715ac19d96dd4f1e1e4a999b8fc8cd131bdf919b7fffe2d400d21121db8e7c88",
+          "sha256": "744e243a96f8d49e9d7708ae61de573205d1a53e5bae0bd34ee3038dd8059e8c",
+          "sha1": "fa25062d31035ecbfdea7234e5e04e22ccc85016",
+          "md5": "08da63fcff842e51ea350d537f86572e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-overlay",
+          "version": {
+            "requires": "0.2.4+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "graphlib-1.1.1+1.20.jar",
+          "url": "graphlib-1.1.1+1.20.jar",
+          "size": 560671,
+          "sha512": "4e11159b9a1f3ede9ed33750217933d493b0ce2765d9ac4c09551be0ee39e167715ac19d96dd4f1e1e4a999b8fc8cd131bdf919b7fffe2d400d21121db8e7c88",
+          "sha256": "744e243a96f8d49e9d7708ae61de573205d1a53e5bae0bd34ee3038dd8059e8c",
+          "sha1": "fa25062d31035ecbfdea7234e5e04e22ccc85016",
+          "md5": "08da63fcff842e51ea350d537f86572e"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphlib-1.1.1+1.20-javadoc.jar",
+          "url": "graphlib-1.1.1+1.20-javadoc.jar",
+          "size": 447568,
+          "sha512": "0d2e31ddcbb30dee36a6bde1b71af73c56075f3884baf7af9b24189338a5af551da55531b3cc409db5a74758a28c430fa1639f87d174037752a85b9455b8dd8a",
+          "sha256": "92b67647273446ff3c2813d47ce3e9d7a7ca2f079c929ecf5f8bc5393358d58d",
+          "sha1": "48b2016bee81582717f2ec2d801341f58037d9e7",
+          "md5": "05572ecba342b9faaadb824cbecc76fd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "graphlib-1.1.1+1.20-sources.jar",
+          "url": "graphlib-1.1.1+1.20-sources.jar",
+          "size": 286460,
+          "sha512": "25a00bba03935d917c118571da0aebfd30f369e9deb310b0794c65d295fc8cff2386e3a476df4d784c77101624686de36fb3afa0df8194dac8cde33fb8437a50",
+          "sha256": "6c208d9b101eebb7939c587f452cbd23c77a156170c57c8a828354589bbe3bc6",
+          "sha1": "7c221b81b48b554f68e1950f6f3e260ef77c9b86",
+          "md5": "1ed6d823a2fbe1b9aca4b1cde10d0d7c"
+        }
+      ]
+    }
+  ]
+}
