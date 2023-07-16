@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-blockmodel",
+    "version": "0.2.5+1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.2.5+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.5+1.20.jar",
+          "url": "kmodlib-blockmodel-0.2.5+1.20.jar",
+          "size": 104031,
+          "sha512": "6da637ee4ff115f5760a7dd40463e218576132ef8886a25670bab40c8411065925bb4fa80cf4fc1c61c3af561cf4869fad46ed43075cae742b182f582e3904fd",
+          "sha256": "63f159d931bd31e50f4a3a8a12b57ec0e4eea8b53c121d5e55ec28effdf6059b",
+          "sha1": "4c84adeeed3e3fc2ff74fec9b4c70d3d330b0598",
+          "md5": "28fb110ff04bb3a4fe39023ffd36434a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.2.5+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.5+1.20.jar",
+          "url": "kmodlib-blockmodel-0.2.5+1.20.jar",
+          "size": 104031,
+          "sha512": "6da637ee4ff115f5760a7dd40463e218576132ef8886a25670bab40c8411065925bb4fa80cf4fc1c61c3af561cf4869fad46ed43075cae742b182f582e3904fd",
+          "sha256": "63f159d931bd31e50f4a3a8a12b57ec0e4eea8b53c121d5e55ec28effdf6059b",
+          "sha1": "4c84adeeed3e3fc2ff74fec9b4c70d3d330b0598",
+          "md5": "28fb110ff04bb3a4fe39023ffd36434a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.5+1.20-javadoc.jar",
+          "url": "kmodlib-blockmodel-0.2.5+1.20-javadoc.jar",
+          "size": 238938,
+          "sha512": "f632f4997a7bbe0a2c3024637368825e67786d418ef63c836a4e7205934f821dda31cbb1ca15708de07073bf9d27ae3b280a1e1ddd0e50fbb9b70b65cc59d607",
+          "sha256": "62b6800c00ce28b154e5b74aeffec40f9331dae542aa697d7994a35b9a1b6ab6",
+          "sha1": "9ad2bf83d06793955aa640366715579d5313c7ce",
+          "md5": "cdc9cfecb1fea9416e6e1bb3439140ec"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.5+1.20-sources.jar",
+          "url": "kmodlib-blockmodel-0.2.5+1.20-sources.jar",
+          "size": 45811,
+          "sha512": "eed817cae4687c6308823c632dd89e0eb48a4ad412537c227f1006170a251623949726b158e3ae9d18afbe8267a8b149cb704f0f1834ad5f39d928ea7c79d1e1",
+          "sha256": "4da2231bc518e6bce580068a7c8a5e2105f6aef7121f62b379ff54ab47c80be0",
+          "sha1": "0a1f783e413c997e8eabc951f2f9aba25eccf4a9",
+          "md5": "8daf3d9494c0622b5ac0fee471cf075d"
+        }
+      ]
+    }
+  ]
+}
