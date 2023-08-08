@@ -1,0 +1,222 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "wired-redstone",
+    "version": "0.7.3+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "wired-redstone-0.7.3+1.20.1.jar",
+          "url": "wired-redstone-0.7.3+1.20.1.jar",
+          "size": 3316242,
+          "sha512": "8bcbb89e4106080acb8967f24dd6ee96f76561f312e6df16660bc7cadd0eadff715d3ff1d29faad9a842a12a21a785e83688a3ac3ddeeb1b9a316b88c2301b18",
+          "sha256": "c94e17d676443ef4cd57c1cc8806b8c721e180dfaf3fbc97d83c353fd29abef7",
+          "sha1": "54ab2b0e3e42b0b747f014a94d73dc1d9921503a",
+          "md5": "8c0ccb0e683a11fa68c5a2b52294f349"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.llamalad7.mixinextras",
+          "module": "mixinextras-fabric",
+          "version": {
+            "requires": "0.2.0-beta.8"
+          }
+        },
+        {
+          "group": "org.quiltmc",
+          "module": "quilt-config",
+          "version": {
+            "requires": "1.0.0-beta.6"
+          }
+        },
+        {
+          "group": "org.quiltmc",
+          "module": "quilt-json5",
+          "version": {
+            "requires": "1.0.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.20"
+          }
+        },
+        {
+          "group": "teamreborn",
+          "module": "energy",
+          "version": {
+            "requires": "3.0.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.14.21"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.84.0+1.20.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-language-kotlin",
+          "version": {
+            "requires": "1.9.3+kotlin.1.8.20"
+          }
+        },
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libmultipart-all",
+          "version": {
+            "requires": "0.11.0"
+          },
+          "excludes": [
+            {
+              "group": "net.fabricmc.fabric-api",
+              "module": "*"
+            },
+            {
+              "group": "net.fabricmc",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "graphlib",
+          "version": {
+            "requires": "1.0.0+1.20"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wired-redstone-0.7.3+1.20.1.jar",
+          "url": "wired-redstone-0.7.3+1.20.1.jar",
+          "size": 3316242,
+          "sha512": "8bcbb89e4106080acb8967f24dd6ee96f76561f312e6df16660bc7cadd0eadff715d3ff1d29faad9a842a12a21a785e83688a3ac3ddeeb1b9a316b88c2301b18",
+          "sha256": "c94e17d676443ef4cd57c1cc8806b8c721e180dfaf3fbc97d83c353fd29abef7",
+          "sha1": "54ab2b0e3e42b0b747f014a94d73dc1d9921503a",
+          "md5": "8c0ccb0e683a11fa68c5a2b52294f349"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wired-redstone-0.7.3+1.20.1-shadow-dev.jar",
+          "url": "wired-redstone-0.7.3+1.20.1-shadow-dev.jar",
+          "size": 2203014,
+          "sha512": "0795e5bebd7e63b909694b9d5ebc9fd797666c2766dff67225b43cb2132088df91057b344a36322a5ebfd18dacff464578cf21c051dcc690dfa46a203b323fef",
+          "sha256": "d0e417a33bdddf3c4f375ee4486f4d534038fe2294b7a09fa98f5cb621186911",
+          "sha1": "b9ed9817b9f21970049f3d37090f61ba0d006cb5",
+          "md5": "bec31dde6219004d0202f82f09b9513f"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "wired-redstone-0.7.3+1.20.1-sources.jar",
+          "url": "wired-redstone-0.7.3+1.20.1-sources.jar",
+          "size": 1816397,
+          "sha512": "dcd0abc5851a8bbb270302484ef50e90bf513f913e13f76834d788eb0b496b8f87d30e41b7ae88320d140e992b57773a07bcb589dc17273d63856dcfb50112f7",
+          "sha256": "716fa9dabdfbc5cb9c0ba55605f6effb10476fe2000159cba80809366df7a87d",
+          "sha1": "95069e6d3bbdc1d5fd479d469b1cfa17329aba5e",
+          "md5": "81468523d5663b351f34870e43a97b0f"
+        }
+      ]
+    }
+  ]
+}
