@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-rendertag",
+    "version": "0.2.12+1.20",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kmodlib-rendertag-0.2.12+1.20.jar",
+          "url": "kmodlib-rendertag-0.2.12+1.20.jar",
+          "size": 20558,
+          "sha512": "999443ed2140e05a6d9dbe436ad12aff9ce782c10ef72a10cecf8784b638e0d643898822c99aeec9e43928b83ccfe9999e0cad4ed1f867736d5abac37053845e",
+          "sha256": "61c38cd3e351d798f3018bb64bc36856949aacfdc51cebc89d56d03d8fa58ce3",
+          "sha1": "3acb76c00bf869ce0b64e85520c7f1ebc2ce782d",
+          "md5": "d2adbcc476ddb053e7efc1d5c603c4b9"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-rendertag-0.2.12+1.20.jar",
+          "url": "kmodlib-rendertag-0.2.12+1.20.jar",
+          "size": 20558,
+          "sha512": "999443ed2140e05a6d9dbe436ad12aff9ce782c10ef72a10cecf8784b638e0d643898822c99aeec9e43928b83ccfe9999e0cad4ed1f867736d5abac37053845e",
+          "sha256": "61c38cd3e351d798f3018bb64bc36856949aacfdc51cebc89d56d03d8fa58ce3",
+          "sha1": "3acb76c00bf869ce0b64e85520c7f1ebc2ce782d",
+          "md5": "d2adbcc476ddb053e7efc1d5c603c4b9"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-rendertag-0.2.12+1.20-javadoc.jar",
+          "url": "kmodlib-rendertag-0.2.12+1.20-javadoc.jar",
+          "size": 99214,
+          "sha512": "b9444f80cb6d1520d758a4cf25100146aaf55225a8490978c95665dc12fe38013e8ad1f3f5841a391501fbf5dbf05f320b2448404b13afa19a2a2e1f6cd4f558",
+          "sha256": "1ff032a265e1ad13d8ffbf3cd09e0075a8b7d2cc29ec1fbcfb396fb544e67fa6",
+          "sha1": "c6191511c9ebb11de32faa629d33273ed2337625",
+          "md5": "91e79c1e986f2480784ef7423edd0aa5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-rendertag-0.2.12+1.20-sources.jar",
+          "url": "kmodlib-rendertag-0.2.12+1.20-sources.jar",
+          "size": 14456,
+          "sha512": "6f4585e5a92aee511b433760939c3cfc742bbc78bae23a363c422dc16a88db17686765e15d03f2e230d19d87dd0dc32864f60665396de211d39b2770be6f3904",
+          "sha256": "61ba42a81f3c9325ec483d56086911567fb30aecd61e6b5c5982bf752460f732",
+          "sha1": "0c73e98fbe1067390b7a999b9c8a0278ee4024df",
+          "md5": "72620645e2355c4812033237b03f395b"
+        }
+      ]
+    }
+  ]
+}
