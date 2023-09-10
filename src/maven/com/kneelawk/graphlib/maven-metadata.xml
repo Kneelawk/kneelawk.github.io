@@ -3,8 +3,8 @@
   <groupId>com.kneelawk</groupId>
   <artifactId>graphlib</artifactId>
   <versioning>
-    <latest>1.3.1+1.20</latest>
-    <release>1.3.1+1.20</release>
+    <latest>1.3.2+1.20</latest>
+    <release>1.3.2+1.20</release>
     <versions>
       <version>0.1.0+1.18.2</version>
       <version>0.1.1+1.18.2</version>
@@ -95,7 +95,8 @@
       <version>1.2.0+1.20</version>
       <version>1.3.0+1.20</version>
       <version>1.3.1+1.20</version>
+      <version>1.3.2+1.20</version>
     </versions>
-    <lastUpdated>20230908051801</lastUpdated>
+    <lastUpdated>20230910225346</lastUpdated>
   </versioning>
 </metadata>
