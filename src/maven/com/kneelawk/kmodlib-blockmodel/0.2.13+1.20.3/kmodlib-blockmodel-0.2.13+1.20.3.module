@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-blockmodel",
+    "version": "0.2.13+1.20.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.2.13+1.20.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.13+1.20.3.jar",
+          "url": "kmodlib-blockmodel-0.2.13+1.20.3.jar",
+          "size": 104935,
+          "sha512": "68882508faa2e621a41322addd4d1de275b18c6f68a0183980f10d52e5fa188b0c3443ce103f12cde43065ed07ed6e089603a9d103e1aef63f5dc3fae54029b8",
+          "sha256": "9fd0f52bd3dfda9b346cc6f8c489aebc14834d085c85afed9b63f200ecfc80ce",
+          "sha1": "1388c6302a614b2e3a0bb69ae8d3aee3f65a15a8",
+          "md5": "7cbb322e95950e75683001939a0cfe19"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.2.13+1.20.3"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.13+1.20.3.jar",
+          "url": "kmodlib-blockmodel-0.2.13+1.20.3.jar",
+          "size": 104935,
+          "sha512": "68882508faa2e621a41322addd4d1de275b18c6f68a0183980f10d52e5fa188b0c3443ce103f12cde43065ed07ed6e089603a9d103e1aef63f5dc3fae54029b8",
+          "sha256": "9fd0f52bd3dfda9b346cc6f8c489aebc14834d085c85afed9b63f200ecfc80ce",
+          "sha1": "1388c6302a614b2e3a0bb69ae8d3aee3f65a15a8",
+          "md5": "7cbb322e95950e75683001939a0cfe19"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.13+1.20.3-javadoc.jar",
+          "url": "kmodlib-blockmodel-0.2.13+1.20.3-javadoc.jar",
+          "size": 239202,
+          "sha512": "0915a35902df85ba254beb442b240486b92292116d6d4938e2f080a33b5549fa40c98b635cb5e07895b106c7203d19c7516c1a50ccb76c80835e0dd996b0cc7b",
+          "sha256": "9e82495ccf5020fec3fbf42aa2eb067f8c0f4554eeb2912de89adf967d59f5f7",
+          "sha1": "a92a9557da749a058dd147fdd4b1c7271e40ed39",
+          "md5": "60ce67ffae34d61c7cdb0311f3843492"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.13+1.20.3-sources.jar",
+          "url": "kmodlib-blockmodel-0.2.13+1.20.3-sources.jar",
+          "size": 46132,
+          "sha512": "c6c98be193a775360ccb34595367f2f0fe89b3d88a780f5301f0a4c9ebd358deaa1bdf4de6a6c37e037b601fc1597c54d7b19c1176ff7ce3587d05378f9d9753",
+          "sha256": "008c5c879cdd6613001185c4f7b4da76e1af236202c69ee763640a7340f924f4",
+          "sha1": "bab0510e6b24168c146d3f86183ed6d63c355fbd",
+          "md5": "d3481ac338453c54fe70f52849bd5910"
+        }
+      ]
+    }
+  ]
+}
