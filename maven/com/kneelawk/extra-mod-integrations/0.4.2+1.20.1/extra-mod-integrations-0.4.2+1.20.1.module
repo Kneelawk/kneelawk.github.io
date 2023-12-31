@@ -1,0 +1,139 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "extra-mod-integrations",
+    "version": "0.4.2+1.20.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.5"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "dev.emi",
+          "module": "emi-fabric",
+          "version": {
+            "requires": "1.0.29+1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "emi-fabric",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "api"
+            }
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "extra-mod-integrations-0.4.2+1.20.1.jar",
+          "url": "extra-mod-integrations-0.4.2+1.20.1.jar",
+          "size": 167199,
+          "sha512": "3e94b12dd12e2404ceaf61a258e138c436b1e9d2a127a37e7deeabf51a5b0b29292e2d8cfae6c72fffa350b194b35b2bc89c9ea685cb924fcbddd47dc5614495",
+          "sha256": "659e32afd34ea60c22cb80013a68e77c1cfc21b51aa71d7ca09a6dd1d841abe2",
+          "sha1": "14ed2f2fa2c72ae6fda9a1b744802f655b83de1c",
+          "md5": "0e1f5fbe71f642150b5ff2abf3e294cb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "dev.emi",
+          "module": "emi-fabric",
+          "version": {
+            "requires": "1.0.29+1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ],
+          "thirdPartyCompatibility": {
+            "artifactSelector": {
+              "name": "emi-fabric",
+              "type": "jar",
+              "extension": "jar",
+              "classifier": "api"
+            }
+          }
+        },
+        {
+          "group": "dev.emi",
+          "module": "emi-fabric",
+          "version": {
+            "requires": "1.0.29+1.20.1"
+          },
+          "excludes": [
+            {
+              "group": "*",
+              "module": "*"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "name": "extra-mod-integrations-0.4.2+1.20.1.jar",
+          "url": "extra-mod-integrations-0.4.2+1.20.1.jar",
+          "size": 167199,
+          "sha512": "3e94b12dd12e2404ceaf61a258e138c436b1e9d2a127a37e7deeabf51a5b0b29292e2d8cfae6c72fffa350b194b35b2bc89c9ea685cb924fcbddd47dc5614495",
+          "sha256": "659e32afd34ea60c22cb80013a68e77c1cfc21b51aa71d7ca09a6dd1d841abe2",
+          "sha1": "14ed2f2fa2c72ae6fda9a1b744802f655b83de1c",
+          "md5": "0e1f5fbe71f642150b5ff2abf3e294cb"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "extra-mod-integrations-0.4.2+1.20.1-sources.jar",
+          "url": "extra-mod-integrations-0.4.2+1.20.1-sources.jar",
+          "size": 98882,
+          "sha512": "4f122bdbbe693dc6ad6b38c5dd69ec3af609d161c0348d8b1d642d0befca7748716d43dfa756502ee5a3de55b707fbc83b8f499f3b3427c6744ac4e53e979089",
+          "sha256": "375779d209127b5c4e207752fd506ac868e7c486c4aa1d021526bff4d6aa83e8",
+          "sha1": "7e37ba5826b5beab20563ee5bd2a1c23c1d7229b",
+          "md5": "8bc6dbf21ce159f126cad396f7af2482"
+        }
+      ]
+    }
+  ]
+}
