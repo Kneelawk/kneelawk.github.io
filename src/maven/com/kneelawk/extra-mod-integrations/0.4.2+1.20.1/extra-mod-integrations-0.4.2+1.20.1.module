@@ -128,10 +128,10 @@
           "name": "extra-mod-integrations-0.4.2+1.20.1-sources.jar",
           "url": "extra-mod-integrations-0.4.2+1.20.1-sources.jar",
           "size": 98882,
-          "sha512": "4f122bdbbe693dc6ad6b38c5dd69ec3af609d161c0348d8b1d642d0befca7748716d43dfa756502ee5a3de55b707fbc83b8f499f3b3427c6744ac4e53e979089",
-          "sha256": "375779d209127b5c4e207752fd506ac868e7c486c4aa1d021526bff4d6aa83e8",
-          "sha1": "7e37ba5826b5beab20563ee5bd2a1c23c1d7229b",
-          "md5": "8bc6dbf21ce159f126cad396f7af2482"
+          "sha512": "5d8180431710f4494edf81c17f1bdb5bceb4479cc250e7a4ae0f6587165df83bc7d2668374302de3790a402da85785bdcdfd24fd6b7f88e871bee3f40597e60a",
+          "sha256": "bfd31c5523da46c0f97f14df521476fd174e26d45ca363b44aa6956dd38a7573",
+          "sha1": "548f91084a6c293f4a7f1683e78479a92b5db6f7",
+          "md5": "cbadaf0bc40bf3a6893c5ddcec849a30"
         }
       ]
     }
