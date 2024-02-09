@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-overlay-neoforge",
+    "version": "0.2.15+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kmodlib-overlay-neoforge-0.2.15+1.20.4.jar",
+          "url": "kmodlib-overlay-neoforge-0.2.15+1.20.4.jar",
+          "size": 15385,
+          "sha512": "8748cf9f28fe8113973bbe336d50dc86209c95331a682ebcf479e72bfda8955a7c9b99cee2721263ee11e9163bdeaf77f982f68517e055e2c0d59ee3c8afbb5c",
+          "sha256": "5a7aab628cab45c951ec7f86a6181681b58389b51182f02e03e9402d637821db",
+          "sha1": "e57d34b5190c5b66c6260f9305f540426638929e",
+          "md5": "68b0db91f662d1b4cca05d3562d808ac"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-overlay-neoforge-0.2.15+1.20.4.jar",
+          "url": "kmodlib-overlay-neoforge-0.2.15+1.20.4.jar",
+          "size": 15385,
+          "sha512": "8748cf9f28fe8113973bbe336d50dc86209c95331a682ebcf479e72bfda8955a7c9b99cee2721263ee11e9163bdeaf77f982f68517e055e2c0d59ee3c8afbb5c",
+          "sha256": "5a7aab628cab45c951ec7f86a6181681b58389b51182f02e03e9402d637821db",
+          "sha1": "e57d34b5190c5b66c6260f9305f540426638929e",
+          "md5": "68b0db91f662d1b4cca05d3562d808ac"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-overlay-neoforge-0.2.15+1.20.4-javadoc.jar",
+          "url": "kmodlib-overlay-neoforge-0.2.15+1.20.4-javadoc.jar",
+          "size": 90116,
+          "sha512": "8562cadd5168e0ac7f7f92c9acfbe23df76f1284e0bbbd9eb763805fa3c2de67c1b0fda220aaee9fc61a9cf0ae50a56c0739f58d77357fbdf0503f7bac7648b8",
+          "sha256": "ad3c1979fbdbe7dd9f498297271de3342eda40a37d0ff5e6a221953d5a6a7c10",
+          "sha1": "157da34830996bf5121f3a88307ff6f8f5a00f99",
+          "md5": "f19faff6e4f84bcab211a02410644eff"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-overlay-neoforge-0.2.15+1.20.4-sources.jar",
+          "url": "kmodlib-overlay-neoforge-0.2.15+1.20.4-sources.jar",
+          "size": 13182,
+          "sha512": "53f30e74d4ac01f1bf1278351ca0681a1907e12266468ecc86e4c61dd315a4f1f1bb1cc880a0aa28ff52a86625a81b1aea434a319e795db4d473e8da2f3c0e3d",
+          "sha256": "132f4a0f9a11affd4c912a121cbcee85cd3e55b2c259b37625b69f01b8caaa51",
+          "sha1": "b600972054523dea368b553ec5196434ddc14711",
+          "md5": "58c69d5cf029a52b5539d9e812e2b193"
+        }
+      ]
+    }
+  ]
+}

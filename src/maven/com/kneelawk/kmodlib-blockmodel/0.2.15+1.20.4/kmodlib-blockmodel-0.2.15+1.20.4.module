@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-blockmodel",
+    "version": "0.2.15+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.2.15+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.15+1.20.4.jar",
+          "url": "kmodlib-blockmodel-0.2.15+1.20.4.jar",
+          "size": 103537,
+          "sha512": "8b972477db9055e4aa12a813ad57312cf0c14fbd12e941ac48560757b88f19012bbee90dfd06bdfc61e9ecebd5c68299786c2310b1efabd4d30f9f3e5b82e3bc",
+          "sha256": "5bc52353d50a2480245dd54adc01732af494467ab21d12f42d452c85c46514a2",
+          "sha1": "a9c934ba888c0f5269215d345764c270f49f5ecb",
+          "md5": "49572d60815e792764139625935399d8"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.2.15+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.15+1.20.4.jar",
+          "url": "kmodlib-blockmodel-0.2.15+1.20.4.jar",
+          "size": 103537,
+          "sha512": "8b972477db9055e4aa12a813ad57312cf0c14fbd12e941ac48560757b88f19012bbee90dfd06bdfc61e9ecebd5c68299786c2310b1efabd4d30f9f3e5b82e3bc",
+          "sha256": "5bc52353d50a2480245dd54adc01732af494467ab21d12f42d452c85c46514a2",
+          "sha1": "a9c934ba888c0f5269215d345764c270f49f5ecb",
+          "md5": "49572d60815e792764139625935399d8"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.15+1.20.4-javadoc.jar",
+          "url": "kmodlib-blockmodel-0.2.15+1.20.4-javadoc.jar",
+          "size": 239229,
+          "sha512": "037221afffdf5e7f57c64814819b4e70e677486f5763345e92fbc0d3a24d3c1e9050f0db217f717439d8d902bea4376493b54e8b577b5c1678f9c19653d1cbfe",
+          "sha256": "47fd0cd18eaf8f6695bd653eee260db8606e748160fc981c8cd246f143389085",
+          "sha1": "ae48e3178c93e986e5641ec5e508b59b217d6c3c",
+          "md5": "d6fe105126669d2d9734519a1587e91e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.2.15+1.20.4-sources.jar",
+          "url": "kmodlib-blockmodel-0.2.15+1.20.4-sources.jar",
+          "size": 45068,
+          "sha512": "5d340e324b4269936f77f49f6bd4b596849b3e079d35d7ce68442c1273979e60b11945ac89f789eb650fbc0940131524e53a1a687b15f16156f3e4198bc5ad19",
+          "sha256": "9f957c2cf088fc36ef8dca450dadf082262d4fe96c0556087dfe02c6351787c9",
+          "sha1": "bc59c99b1b221aa38ec3b72a3a3654c442ffb31f",
+          "md5": "3871faff319e5106c9f14b42afde14a1"
+        }
+      ]
+    }
+  ]
+}
