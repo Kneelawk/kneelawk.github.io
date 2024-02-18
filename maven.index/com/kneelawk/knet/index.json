@@ -1,0 +1,1 @@
+{"name":"knet","path":"com/kneelawk/knet","children":[{"name":"fabric","path":"com/kneelawk/knet/fabric","type":"directory"},{"name":"neoforge","path":"com/kneelawk/knet/neoforge","type":"directory"},{"name":"xplat-intermediary","path":"com/kneelawk/knet/xplat-intermediary","type":"directory"},{"name":"xplat-mojmap","path":"com/kneelawk/knet/xplat-mojmap","type":"directory"}]}
