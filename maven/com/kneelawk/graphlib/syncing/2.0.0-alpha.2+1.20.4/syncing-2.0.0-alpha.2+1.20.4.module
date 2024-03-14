@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "syncing",
+    "version": "2.0.0-alpha.2+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.11.0-pre.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-2.0.0-alpha.2+1.20.4.jar",
+          "url": "syncing-2.0.0-alpha.2+1.20.4.jar",
+          "size": 261603,
+          "sha512": "e4b907c763f49a80fb857a6b9f64557d4641d860bbc41c602a8795c9844b5a676eda17273919d9867e5b621790cc4829d16807a588d722ffba47d5d143a63397",
+          "sha256": "9a137f80442576aa5ab41fc623e43a1b9cef64e5b0d424256644e754a4785415",
+          "sha1": "4007ebc011c738315ce30652c69434f2a960dead",
+          "md5": "c4536e06dc0e33d37d10db311adcda55"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.2+1.20.4"
+          }
+        },
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.11.0-pre.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-2.0.0-alpha.2+1.20.4.jar",
+          "url": "syncing-2.0.0-alpha.2+1.20.4.jar",
+          "size": 261603,
+          "sha512": "e4b907c763f49a80fb857a6b9f64557d4641d860bbc41c602a8795c9844b5a676eda17273919d9867e5b621790cc4829d16807a588d722ffba47d5d143a63397",
+          "sha256": "9a137f80442576aa5ab41fc623e43a1b9cef64e5b0d424256644e754a4785415",
+          "sha1": "4007ebc011c738315ce30652c69434f2a960dead",
+          "md5": "c4536e06dc0e33d37d10db311adcda55"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-2.0.0-alpha.2+1.20.4-javadoc.jar",
+          "url": "syncing-2.0.0-alpha.2+1.20.4-javadoc.jar",
+          "size": 158511,
+          "sha512": "935bbc171a4e5f3dc660a9af65ccb5a808633aa63519471046455c1708ac9f16e46bece3a8cae0718ee49fa16539357b5abb8e42fb7ff9efa6e7ca3fe27711b8",
+          "sha256": "0a0ee8798b031330765c32ed5892ef1079fb7f42766f30b321ad9fdc54313d6b",
+          "sha1": "d5a8e61d19012cce2ad4491537865c758a45f525",
+          "md5": "af4201b0def611c0d12333d773212b38"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-2.0.0-alpha.2+1.20.4-sources.jar",
+          "url": "syncing-2.0.0-alpha.2+1.20.4-sources.jar",
+          "size": 83744,
+          "sha512": "8a6374fc5de89aa4a5a0fbde8e41a5c3efc026da1b8eb413d4b32cebafac9c1041323e82fc971e6d953723a4463d388150c05d967b635762c4a0b522141d343b",
+          "sha256": "58c9867bd26530f01eecd24155af1c857a19349a08fc7c2cbc7ee21cfe9f1b77",
+          "sha1": "0ac33b12bc9018bf57d0ee1176aeccae58413daf",
+          "md5": "cac8f124375e6b2a67a8bc161d7ecfc7"
+        }
+      ]
+    }
+  ]
+}
