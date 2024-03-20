@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "syncing-core-fabric",
+    "version": "2.0.0-alpha.4+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "syncing-core-fabric-2.0.0-alpha.4+1.20.4.jar",
+          "url": "syncing-core-fabric-2.0.0-alpha.4+1.20.4.jar",
+          "size": 49539,
+          "sha512": "fd5b28ec0f908cb3a5305d067bf5384a2e2b6ccb7cc0f0648cd733f8439e21eb5f1f6f569d32b84e901a4eb3296d6088ed25c61932c278e4b64290401c94b593",
+          "sha256": "03ddbd63f47ee74409fc94a0f1366b94073a2af4a33492f01315ba7454a30ed4",
+          "sha1": "a72f5a5d4fac4ab75f5da8a459ff570ca8a90a60",
+          "md5": "7052ce79a938ed8aa0082f61dcb01684"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.4+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-core-fabric-2.0.0-alpha.4+1.20.4.jar",
+          "url": "syncing-core-fabric-2.0.0-alpha.4+1.20.4.jar",
+          "size": 49539,
+          "sha512": "fd5b28ec0f908cb3a5305d067bf5384a2e2b6ccb7cc0f0648cd733f8439e21eb5f1f6f569d32b84e901a4eb3296d6088ed25c61932c278e4b64290401c94b593",
+          "sha256": "03ddbd63f47ee74409fc94a0f1366b94073a2af4a33492f01315ba7454a30ed4",
+          "sha1": "a72f5a5d4fac4ab75f5da8a459ff570ca8a90a60",
+          "md5": "7052ce79a938ed8aa0082f61dcb01684"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-core-fabric-2.0.0-alpha.4+1.20.4-dev-shadow.jar",
+          "url": "syncing-core-fabric-2.0.0-alpha.4+1.20.4-dev-shadow.jar",
+          "size": 48099,
+          "sha512": "792db1dc1ae90d6093cb6224e39aecaf7f580f79cda51ad14c7b7fd4a4f81d1bf5ba24058504017c0d6366d948f9b7f73360c0b570c86c9ed68e06f9defec0c6",
+          "sha256": "789124f714d937561f360f4fba23730a7a3dc1b4b055fac9d00b182b39476a85",
+          "sha1": "7dd4f5453b69d922e88e872b9f20389fc59d2e97",
+          "md5": "f0e51ac6de4550d09ee1f5bbe29ad37b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-core-fabric-2.0.0-alpha.4+1.20.4-javadoc.jar",
+          "url": "syncing-core-fabric-2.0.0-alpha.4+1.20.4-javadoc.jar",
+          "size": 99846,
+          "sha512": "055a3c30cf63bbc64f4ee5ad8ee1c19686053fd163b5329c3bf261f2142faedc34a7faeaa12d112f846f269d402feb71e246aeda6c0d90a0b85e7e1ac2bc4a4a",
+          "sha256": "cfeb2cb34bdf1b7994569b0900bd4bcaf3fc2fa873f2832c34d3f3f60373d070",
+          "sha1": "9c3adabef1ce0594314af737690bd065048e3eb7",
+          "md5": "cd1bc8fd83cfde8bc2c4256e4a5a0f6c"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-core-fabric-2.0.0-alpha.4+1.20.4-sources.jar",
+          "url": "syncing-core-fabric-2.0.0-alpha.4+1.20.4-sources.jar",
+          "size": 44678,
+          "sha512": "c4b60c00840ff6816b18acc0a7c1f9ccbaca1b170fffb42d10a786c48b3e6a1c022df420200cd3e5c36e0b8559714c22d624c1491b54926ed12c7a28f650af13",
+          "sha256": "91d1ee66bf0b31fb332f9cc03387212b6a0a38ce90984e87035d0bd3aa9eff26",
+          "sha1": "ddda8288070c78483cb49d7b472b69cd60d050eb",
+          "md5": "637aaa596394b67555c5a7169f7d7fd5"
+        }
+      ]
+    }
+  ]
+}
