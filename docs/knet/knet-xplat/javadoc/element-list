@@ -2,3 +2,4 @@ com.kneelawk.knet.api
 com.kneelawk.knet.api.channel
 com.kneelawk.knet.api.channel.context
 com.kneelawk.knet.api.handling
+com.kneelawk.knet.api.util
