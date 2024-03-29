@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "core-xplat-intermediary",
+    "version": "2.0.0-alpha.9+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "core-xplat-intermediary-2.0.0-alpha.9+1.20.4.jar",
+          "url": "core-xplat-intermediary-2.0.0-alpha.9+1.20.4.jar",
+          "size": 282188,
+          "sha512": "9a55caa6d30bb483cb79d218e4afe7349b6d64f148696dd2a88cfb15f076591e5432f910f6f9ac02ab5732a320536d143b197dfbb685c106b0d507a9f9ebd7b0",
+          "sha256": "351455e05b268bb28069d4cb6e8f0e95fc02e4f0824dbac57b9aa14480301b87",
+          "sha1": "6be9610c327f2c5599dffa43f088506914753242",
+          "md5": "444735683dfb365f5cd9a67f40936dde"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-xplat-intermediary-2.0.0-alpha.9+1.20.4.jar",
+          "url": "core-xplat-intermediary-2.0.0-alpha.9+1.20.4.jar",
+          "size": 282188,
+          "sha512": "9a55caa6d30bb483cb79d218e4afe7349b6d64f148696dd2a88cfb15f076591e5432f910f6f9ac02ab5732a320536d143b197dfbb685c106b0d507a9f9ebd7b0",
+          "sha256": "351455e05b268bb28069d4cb6e8f0e95fc02e4f0824dbac57b9aa14480301b87",
+          "sha1": "6be9610c327f2c5599dffa43f088506914753242",
+          "md5": "444735683dfb365f5cd9a67f40936dde"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-xplat-intermediary-2.0.0-alpha.9+1.20.4-javadoc.jar",
+          "url": "core-xplat-intermediary-2.0.0-alpha.9+1.20.4-javadoc.jar",
+          "size": 361632,
+          "sha512": "2804df65af5e125c69b56e7033aa19a8d776cd4cfeba44d90ccb50a0c2dd436ae56915e40d2d3875636fcd82688eba04097994641def4b87b62d73ce50daab73",
+          "sha256": "50af7dbee5539896aa7e9eb0f6da2e8613595b97b411f42faac6e284bb95d39f",
+          "sha1": "fade659f941d9796bdad3cf3a8c4af7a6ac9b95f",
+          "md5": "aebb20d4fe86d9ab768acda573ae89c8"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-xplat-intermediary-2.0.0-alpha.9+1.20.4-sources.jar",
+          "url": "core-xplat-intermediary-2.0.0-alpha.9+1.20.4-sources.jar",
+          "size": 223186,
+          "sha512": "7d73dfc84951af1daefb389caf9489ae17d88a2b2d54d514145573c702a8147f9c991f693329803feda16e234bd84cb51b4c4b04ae72eb4d58b371f9feb6156e",
+          "sha256": "67624e8bfbfe72774b6e6930ba258966f164f29e47f09ebbbbda9a623784f455",
+          "sha1": "4f4b257a570fa1eee6f988ba0c28fcfefb09659b",
+          "md5": "8a9ec04dfbc3e4b1ef580d399ac4b400"
+        }
+      ]
+    }
+  ]
+}
