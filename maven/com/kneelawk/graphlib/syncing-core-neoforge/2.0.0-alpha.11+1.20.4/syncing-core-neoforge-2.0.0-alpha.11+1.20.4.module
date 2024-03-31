@@ -1,0 +1,129 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "syncing-core-neoforge",
+    "version": "2.0.0-alpha.11+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "syncing-core-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "url": "syncing-core-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "size": 49132,
+          "sha512": "97dd39a0365ffb62e07f7006c56c4322883926e33837dcfd850b3cf2a7c3db81745b64faf31a6ba480d045152d1cdb8bc86e2ec14dbbc5a669a50ca5ea6a6abd",
+          "sha256": "038aea25010b251557d0fdff20b7dc429f9303180d3feafd9908ec6bbc6eb5d9",
+          "sha1": "52024646e62c7fd40156bb875b22ca061624b0b3",
+          "md5": "9c9d4ecee5c1537a265bca031040d87d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-neoforge",
+          "version": {
+            "requires": "2.0.0-alpha.11+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-core-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "url": "syncing-core-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "size": 49132,
+          "sha512": "97dd39a0365ffb62e07f7006c56c4322883926e33837dcfd850b3cf2a7c3db81745b64faf31a6ba480d045152d1cdb8bc86e2ec14dbbc5a669a50ca5ea6a6abd",
+          "sha256": "038aea25010b251557d0fdff20b7dc429f9303180d3feafd9908ec6bbc6eb5d9",
+          "sha1": "52024646e62c7fd40156bb875b22ca061624b0b3",
+          "md5": "9c9d4ecee5c1537a265bca031040d87d"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-core-neoforge-2.0.0-alpha.11+1.20.4-dev-shadow.jar",
+          "url": "syncing-core-neoforge-2.0.0-alpha.11+1.20.4-dev-shadow.jar",
+          "size": 47761,
+          "sha512": "c33981235e57ff8167efe3ebec157f583e8f32cd3f9a4344fd8103b1367c290cae6cf88ddd1050bc7c6bb149668c7accbd1261b778d633db29888a9820495b14",
+          "sha256": "dc5064b98862d4b4f5a295d5bf3081189b2cbe4ae2960171e90a2453994d3160",
+          "sha1": "11e70c91054c1f19a6b28fd8ccf2ba21b76a5fd2",
+          "md5": "5505e8c7d9c4c6aa27a7e4ce7e085858"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-core-neoforge-2.0.0-alpha.11+1.20.4-javadoc.jar",
+          "url": "syncing-core-neoforge-2.0.0-alpha.11+1.20.4-javadoc.jar",
+          "size": 100097,
+          "sha512": "040a2f009dceefd2c4a930f58e2082df7acbd0b40bad2558c4b6bc29b14e06d63b746322f6b109c9fe115a52db57d00b6ef0561f4c37b5f3fc092cfe35a7b756",
+          "sha256": "191ef8798a3d821614c630328244a74618e53e4be1d26c774fc5c0548ea0ef5c",
+          "sha1": "8a1dee8131ef474f15acac6ce0e2be860cb34769",
+          "md5": "ea6b5b2862427e3ec9a0f50f6926cca4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-core-neoforge-2.0.0-alpha.11+1.20.4-sources.jar",
+          "url": "syncing-core-neoforge-2.0.0-alpha.11+1.20.4-sources.jar",
+          "size": 45277,
+          "sha512": "db228a51210a12694e3f329d28e813b75f7da097da8d9dbd670545a0673047e748e205d6c4d5421af88f9090b60ecbd22ccfc81c1af8e39e28cdbb7f2cf6ab97",
+          "sha256": "75fce01c08e9c495897734f09e8057505fde7ee284870cff6aee63a1b330e017",
+          "sha1": "fe4747ee66b0595b87f492bb37af5d6193850d58",
+          "md5": "a6acc7a530dfaac859a490a33c79c7dc"
+        }
+      ]
+    }
+  ]
+}

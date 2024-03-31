@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "debugrender-neoforge",
+    "version": "2.0.0-alpha.11+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "debugrender-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "url": "debugrender-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "size": 102871,
+          "sha512": "bee83e26615307e96fd66ec1cd2b1a8e81c4fd1bc217973d8c3020330140efc61038efeb1bd6410241e12b81a5f526b614595ea35f5928a3d7f4bd3170ed4559",
+          "sha256": "35dba2a1592b1f16f7977872a06ea2de6a09bd1cb3be049157f0733000fb85bb",
+          "sha1": "9ebafe4eb424470d6635f7151655dc7190fd9d9f",
+          "md5": "fdf0b7c4cfafacbeb4ced52d70d0242c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-neoforge",
+          "version": {
+            "requires": "2.0.0-alpha.11+1.20.4"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-overlay-neoforge",
+          "version": {
+            "requires": "0.2.16+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "debugrender-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "url": "debugrender-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "size": 102871,
+          "sha512": "bee83e26615307e96fd66ec1cd2b1a8e81c4fd1bc217973d8c3020330140efc61038efeb1bd6410241e12b81a5f526b614595ea35f5928a3d7f4bd3170ed4559",
+          "sha256": "35dba2a1592b1f16f7977872a06ea2de6a09bd1cb3be049157f0733000fb85bb",
+          "sha1": "9ebafe4eb424470d6635f7151655dc7190fd9d9f",
+          "md5": "fdf0b7c4cfafacbeb4ced52d70d0242c"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-neoforge-2.0.0-alpha.11+1.20.4-dev-shadow.jar",
+          "url": "debugrender-neoforge-2.0.0-alpha.11+1.20.4-dev-shadow.jar",
+          "size": 86141,
+          "sha512": "874851e8b988a0cc7260ad63390384178628077a079f7f6bdfcd022b2255d3effd71c23e38e4da2279d6058753760a421cc7879a0467295aa3de9b93a007ec16",
+          "sha256": "f6cc0be05533cdcd061adf84d2194cf07fe4f758c929ccff654e86e1fde762a8",
+          "sha1": "1afbd22035204607960e4cac394192da92e00757",
+          "md5": "04806765a9bfa824b6206817ad44125a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-neoforge-2.0.0-alpha.11+1.20.4-javadoc.jar",
+          "url": "debugrender-neoforge-2.0.0-alpha.11+1.20.4-javadoc.jar",
+          "size": 124723,
+          "sha512": "ee691de778f84b3bb52f6487e382953a9e6e7dc88e1eac7a6ac3de41fce6011b64bf1bfeb21b708d81499820e1aea3c06fdae9b779d0cd9eb2f406b559fb02c8",
+          "sha256": "3530351e52661277ec5c12d09da8c5b52c659fdbb9118aec8e522b167165eb52",
+          "sha1": "73e2e6168dbd68e27fe282ff849c79a1df57da0f",
+          "md5": "94ef6401a0003143a2e4ae996faca77a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-neoforge-2.0.0-alpha.11+1.20.4-sources.jar",
+          "url": "debugrender-neoforge-2.0.0-alpha.11+1.20.4-sources.jar",
+          "size": 77521,
+          "sha512": "cc5e6d670f1ac3f57dbd947d1304034a7320666950b4bb87e605ecd6d24572ff62910141c3ae76a6ea8ff971992a0857aea14997152d80821eb7cec0aeeef3d1",
+          "sha256": "c932f079defda738cee114e8f66c06c7938743d76aa70d44c6257e621f8308ee",
+          "sha1": "2684033387acfac636178c2e706b32443f98774a",
+          "md5": "355599612b158134b64b3cb6b5d7ecd2"
+        }
+      ]
+    }
+  ]
+}

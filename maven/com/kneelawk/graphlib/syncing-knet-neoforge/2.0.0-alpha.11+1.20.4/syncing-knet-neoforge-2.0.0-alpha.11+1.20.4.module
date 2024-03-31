@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "syncing-knet-neoforge",
+    "version": "2.0.0-alpha.11+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.knet",
+          "module": "neoforge",
+          "version": {
+            "requires": "0.2.0+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-knet-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "url": "syncing-knet-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "size": 155653,
+          "sha512": "d5a52859ca144ec818c6c31267db40d52482bb9d9a0e0511e5e79a242a68530687eab2e31edf08163fc148d64808d72c47c17919311f2e13c677f354fd2d84e6",
+          "sha256": "206c7ebc5455c155066ee001e2ab8510af41c2554f986b187efdcd2138fc1c3d",
+          "sha1": "44ae49d3f72dbb8642fda927b278d3d90c3d42f6",
+          "md5": "f160423278481d6c4c6d1875387d9018"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-neoforge",
+          "version": {
+            "requires": "2.0.0-alpha.11+1.20.4"
+          }
+        },
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "syncing-core-neoforge",
+          "version": {
+            "requires": "2.0.0-alpha.11+1.20.4"
+          }
+        },
+        {
+          "group": "com.kneelawk.knet",
+          "module": "neoforge",
+          "version": {
+            "requires": "0.2.0+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-knet-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "url": "syncing-knet-neoforge-2.0.0-alpha.11+1.20.4.jar",
+          "size": 155653,
+          "sha512": "d5a52859ca144ec818c6c31267db40d52482bb9d9a0e0511e5e79a242a68530687eab2e31edf08163fc148d64808d72c47c17919311f2e13c677f354fd2d84e6",
+          "sha256": "206c7ebc5455c155066ee001e2ab8510af41c2554f986b187efdcd2138fc1c3d",
+          "sha1": "44ae49d3f72dbb8642fda927b278d3d90c3d42f6",
+          "md5": "f160423278481d6c4c6d1875387d9018"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-knet-neoforge-2.0.0-alpha.11+1.20.4-dev-shadow.jar",
+          "url": "syncing-knet-neoforge-2.0.0-alpha.11+1.20.4-dev-shadow.jar",
+          "size": 98117,
+          "sha512": "bff8ee2bbe6fb66d24713dd9493029afd9b9217c941c35b91fc49c914046a0b1a03246d4234096ba76813d7ae3d605d398d904e282374ae9be9715a99042b408",
+          "sha256": "7886fe02c444935e8f258bf346ab96b5107d7efcbaea3d7fc078203b2e2d84cf",
+          "sha1": "afb1734a536a400572a12a347b182d1e0ad55eac",
+          "md5": "ace35234c80c7c0dc02fcc4641058dbb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-knet-neoforge-2.0.0-alpha.11+1.20.4-javadoc.jar",
+          "url": "syncing-knet-neoforge-2.0.0-alpha.11+1.20.4-javadoc.jar",
+          "size": 170995,
+          "sha512": "1ee7f20fb78cb47c0384979e47e39bbf5bf0d7f538047c834385df79348e38a225f631ecd502c0ed6c6638341f05ad97a1919fe66a8f35706a0a7d75f8856715",
+          "sha256": "58f99582b73c8e919eb75391f75bdc405cfde8342d06be1163c61708729c24a3",
+          "sha1": "7b394ba753c01c7f49edd15b1368f2ba625f6ca0",
+          "md5": "a2639aaa971cd621a11747393c235572"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-knet-neoforge-2.0.0-alpha.11+1.20.4-sources.jar",
+          "url": "syncing-knet-neoforge-2.0.0-alpha.11+1.20.4-sources.jar",
+          "size": 83289,
+          "sha512": "93a9fe025e773e3259016aeb1146bf3002834c28b904f72abe2a3051638223e4caeed2f11c6d971fb2ed488e33cd4e3cf027fd18101540df32526f23ade5f374",
+          "sha256": "21446f0b6ec75d764b5bb751e523e5fe093b9543528c0363c5910c790f6e0a71",
+          "sha1": "bd6d296632aed676f2711d19b400df113d1c470a",
+          "md5": "53dd4ef8c647363800c48f16c655c0e8"
+        }
+      ]
+    }
+  ]
+}
