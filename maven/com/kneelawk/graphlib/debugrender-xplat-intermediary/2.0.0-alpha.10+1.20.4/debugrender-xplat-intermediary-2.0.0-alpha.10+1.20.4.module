@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "debugrender-xplat-intermediary",
+    "version": "2.0.0-alpha.10+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.10+1.20.4.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.10+1.20.4.jar",
+          "size": 79976,
+          "sha512": "e3ba4e05ea7741aba2290c81b36c96daedaa4d90828fc1a5713287b32a3d5d4d9c985cc4e0ecdfc8331dd5dd2bc08ef4f6b8322a651a01402e51485d66594bdd",
+          "sha256": "24d4a0d84bf5ee827098822433f10c3dc40eb113ec304c74981133f497c4a3e5",
+          "sha1": "0fcb101d25ea0b80008804c9d25909dc58682e11",
+          "md5": "b9cab5fa5b18976c9802e64db62f5992"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-renderlayer",
+          "version": {
+            "requires": "0.2.16+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.10+1.20.4.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.10+1.20.4.jar",
+          "size": 79976,
+          "sha512": "e3ba4e05ea7741aba2290c81b36c96daedaa4d90828fc1a5713287b32a3d5d4d9c985cc4e0ecdfc8331dd5dd2bc08ef4f6b8322a651a01402e51485d66594bdd",
+          "sha256": "24d4a0d84bf5ee827098822433f10c3dc40eb113ec304c74981133f497c4a3e5",
+          "sha1": "0fcb101d25ea0b80008804c9d25909dc58682e11",
+          "md5": "b9cab5fa5b18976c9802e64db62f5992"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.10+1.20.4-javadoc.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.10+1.20.4-javadoc.jar",
+          "size": 124669,
+          "sha512": "d1aca07d1e5a9e792dd09248743c58cf80917e555cc632e1b53015e7f1504138052a24c2b892bc388cf8df8b2b7eb356fdba75f97d3092cc30fb2f2b0b22544b",
+          "sha256": "aeece1775fa7597b7778bc4d501971f3ee65fc15b1bf734e4b28536ca365130e",
+          "sha1": "7ceb36920147b0ba9fddcf73586797f2d7dd7c1e",
+          "md5": "bfe00bbbf56c087868a7ad36ea2e87fc"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.10+1.20.4-sources.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.10+1.20.4-sources.jar",
+          "size": 69509,
+          "sha512": "9983744393695622c8d9fcaf4c34f4f47b329d94b214696a7e6eb7f1e9836308ecf6925bd689da4a957d2ff0d5597b6accc5da0b31c61f2f5f29fcad81df26d3",
+          "sha256": "a604d418648fbde17d7f817e9919116c834e15ee70555a9874ccd621124ecfd3",
+          "sha1": "410e2fbf5d44329b79c970982c579da63a4d1b06",
+          "md5": "5b140fdf16217bed00fd201a02bd4e14"
+        }
+      ]
+    }
+  ]
+}
