@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "syncing-knet-xplat-intermediary",
+    "version": "2.0.0-alpha.12+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.knet",
+          "module": "xplat-intermediary",
+          "version": {
+            "requires": "0.2.0+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-knet-xplat-intermediary-2.0.0-alpha.12+1.20.4.jar",
+          "url": "syncing-knet-xplat-intermediary-2.0.0-alpha.12+1.20.4.jar",
+          "size": 98487,
+          "sha512": "fa9a3872dd40d267e5704a1b5600bcff64049cdcd1e2348a6a2bfd695a6f6e6ff2411ad8a0e70cae1b103e94698af52356317225f480529cd216fa1d7cc93022",
+          "sha256": "5426dbcaaad3805fe956aac8608bab080b6dafc45385e5481436791a81d8644c",
+          "sha1": "f6171edae7520eed3dbab3ba78e1afe7e08db9a2",
+          "md5": "7de0d40778cae05f410a6891d1474afb"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.knet",
+          "module": "xplat-intermediary",
+          "version": {
+            "requires": "0.2.0+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-knet-xplat-intermediary-2.0.0-alpha.12+1.20.4.jar",
+          "url": "syncing-knet-xplat-intermediary-2.0.0-alpha.12+1.20.4.jar",
+          "size": 98487,
+          "sha512": "fa9a3872dd40d267e5704a1b5600bcff64049cdcd1e2348a6a2bfd695a6f6e6ff2411ad8a0e70cae1b103e94698af52356317225f480529cd216fa1d7cc93022",
+          "sha256": "5426dbcaaad3805fe956aac8608bab080b6dafc45385e5481436791a81d8644c",
+          "sha1": "f6171edae7520eed3dbab3ba78e1afe7e08db9a2",
+          "md5": "7de0d40778cae05f410a6891d1474afb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-knet-xplat-intermediary-2.0.0-alpha.12+1.20.4-javadoc.jar",
+          "url": "syncing-knet-xplat-intermediary-2.0.0-alpha.12+1.20.4-javadoc.jar",
+          "size": 170924,
+          "sha512": "3d7ce8486cfe893b34e25f1a19384375380a509ca2b4bdb7fa1504bab9d6655e24ff1745fba469f04837eb050428023f9730e418d0a0c845343e64d15ad1e7ef",
+          "sha256": "98674e808d0896f9e4a396dc517562f200bb841649b1941add8c8188b02b1810",
+          "sha1": "f12781d606597851a1d51cd5e2c16ca80cd03cdb",
+          "md5": "e9aa86dd0cbce2f391a219e03f08ca10"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-knet-xplat-intermediary-2.0.0-alpha.12+1.20.4-sources.jar",
+          "url": "syncing-knet-xplat-intermediary-2.0.0-alpha.12+1.20.4-sources.jar",
+          "size": 81321,
+          "sha512": "007af5eb52623e9b8e813863dfba87ad374f12f88bd07e2e60f19acb6e2ce5977c91fe242b92a2d5c34680bcec30e99afbcdefa31801f0ce2d78822140ad0d2e",
+          "sha256": "94300041afe69f3f52e45b9bd0ece5a928525c839560b314bf59ee0094465a10",
+          "sha1": "a56bc52da43f43714fd1f878039001b3d6bb3a94",
+          "md5": "ac6f0f8c4c769e825a9ee6e9865a53d2"
+        }
+      ]
+    }
+  ]
+}
