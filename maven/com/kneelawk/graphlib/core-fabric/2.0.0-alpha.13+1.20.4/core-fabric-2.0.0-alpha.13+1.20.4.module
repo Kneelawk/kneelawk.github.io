@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "core-fabric",
+    "version": "2.0.0-alpha.13+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "core-fabric-2.0.0-alpha.13+1.20.4.jar",
+          "url": "core-fabric-2.0.0-alpha.13+1.20.4.jar",
+          "size": 294704,
+          "sha512": "592129ad82e49a2c4b4b48cf62e7a82a09ca1779ac5bda34ed187692fe164ebadc6c688a0805b13eb798585fc260b6f46ab76841a292c44eee287903233fd745",
+          "sha256": "9d1ca7eb62a10387a21cb587c2ab2dc2e4f597a2bf15e79858b76c6e286f1faa",
+          "sha1": "df6de58908cee23c433a4c0b727de07089914787",
+          "md5": "902e5ae83845b5cc7b65fc2fbfd96423"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-fabric-2.0.0-alpha.13+1.20.4.jar",
+          "url": "core-fabric-2.0.0-alpha.13+1.20.4.jar",
+          "size": 294704,
+          "sha512": "592129ad82e49a2c4b4b48cf62e7a82a09ca1779ac5bda34ed187692fe164ebadc6c688a0805b13eb798585fc260b6f46ab76841a292c44eee287903233fd745",
+          "sha256": "9d1ca7eb62a10387a21cb587c2ab2dc2e4f597a2bf15e79858b76c6e286f1faa",
+          "sha1": "df6de58908cee23c433a4c0b727de07089914787",
+          "md5": "902e5ae83845b5cc7b65fc2fbfd96423"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-fabric-2.0.0-alpha.13+1.20.4-dev-shadow.jar",
+          "url": "core-fabric-2.0.0-alpha.13+1.20.4-dev-shadow.jar",
+          "size": 291963,
+          "sha512": "9689d5227a23702137eda86ca3ef7e0119770f67d28e391eb26b73119c008b2e83ed31007670f328ecb0fb5b23d4aa31c8bd122184e04d4e1bdf28daeb54471b",
+          "sha256": "662823472b0ab586e13671a570e241c402bacd0201003dbc4abe0092e30f633b",
+          "sha1": "fcfbac9f1d1ac9bef1c21557775f99565031b138",
+          "md5": "aaa8bc83833b151607d6912afbc70506"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-fabric-2.0.0-alpha.13+1.20.4-javadoc.jar",
+          "url": "core-fabric-2.0.0-alpha.13+1.20.4-javadoc.jar",
+          "size": 379883,
+          "sha512": "54b958b27a8b7dc985caf5096a8515ae398efabc86a21da9bb5857a673d8d270c25a53379a1845b4323ee1baaad3c2019c23054e913f222182a3fe64c2730014",
+          "sha256": "5f01999046d4c5487639ac8aa5b145ceb1fc7e2122437bbda17ffcdf3361b916",
+          "sha1": "c008c676f7bea6bdd69aee14bc49ac62be06d394",
+          "md5": "d0f92296686a8d21e10254fd96cef8f4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-fabric-2.0.0-alpha.13+1.20.4-sources.jar",
+          "url": "core-fabric-2.0.0-alpha.13+1.20.4-sources.jar",
+          "size": 232433,
+          "sha512": "8c70a71862bdb677691e8328e205c071d6aa2ff7edb2992813d713b888225e56889b90834af02f29c8ce3d0079b50e2da376a51445ca9bb88a72aad2ef942220",
+          "sha256": "1a042c2d08fd5c620d0190353cf20956ccd8ff68553298c15cc44141549f7367",
+          "sha1": "1d3ca69b66d2cd134272156ce0dab24d57fdb5ee",
+          "md5": "b6283df70c9c1c0c37cc981442bea763"
+        }
+      ]
+    }
+  ]
+}
