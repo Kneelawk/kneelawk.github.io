@@ -1,0 +1,120 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "core-neoforge",
+    "version": "2.0.0-alpha.14+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "core-neoforge-2.0.0-alpha.14+1.20.4.jar",
+          "url": "core-neoforge-2.0.0-alpha.14+1.20.4.jar",
+          "size": 293831,
+          "sha512": "41cf1ccfe3f56d2e55f277cd288479460cb20a8c1e9f11cee94236d6eb8bc066bee61e287d69432db875a2a96fa7b693d64c861923fd73f150befe016a0609d8",
+          "sha256": "4fe00de8fc6f3c6554b5c6b9759af784d1a34d37df03b1e253e3244693c48342",
+          "sha1": "b826128a05914b4bc72f7272ea7e6b33dceb09ce",
+          "md5": "ac30121ca2310cc83089a047f9fdf510"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-neoforge-2.0.0-alpha.14+1.20.4.jar",
+          "url": "core-neoforge-2.0.0-alpha.14+1.20.4.jar",
+          "size": 293831,
+          "sha512": "41cf1ccfe3f56d2e55f277cd288479460cb20a8c1e9f11cee94236d6eb8bc066bee61e287d69432db875a2a96fa7b693d64c861923fd73f150befe016a0609d8",
+          "sha256": "4fe00de8fc6f3c6554b5c6b9759af784d1a34d37df03b1e253e3244693c48342",
+          "sha1": "b826128a05914b4bc72f7272ea7e6b33dceb09ce",
+          "md5": "ac30121ca2310cc83089a047f9fdf510"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-neoforge-2.0.0-alpha.14+1.20.4-dev-shadow.jar",
+          "url": "core-neoforge-2.0.0-alpha.14+1.20.4-dev-shadow.jar",
+          "size": 288450,
+          "sha512": "ecfb7537a9be51462230e4d5d15ffa206fda1dd7abfcecdfa66aaa15e488f65d5cde330b28cf0614c6f86c2faf660212b27eeb1b3abe964f85380d875e3583ed",
+          "sha256": "b9a9d38eda3326553ed2046863a74bfc9cfddb94d488aedd4afc8d37fb6033ff",
+          "sha1": "51b48cdecbb3695440162edef47e1b16bfb6d18d",
+          "md5": "88f1829bb08794bb9c5dbe3409b78c66"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-neoforge-2.0.0-alpha.14+1.20.4-javadoc.jar",
+          "url": "core-neoforge-2.0.0-alpha.14+1.20.4-javadoc.jar",
+          "size": 379742,
+          "sha512": "cc6fd4b2462d9ec22d4c7664fd258d293962d26287f314808dc80779e856d1d03acd00552ef8c54ae5afdd6f3ac3dfd9a629d21f28840bd3efef85e9fd91a32d",
+          "sha256": "58171c580a775472d91f0cc378317fb431196a1d89fd935511a1e40c11169a28",
+          "sha1": "04d7c8af8687e9ee7331ca731b8038c7db5aac35",
+          "md5": "e1e12dae85ec0a957b61534d13f6d5a2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-neoforge-2.0.0-alpha.14+1.20.4-sources.jar",
+          "url": "core-neoforge-2.0.0-alpha.14+1.20.4-sources.jar",
+          "size": 236439,
+          "sha512": "cba57638807ac82fa7b1a414dfeb8a6c994feffbb13ac404bc1441cb81448e67444fbceac9c647d8e7584eda813ff22fa8f3e377dc72c56964828b93ebcb6745",
+          "sha256": "34347a5d4a4ef36107cc6f834cf1f146dd9214905ca52ebb5cf93f1ff8412c26",
+          "sha1": "cd518f3725f2aa13ee0ab7cb91dac635b4445090",
+          "md5": "100ee7549a49bcc9ab6f8f549544457f"
+        }
+      ]
+    }
+  ]
+}
