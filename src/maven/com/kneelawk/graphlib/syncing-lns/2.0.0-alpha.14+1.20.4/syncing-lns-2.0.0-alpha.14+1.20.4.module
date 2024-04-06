@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "syncing-lns",
+    "version": "2.0.0-alpha.14+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.11.0-pre.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-lns-2.0.0-alpha.14+1.20.4.jar",
+          "url": "syncing-lns-2.0.0-alpha.14+1.20.4.jar",
+          "size": 234195,
+          "sha512": "852f2dc1cb9266bc97798a8802d2780b4a8711b1680fb29f6df306c100f4d1cf243d8c9b516ac91d426e262c42a273939a8f4c093ba7e2f79285f648a6102ec9",
+          "sha256": "86a05d1152b98b7865c19a81481f9cc235779a5eb2b669a9b057ca3571aa571f",
+          "sha1": "b33556e5ba4d877b37fdba118f96c4f1831b350f",
+          "md5": "305c14894cf9fb584572c9051057e943"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.14+1.20.4"
+          }
+        },
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "syncing-core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.14+1.20.4"
+          }
+        },
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.11.0-pre.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-lns-2.0.0-alpha.14+1.20.4.jar",
+          "url": "syncing-lns-2.0.0-alpha.14+1.20.4.jar",
+          "size": 234195,
+          "sha512": "852f2dc1cb9266bc97798a8802d2780b4a8711b1680fb29f6df306c100f4d1cf243d8c9b516ac91d426e262c42a273939a8f4c093ba7e2f79285f648a6102ec9",
+          "sha256": "86a05d1152b98b7865c19a81481f9cc235779a5eb2b669a9b057ca3571aa571f",
+          "sha1": "b33556e5ba4d877b37fdba118f96c4f1831b350f",
+          "md5": "305c14894cf9fb584572c9051057e943"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-lns-2.0.0-alpha.14+1.20.4-javadoc.jar",
+          "url": "syncing-lns-2.0.0-alpha.14+1.20.4-javadoc.jar",
+          "size": 146884,
+          "sha512": "546ad26272283306a665d52a20cf9bb9c28d2a775cb3a5f0cf6c55b492a8062038b2342351d57d04dad7e0686f0be2d10e3a7c0195b27a3b620a12a16a6c1ea4",
+          "sha256": "fe70d95bc084f071e677a4a945f1f583191bebcad20c091a75c2ebe3e610bdcd",
+          "sha1": "9b0e13332c271153c30457d93719d84f015e1563",
+          "md5": "39d9255c68c5dd176dcc0b15c89f4fff"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-lns-2.0.0-alpha.14+1.20.4-sources.jar",
+          "url": "syncing-lns-2.0.0-alpha.14+1.20.4-sources.jar",
+          "size": 59745,
+          "sha512": "700d6d2c45c88a1ee67c49ea1a42c386e331eef905b022f00082db4d440269ef42562dde65e00b798be381c418fa397b64882958a538c9fe930101ae0e2312ae",
+          "sha256": "b75936a51906ed6d36b93d5bad39d8da11fe2a14e46f99a429fd4a2e736723d0",
+          "sha1": "6d63e61236fa5195446b9366c48a889062e87802",
+          "md5": "91e29c156816cfa3a4ab295764355191"
+        }
+      ]
+    }
+  ]
+}

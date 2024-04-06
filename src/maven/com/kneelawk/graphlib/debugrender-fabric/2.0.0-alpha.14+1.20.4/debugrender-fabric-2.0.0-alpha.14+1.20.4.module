@@ -1,0 +1,136 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "debugrender-fabric",
+    "version": "2.0.0-alpha.14+1.20.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "debugrender-fabric-2.0.0-alpha.14+1.20.4.jar",
+          "url": "debugrender-fabric-2.0.0-alpha.14+1.20.4.jar",
+          "size": 111184,
+          "sha512": "4059fcc0f42b74866752595979230a844af3033388b99c2587a596fb31924ddb6081beb23a813731ab0ec7c43b7a3e48c6ec4f9b4a16334b926f3300a7cf871e",
+          "sha256": "39e3a2651e966d7d990f81e02c644bdb061156b4c0e571fac85405135919d064",
+          "sha1": "25e44ffe63a2da67535a8e04e8fe73af00631b3a",
+          "md5": "3d6347627d1246ef647ba94b5d9364bc"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 17,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.14+1.20.4"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-overlay-fabric",
+          "version": {
+            "requires": "0.2.16+1.20.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "debugrender-fabric-2.0.0-alpha.14+1.20.4.jar",
+          "url": "debugrender-fabric-2.0.0-alpha.14+1.20.4.jar",
+          "size": 111184,
+          "sha512": "4059fcc0f42b74866752595979230a844af3033388b99c2587a596fb31924ddb6081beb23a813731ab0ec7c43b7a3e48c6ec4f9b4a16334b926f3300a7cf871e",
+          "sha256": "39e3a2651e966d7d990f81e02c644bdb061156b4c0e571fac85405135919d064",
+          "sha1": "25e44ffe63a2da67535a8e04e8fe73af00631b3a",
+          "md5": "3d6347627d1246ef647ba94b5d9364bc"
+        }
+      ]
+    },
+    {
+      "name": "shadowRuntimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "shadowed",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-fabric-2.0.0-alpha.14+1.20.4-dev-shadow.jar",
+          "url": "debugrender-fabric-2.0.0-alpha.14+1.20.4-dev-shadow.jar",
+          "size": 85336,
+          "sha512": "1176706b3b2c50bcfb94fccdaf261505d11ccee992e408cdb3c8d53df8891170f5f39fb2825745941d85f85bfab6db353ee4eca505f455532d21988f4066ba4b",
+          "sha256": "f14f587338c4095cf50db49957147f0258765501f625b229faed8ca6f4fc2b1d",
+          "sha1": "b6e328226d5c2a0c01f5d0cab6a4c7b31c3ec87b",
+          "md5": "ab4b3f5c84c2a24d24ad33266b4aedfb"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-fabric-2.0.0-alpha.14+1.20.4-javadoc.jar",
+          "url": "debugrender-fabric-2.0.0-alpha.14+1.20.4-javadoc.jar",
+          "size": 124691,
+          "sha512": "6fa8d159a3c300af700995947c6d5250a009f565da652392c7596b9a83ebaacf823037cfb8bfcbeb2bde1a7f78688b2ac03567da6748fce71839e442e3570756",
+          "sha256": "fced05f53bce7822d242ed35b1310fea1cbe7beab0f5035da0dbfb3bd10eaed9",
+          "sha1": "5d9737c2d4a7f7f012037bf19ca882250c261352",
+          "md5": "b7f54bcfed5a33d02cf0b6f339c064c1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-fabric-2.0.0-alpha.14+1.20.4-sources.jar",
+          "url": "debugrender-fabric-2.0.0-alpha.14+1.20.4-sources.jar",
+          "size": 75408,
+          "sha512": "5de8fb7fa15e936513abc4c1b4fc1dae2d57b2f96923f96e5f89af97a4675977658cd3d9f05a52b785fec8a1881e6126da46ed081569a28908882c874a2aea63",
+          "sha256": "299d92d5c1af7cef01c76dae5a72500d7e3213fa985a41bd76818052a3e879f3",
+          "sha1": "174b9ef14bfd92173c77f072f31ae2e8e1e7a1b5",
+          "md5": "aa30872cb40f099e4ad6a00a70b06643"
+        }
+      ]
+    }
+  ]
+}
