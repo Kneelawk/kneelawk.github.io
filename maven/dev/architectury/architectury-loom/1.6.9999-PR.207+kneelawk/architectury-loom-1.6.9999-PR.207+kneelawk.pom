@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev.architectury</groupId>
   <artifactId>architectury-loom</artifactId>
-  <version>1.6-PR.207.9999+kneelawk</version>
+  <version>1.6.9999-PR.207+kneelawk</version>
   <dependencies>
     <dependency>
       <groupId>commons-io</groupId>

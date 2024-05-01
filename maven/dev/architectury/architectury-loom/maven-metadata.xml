@@ -3,11 +3,11 @@
   <groupId>dev.architectury</groupId>
   <artifactId>architectury-loom</artifactId>
   <versioning>
-    <latest>1.6-PR.207.9999+kneelawk</latest>
-    <release>1.6-PR.207.9999+kneelawk</release>
+    <latest>1.6.9999-PR.207+kneelawk</latest>
+    <release>1.6.9999-PR.207+kneelawk</release>
     <versions>
-      <version>1.6-PR.207.9999+kneelawk</version>
+      <version>1.6.9999-PR.207+kneelawk</version>
     </versions>
-    <lastUpdated>20240501141520</lastUpdated>
+    <lastUpdated>20240501144833</lastUpdated>
   </versioning>
 </metadata>
