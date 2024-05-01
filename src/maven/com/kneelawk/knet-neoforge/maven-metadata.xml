@@ -3,13 +3,14 @@
   <groupId>com.kneelawk</groupId>
   <artifactId>knet-neoforge</artifactId>
   <versioning>
-    <latest>0.3.0-beta.4+1.20.6</latest>
-    <release>0.3.0-beta.4+1.20.6</release>
+    <latest>0.3.0-beta.5+1.20.6</latest>
+    <release>0.3.0-beta.5+1.20.6</release>
     <versions>
       <version>0.3.0-beta.2+1.20.5</version>
       <version>0.3.0-beta.3+1.20.5</version>
       <version>0.3.0-beta.4+1.20.6</version>
+      <version>0.3.0-beta.5+1.20.6</version>
     </versions>
-    <lastUpdated>20240501154835</lastUpdated>
+    <lastUpdated>20240501215826</lastUpdated>
   </versioning>
 </metadata>
