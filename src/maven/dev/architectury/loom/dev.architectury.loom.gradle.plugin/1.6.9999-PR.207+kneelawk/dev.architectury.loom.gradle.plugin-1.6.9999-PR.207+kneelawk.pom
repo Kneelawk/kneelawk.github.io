@@ -3,13 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>dev.architectury.loom</groupId>
   <artifactId>dev.architectury.loom.gradle.plugin</artifactId>
-  <version>1.6-PR.207.9999+kneelawk</version>
+  <version>1.6.9999-PR.207+kneelawk</version>
   <packaging>pom</packaging>
   <dependencies>
     <dependency>
       <groupId>dev.architectury</groupId>
       <artifactId>architectury-loom</artifactId>
-      <version>1.6-PR.207.9999+kneelawk</version>
+      <version>1.6.9999-PR.207+kneelawk</version>
     </dependency>
   </dependencies>
 </project>
