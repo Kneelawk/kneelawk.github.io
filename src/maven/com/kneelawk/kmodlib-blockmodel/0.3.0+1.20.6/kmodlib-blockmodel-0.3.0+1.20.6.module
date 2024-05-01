@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-blockmodel",
+    "version": "0.3.0+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.3.0+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.0+1.20.6.jar",
+          "url": "kmodlib-blockmodel-0.3.0+1.20.6.jar",
+          "size": 103895,
+          "sha512": "b95d031e10cab804b5c6b5a174e1cb7d046b384023cb84704aa291204c54cdd012133b18b6e97a1c224590045f85c02218e9aaa10fc8e2e7e7b4c7e33b63b3f7",
+          "sha256": "d5baeda8bf794400152a6cb29fdb6aca7921771c6f414ad35dde7bdb5585abd9",
+          "sha1": "6d47ff6111cea58da9005633893a716d5b9a1fcc",
+          "md5": "50b099f5bedacc137706888bf0162892"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.3.0+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.0+1.20.6.jar",
+          "url": "kmodlib-blockmodel-0.3.0+1.20.6.jar",
+          "size": 103895,
+          "sha512": "b95d031e10cab804b5c6b5a174e1cb7d046b384023cb84704aa291204c54cdd012133b18b6e97a1c224590045f85c02218e9aaa10fc8e2e7e7b4c7e33b63b3f7",
+          "sha256": "d5baeda8bf794400152a6cb29fdb6aca7921771c6f414ad35dde7bdb5585abd9",
+          "sha1": "6d47ff6111cea58da9005633893a716d5b9a1fcc",
+          "md5": "50b099f5bedacc137706888bf0162892"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.0+1.20.6-javadoc.jar",
+          "url": "kmodlib-blockmodel-0.3.0+1.20.6-javadoc.jar",
+          "size": 253012,
+          "sha512": "62ae5b97b76fc71410040c898d7a4f71a7c79957126797c40d634f1fb76bb35cba0a90e036ba0d43381c84199f599968d3a2d8f8a3fbe27503d93acdfc8ea923",
+          "sha256": "c85d4c8ec3f98dbded199b9a09812e4ff04ab60ee6d6d16b64ff5347c683998f",
+          "sha1": "3ab5aedd4cd2064757c2437a59a245112efd943b",
+          "md5": "3926b458cb6be61f11704a4fab54bb46"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.0+1.20.6-sources.jar",
+          "url": "kmodlib-blockmodel-0.3.0+1.20.6-sources.jar",
+          "size": 46237,
+          "sha512": "0db642bc6229a0cee8817b1233ab16af159a7c1580791b549df20f3351c4f56a2ca681eb27ecad4841ee16a888d8f5a5d563fdc64dc245d9d86296b97482a7ba",
+          "sha256": "d279d8e652b3fb7e23e776e3a0e541171f6370f7f27398f269772758a255f316",
+          "sha1": "a214e0f4205fba716694ec0aacd429bbd2d7bce8",
+          "md5": "c6d5046f0434e509781035a85790c5cf"
+        }
+      ]
+    }
+  ]
+}
