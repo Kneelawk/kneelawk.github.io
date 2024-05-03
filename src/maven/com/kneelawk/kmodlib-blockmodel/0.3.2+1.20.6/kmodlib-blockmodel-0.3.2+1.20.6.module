@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-blockmodel",
+    "version": "0.3.2+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.3.2+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.2+1.20.6.jar",
+          "url": "kmodlib-blockmodel-0.3.2+1.20.6.jar",
+          "size": 103896,
+          "sha512": "4b1cb703ed612bd0bca27d71acb8148cd11992cb591d793984242b2ec4f473e2bf01b14d023ced9d3099b8af951c05982f0d04e484582cdaa4ef0cda3cb0aab5",
+          "sha256": "d107d7761cffd22f8b19ae3d15a8cb7cecf2bb69b5a170ce6019aaf4dd881714",
+          "sha1": "a9fbe741ce0d51fa725f05bef8bad37f88267c58",
+          "md5": "ba0cb5946da87eed13c913c1c27940de"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.3.2+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.2+1.20.6.jar",
+          "url": "kmodlib-blockmodel-0.3.2+1.20.6.jar",
+          "size": 103896,
+          "sha512": "4b1cb703ed612bd0bca27d71acb8148cd11992cb591d793984242b2ec4f473e2bf01b14d023ced9d3099b8af951c05982f0d04e484582cdaa4ef0cda3cb0aab5",
+          "sha256": "d107d7761cffd22f8b19ae3d15a8cb7cecf2bb69b5a170ce6019aaf4dd881714",
+          "sha1": "a9fbe741ce0d51fa725f05bef8bad37f88267c58",
+          "md5": "ba0cb5946da87eed13c913c1c27940de"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.2+1.20.6-javadoc.jar",
+          "url": "kmodlib-blockmodel-0.3.2+1.20.6-javadoc.jar",
+          "size": 253013,
+          "sha512": "2818f97f65343bcbb3323c3a0f771f22e4d1c6de967c7d1035f76aa03a0d877bc8636cac79d7d3408841bec7418934df472733e5026ca159b7f9c8626bc6006e",
+          "sha256": "13c49d24c912057edb5c3c7da1b8696193b290e18b540e2d3aa69408669ec45d",
+          "sha1": "c8078b6a28c12004453bd448c798e8e2f7352086",
+          "md5": "df9176ec18bab335b3628912baefaaea"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.2+1.20.6-sources.jar",
+          "url": "kmodlib-blockmodel-0.3.2+1.20.6-sources.jar",
+          "size": 46237,
+          "sha512": "2f2f12b8769401b1e128d5dfdbc97c76a512878d2fee26e0595bc3a0f3d74e1d6da80dc9c25d277fec3919b0ad2310b54d33e4b0022925e634e5d87a32fb0598",
+          "sha256": "d6576d16781196629a7d41229c61fa8913f2ed421483512c3a3f8bef415d4992",
+          "sha1": "c195adf78b73bbdf0230c2e0967b76bc356ea66e",
+          "md5": "6098d5f53fd0c1b06bd9ea2768b466b7"
+        }
+      ]
+    }
+  ]
+}

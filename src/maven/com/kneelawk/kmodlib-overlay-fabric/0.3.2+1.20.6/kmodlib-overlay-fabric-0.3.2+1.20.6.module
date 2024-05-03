@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-overlay-fabric",
+    "version": "0.3.2+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "kmodlib-overlay-fabric-0.3.2+1.20.6.jar",
+          "url": "kmodlib-overlay-fabric-0.3.2+1.20.6.jar",
+          "size": 15708,
+          "sha512": "cfb1e31601017960c74da98922829120642376bbf6fe2f5ab38914082140209caa8f92abbac6097d13091754bf186ee4207cb77db748129ec32c7ebb30529e79",
+          "sha256": "12f3ebfee7662e165f7eb97b8d5f6437ed9041059e5532e23a039fccc2cf659c",
+          "sha1": "155e8307a939aa10775220b3a8f6d7cfd5174eaf",
+          "md5": "5608ca496bbac35dd5ed287fe2979124"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-overlay-fabric-0.3.2+1.20.6.jar",
+          "url": "kmodlib-overlay-fabric-0.3.2+1.20.6.jar",
+          "size": 15708,
+          "sha512": "cfb1e31601017960c74da98922829120642376bbf6fe2f5ab38914082140209caa8f92abbac6097d13091754bf186ee4207cb77db748129ec32c7ebb30529e79",
+          "sha256": "12f3ebfee7662e165f7eb97b8d5f6437ed9041059e5532e23a039fccc2cf659c",
+          "sha1": "155e8307a939aa10775220b3a8f6d7cfd5174eaf",
+          "md5": "5608ca496bbac35dd5ed287fe2979124"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-overlay-fabric-0.3.2+1.20.6-javadoc.jar",
+          "url": "kmodlib-overlay-fabric-0.3.2+1.20.6-javadoc.jar",
+          "size": 96759,
+          "sha512": "e2320c5609a4bcd07165a0a039d84f483640a14b67da4ce3c7b854bfdc41add81b8efae7db1d9ee88309fbe55657282fca2f1ff3133c4d6501d66786d4e57457",
+          "sha256": "f2da6f74dd086634587611581208eebe1ff788fac437a6e3e17e56e21c7c6f8b",
+          "sha1": "0253f4e3aed5bf499429d26dddc6a9f3c896e9c5",
+          "md5": "0ed9bae3e0a870d10cb2069988b9ed55"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-overlay-fabric-0.3.2+1.20.6-sources.jar",
+          "url": "kmodlib-overlay-fabric-0.3.2+1.20.6-sources.jar",
+          "size": 13140,
+          "sha512": "0542f8520e7ab686da7bc1a1f92362f98ecc08bee3725ad7ff7550f1c702d49eae321c99b74e9be31aa6c86d4218d1a657f1678854e4d162b0ede4dd86f7899b",
+          "sha256": "8a5a16d63f082476b434a8eebd7d61237df4176db4fd9be86901801e2ed79d00",
+          "sha1": "2fd24bf7650b22c68a0771ac0df475ee48194558",
+          "md5": "852f42b975efab214d76c1b71b0ebe4e"
+        }
+      ]
+    }
+  ]
+}
