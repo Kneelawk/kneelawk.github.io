@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-blockmodel",
+    "version": "0.3.1+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.3.1+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.1+1.20.6.jar",
+          "url": "kmodlib-blockmodel-0.3.1+1.20.6.jar",
+          "size": 103894,
+          "sha512": "f7d2253fa10442e5681cda75e4ab83c7be97eeefb5c3f41ed2c86a7a86cf13c84d44fee530bd42eca9de85604594e63c1a993ff3efe9ee09ae7d57ef8d7d80ff",
+          "sha256": "b3d1c81826d125e6b8b0b22164a3e548ef90227edb6e7a1a446e32541db31cb8",
+          "sha1": "125a55f6d710007e61737a9a8ab57a63cc4adab0",
+          "md5": "025aa0674dba9d27ea1aa46efcddcb01"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.3.1+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.1+1.20.6.jar",
+          "url": "kmodlib-blockmodel-0.3.1+1.20.6.jar",
+          "size": 103894,
+          "sha512": "f7d2253fa10442e5681cda75e4ab83c7be97eeefb5c3f41ed2c86a7a86cf13c84d44fee530bd42eca9de85604594e63c1a993ff3efe9ee09ae7d57ef8d7d80ff",
+          "sha256": "b3d1c81826d125e6b8b0b22164a3e548ef90227edb6e7a1a446e32541db31cb8",
+          "sha1": "125a55f6d710007e61737a9a8ab57a63cc4adab0",
+          "md5": "025aa0674dba9d27ea1aa46efcddcb01"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.1+1.20.6-javadoc.jar",
+          "url": "kmodlib-blockmodel-0.3.1+1.20.6-javadoc.jar",
+          "size": 253009,
+          "sha512": "026e7131fc7d8af0fdb77d9fe91e2531a00f7cb0d935a50e5075ffcf4b71266a49177bbb12109a9e855e48e3344e0dffa39d70e92817d861ba998dfc4d2fb66e",
+          "sha256": "b473e15e6a2a67d850bb45ce25786242dee7b3183b8a21725671491175f289fb",
+          "sha1": "d7437ca24f6016240b7fd09a06b32187c611bcdd",
+          "md5": "bf884d8c7f2da632c20a6ac159eb8bf6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.1+1.20.6-sources.jar",
+          "url": "kmodlib-blockmodel-0.3.1+1.20.6-sources.jar",
+          "size": 46237,
+          "sha512": "77623e4041e5aa8e9c6825beb3e8d05304be22896c95642625b04266c8494b0f9ad64b24c53b7c005308add359309a1915533d71cbb41565803bb8748638b9a6",
+          "sha256": "624a9a04a06e78b3c92816189684c692396f8c1061a655451b12201e3e1c31c9",
+          "sha1": "c5f6d49194e6bf04731bf8edac0f8e744024697e",
+          "md5": "ab07caceb32753c12c1f3655206f0278"
+        }
+      ]
+    }
+  ]
+}

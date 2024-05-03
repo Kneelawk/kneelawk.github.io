@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-all-fabric",
+    "version": "0.3.1+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-blockmodel",
+          "version": {
+            "requires": "0.3.1+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-overlay-fabric",
+          "version": {
+            "requires": "0.3.1+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-renderlayer",
+          "version": {
+            "requires": "0.3.1+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-all-fabric-0.3.1+1.20.6.jar",
+          "url": "kmodlib-all-fabric-0.3.1+1.20.6.jar",
+          "size": 130513,
+          "sha512": "0db72072ac42ddf5a4ce2e2f9b699cebc5e9a353def2f1a29896e702869c8fa1a824217029d2893a7dcbf247bf98de759a76962dc164b94833c618a4c3714684",
+          "sha256": "c57088614217252cc641a806bf75460a003c91a71608e67bf93875233bc6fab5",
+          "sha1": "922696c3e09c8275e90155772121f1c8e0a5210b",
+          "md5": "8a086a6760657e53a576b5910bb888e4"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-blockmodel",
+          "version": {
+            "requires": "0.3.1+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-overlay-fabric",
+          "version": {
+            "requires": "0.3.1+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-renderlayer",
+          "version": {
+            "requires": "0.3.1+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-all-fabric-0.3.1+1.20.6.jar",
+          "url": "kmodlib-all-fabric-0.3.1+1.20.6.jar",
+          "size": 130513,
+          "sha512": "0db72072ac42ddf5a4ce2e2f9b699cebc5e9a353def2f1a29896e702869c8fa1a824217029d2893a7dcbf247bf98de759a76962dc164b94833c618a4c3714684",
+          "sha256": "c57088614217252cc641a806bf75460a003c91a71608e67bf93875233bc6fab5",
+          "sha1": "922696c3e09c8275e90155772121f1c8e0a5210b",
+          "md5": "8a086a6760657e53a576b5910bb888e4"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-all-fabric-0.3.1+1.20.6-javadoc.jar",
+          "url": "kmodlib-all-fabric-0.3.1+1.20.6-javadoc.jar",
+          "size": 261,
+          "sha512": "5c83a6bf69e042e92bad06d9e2155265b81c1a2b0f58091df4fff542a6841b4a78f2b67eb970b35cce47b2f9c12f322258c7d8cb5bdd5f30402fc743e4a7707c",
+          "sha256": "124d79c9028add7d9eb0d3bb5557579f94783b9cf77bc88d686c03880338c0c9",
+          "sha1": "eea3844a522ed84fb90b7d324da21ab2a3437fed",
+          "md5": "6f67b159ed6bbaab5dd9681a0f6eb4b4"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-all-fabric-0.3.1+1.20.6-sources.jar",
+          "url": "kmodlib-all-fabric-0.3.1+1.20.6-sources.jar",
+          "size": 9421,
+          "sha512": "33810dc3ab2f9aae0e599132f8549a839cf7a69d46f1037d01387a229d65403738b7e9f35e44aaa73904b7e31bd242fa63719378155c2c6808df9ac635038243",
+          "sha256": "7ae6b50193c75a4132de4586ad150b3b05cc3ac495c5967712b9a0f4b5ad648c",
+          "sha1": "f432f1f2391d59e6ce7cfc1a9ea73e292a6d573c",
+          "md5": "6411b8e738454752c230252cac297913"
+        }
+      ]
+    }
+  ]
+}
