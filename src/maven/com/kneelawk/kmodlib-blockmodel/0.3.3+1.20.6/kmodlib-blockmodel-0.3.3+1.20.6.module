@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "kmodlib-blockmodel",
+    "version": "0.3.3+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.3.3+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.3+1.20.6.jar",
+          "url": "kmodlib-blockmodel-0.3.3+1.20.6.jar",
+          "size": 103895,
+          "sha512": "f87f069d5b28e6d6239eec818af82b8cf28da7b01a06aff8d59393a8194a175e20012b8b6575e78e55121b1994cc7ab10e711e3e659358e8e8705b96a0dc95e1",
+          "sha256": "5214461b3eec6ac8695a75bcdd6df0bad3f8ae81c2832ee42b48cd514eadf1f1",
+          "sha1": "2a9762e262bccbc7d92cf0c38e3957e5e710d985",
+          "md5": "534b326f5aa3658e9cf2a4bc8f96cb56"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-rendertag",
+          "version": {
+            "requires": "0.3.3+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.3+1.20.6.jar",
+          "url": "kmodlib-blockmodel-0.3.3+1.20.6.jar",
+          "size": 103895,
+          "sha512": "f87f069d5b28e6d6239eec818af82b8cf28da7b01a06aff8d59393a8194a175e20012b8b6575e78e55121b1994cc7ab10e711e3e659358e8e8705b96a0dc95e1",
+          "sha256": "5214461b3eec6ac8695a75bcdd6df0bad3f8ae81c2832ee42b48cd514eadf1f1",
+          "sha1": "2a9762e262bccbc7d92cf0c38e3957e5e710d985",
+          "md5": "534b326f5aa3658e9cf2a4bc8f96cb56"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.3+1.20.6-javadoc.jar",
+          "url": "kmodlib-blockmodel-0.3.3+1.20.6-javadoc.jar",
+          "size": 253010,
+          "sha512": "e4d5cf080120336854fdf61898e17f5029e6bc75eb854a6d1a6bb8a07233b56d30a1bd92f5d2e3e18e7c6bca0770f53be09b25ddadfa2d82f324499b2322b18e",
+          "sha256": "993ede9a2e2e80ddc122c142fe59323480edd2ed6c0eb4d9bb355e1e8425b1af",
+          "sha1": "89bb079cfd5daed739eab31ab2824ddb857fe36c",
+          "md5": "12a1568bbda1c6a724f2cd018392ad33"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "kmodlib-blockmodel-0.3.3+1.20.6-sources.jar",
+          "url": "kmodlib-blockmodel-0.3.3+1.20.6-sources.jar",
+          "size": 46237,
+          "sha512": "b59ea0c53e858f429291c2498e67aef9a71472752b3fae52431bae9dfeffb8610d41fce172e81d27e2472c4eb094886aef3fadaca996c2ce37f35ad438d46876",
+          "sha256": "69010fe4d17ecd0929be6945fe0c2378c6cf75b2947410e9e5ba0a24112c223a",
+          "sha1": "b2e322b1bf7998ba62154cb3c5735f8eaed1c378",
+          "md5": "689034bd616c52531fe9209b8d76e715"
+        }
+      ]
+    }
+  ]
+}
