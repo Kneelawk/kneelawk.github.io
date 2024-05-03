@@ -3,11 +3,12 @@
   <groupId>dev.architectury.loom</groupId>
   <artifactId>dev.architectury.loom.gradle.plugin</artifactId>
   <versioning>
-    <latest>1.6.9999-PR.207+kneelawk</latest>
-    <release>1.6.9999-PR.207+kneelawk</release>
+    <latest>1.6.9999-PR.209+kneelawk</latest>
+    <release>1.6.9999-PR.209+kneelawk</release>
     <versions>
       <version>1.6.9999-PR.207+kneelawk</version>
+      <version>1.6.9999-PR.209+kneelawk</version>
     </versions>
-    <lastUpdated>20240501144827</lastUpdated>
+    <lastUpdated>20240503010404</lastUpdated>
   </versioning>
 </metadata>
