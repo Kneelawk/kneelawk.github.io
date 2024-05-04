@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.kneelawk.knet.api"},{"l":"com.kneelawk.knet.api.channel"},{"l":"com.kneelawk.knet.api.channel.context"},{"l":"com.kneelawk.knet.api.event"},{"l":"com.kneelawk.knet.api.handling"},{"l":"com.kneelawk.knet.api.phase.config"},{"l":"com.kneelawk.knet.api.util"}];updateSearchResults();
