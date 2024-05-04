@@ -1,0 +1,84 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "remapcheck",
+    "version": "0.3.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "remapcheck-0.3.1.jar",
+          "url": "remapcheck-0.3.1.jar",
+          "size": 17647,
+          "sha512": "a6188df6044d9384b77b3f80f3ade098560c6f7d4bf05e4fcb417c7ca532aa50b4b60addcafa150ca14398e881cb4705f570879477ed05fdefa56f339a9e2715",
+          "sha256": "555fab5de761543e5d01e3f20df95bc4812e985186b8c06edb6cb7d8fc2cd79f",
+          "sha1": "cbab145e654f51d2623bf8c67fdbcdbe8bcc3b7a",
+          "md5": "2804d3cde05dba8aae95589a19dd06bd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "remapcheck-0.3.1.jar",
+          "url": "remapcheck-0.3.1.jar",
+          "size": 17647,
+          "sha512": "a6188df6044d9384b77b3f80f3ade098560c6f7d4bf05e4fcb417c7ca532aa50b4b60addcafa150ca14398e881cb4705f570879477ed05fdefa56f339a9e2715",
+          "sha256": "555fab5de761543e5d01e3f20df95bc4812e985186b8c06edb6cb7d8fc2cd79f",
+          "sha1": "cbab145e654f51d2623bf8c67fdbcdbe8bcc3b7a",
+          "md5": "2804d3cde05dba8aae95589a19dd06bd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "remapcheck-0.3.1-sources.jar",
+          "url": "remapcheck-0.3.1-sources.jar",
+          "size": 2267,
+          "sha512": "6fd87ea8ef8cd6d1ecd8331d32b3a312c75463369f987f5d00a0d1e9de57dcb368e270f9f04c81b1c20af5d8d8e94e811737b864b8ea01df306613215a77f513",
+          "sha256": "b6802e577dd7116c9ec4423a927c3a6f4a893427624d3afd3ed85b0720c929ff",
+          "sha1": "4a0dbb743402a4ef83b03bc18859f5c0d716d876",
+          "md5": "4f121533b221168015a4e8447aeca73a"
+        }
+      ]
+    }
+  ]
+}
