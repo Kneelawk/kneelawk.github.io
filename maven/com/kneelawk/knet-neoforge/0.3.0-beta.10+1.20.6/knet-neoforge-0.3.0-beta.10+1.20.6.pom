@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.kneelawk</groupId>
+  <artifactId>knet-neoforge</artifactId>
+  <version>0.3.0-beta.10+1.20.6</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.kneelawk</groupId>
+      <artifactId>common-events-neoforge</artifactId>
+      <version>0.1.1+1.20.5</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+</project>
