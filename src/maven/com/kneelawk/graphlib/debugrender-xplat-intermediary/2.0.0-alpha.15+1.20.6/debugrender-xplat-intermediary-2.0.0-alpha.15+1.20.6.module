@@ -1,0 +1,125 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "debugrender-xplat-intermediary",
+    "version": "2.0.0-alpha.15+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-xplat-intermediary",
+          "version": {
+            "requires": "2.0.0-alpha.15+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.15+1.20.6.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.15+1.20.6.jar",
+          "size": 80583,
+          "sha512": "d22e7f9821b9e2d43761eefeb04828b4e6114a4629b5da7d3aa8447247f3f47b13d831660c8f31d3127e3627a0d0f1ca9714afcc05cd138b29c1545d904ec9c9",
+          "sha256": "6c157308b4eb0a7b93c07fc9919161f9f5fdc3d6ead551db7a7ce3083b665f72",
+          "sha1": "9bb4cbe94b92a7612c83665731e344bc39a5ad56",
+          "md5": "80675210306cadcfbc0af120663a6ebd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-xplat-intermediary",
+          "version": {
+            "requires": "2.0.0-alpha.15+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "kmodlib-renderlayer",
+          "version": {
+            "requires": "0.3.3+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.15+1.20.6.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.15+1.20.6.jar",
+          "size": 80583,
+          "sha512": "d22e7f9821b9e2d43761eefeb04828b4e6114a4629b5da7d3aa8447247f3f47b13d831660c8f31d3127e3627a0d0f1ca9714afcc05cd138b29c1545d904ec9c9",
+          "sha256": "6c157308b4eb0a7b93c07fc9919161f9f5fdc3d6ead551db7a7ce3083b665f72",
+          "sha1": "9bb4cbe94b92a7612c83665731e344bc39a5ad56",
+          "md5": "80675210306cadcfbc0af120663a6ebd"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.15+1.20.6-sources.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.15+1.20.6-sources.jar",
+          "size": 70634,
+          "sha512": "d01a727a885e81d41efe35454d32701bdf241728f8a28fbb42be7e016042e064cfc37d939a5669749c6279ac8dcd222fb771d4ee2d29b85435b1065f30be8a1a",
+          "sha256": "dc8751d45d92902baf347d80e74979148d44e8461886f1219f1dd1fd5a3045dd",
+          "sha1": "f079525aa4ae80e1e91f6553f36653e7e12185c2",
+          "md5": "09a4fff4950c438776d54395e8648a83"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.15+1.20.6-javadoc.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.15+1.20.6-javadoc.jar",
+          "size": 135929,
+          "sha512": "b87aca455ac358b96cf8088aed2452c86abf4beb996089c03f1a810e1043ccaf89db20e79ec483a5439f4a72582049f554ae07602b950720662c6eeb64241a57",
+          "sha256": "0eea8d5e92d267a939f757c627dd160c9a90323d65afca3ee30211b7ebd60f1e",
+          "sha1": "9c5cf99146f6714a622d26f8176566522c34ab53",
+          "md5": "b1601f69dfe431d2a8a0e7f8593cff0d"
+        }
+      ]
+    }
+  ]
+}

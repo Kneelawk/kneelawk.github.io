@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "syncing-core-fabric",
+    "version": "2.0.0-alpha.15+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.15+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-core-fabric-2.0.0-alpha.15+1.20.6.jar",
+          "url": "syncing-core-fabric-2.0.0-alpha.15+1.20.6.jar",
+          "size": 437149,
+          "sha512": "02ad3131ca98d14fdf61edc9d106af4823a41100200d460f07a43996ad85a61bfe094c626831b6df731724ee3e86f3c665f616fb49b111fa7569b05e7133b5b3",
+          "sha256": "7396fd8d6cbe66f4957a5ac81c1bd64092aaf965b268ffdeb0b55d3e38ac0037",
+          "sha1": "8eef4504c5c772187edf1eae8a857ce9104ed8b6",
+          "md5": "9c9d592af250dd741adb3dc06a2260d1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.15+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-core-fabric-2.0.0-alpha.15+1.20.6.jar",
+          "url": "syncing-core-fabric-2.0.0-alpha.15+1.20.6.jar",
+          "size": 437149,
+          "sha512": "02ad3131ca98d14fdf61edc9d106af4823a41100200d460f07a43996ad85a61bfe094c626831b6df731724ee3e86f3c665f616fb49b111fa7569b05e7133b5b3",
+          "sha256": "7396fd8d6cbe66f4957a5ac81c1bd64092aaf965b268ffdeb0b55d3e38ac0037",
+          "sha1": "8eef4504c5c772187edf1eae8a857ce9104ed8b6",
+          "md5": "9c9d592af250dd741adb3dc06a2260d1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-core-fabric-2.0.0-alpha.15+1.20.6-sources.jar",
+          "url": "syncing-core-fabric-2.0.0-alpha.15+1.20.6-sources.jar",
+          "size": 45620,
+          "sha512": "ef3b49bed84f6c42862d4cead868a5ef1119789a14649b5f22f016bae67440132e22f5043b4611f21f30e79db6b5d91dbfdfaa2430218665c2fa5c3267dc7b6e",
+          "sha256": "01699385a320d9eb52677e684a4c541cc262c4793312d2745a52a76fea5b951c",
+          "sha1": "d09ef86e7da7b27a5e52051b8634eef18a744aaa",
+          "md5": "655e6fee006175082f1d159db70f55db"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-core-fabric-2.0.0-alpha.15+1.20.6-javadoc.jar",
+          "url": "syncing-core-fabric-2.0.0-alpha.15+1.20.6-javadoc.jar",
+          "size": 111419,
+          "sha512": "82e533cfbca98a1458d9e478dc507e443177791c37c0be9deb041407da825e591e6a753acccb942b0a4dee7eb9735cd7e1ca929d98a5a671d96ea7504d7f94d9",
+          "sha256": "36f03517d83f75cf37a100fe2b8574ae5b4c45ca3303042b2df1dae70ed41f53",
+          "sha1": "a010c918139bb4b037b6eb9557e6a960ce2b9071",
+          "md5": "4a614606b9ba66e8910480c39cc1b071"
+        }
+      ]
+    }
+  ]
+}
