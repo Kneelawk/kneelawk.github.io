@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "codextra-fabric",
+    "version": "1.0.0+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "codextra-fabric-1.0.0+1.20.6.jar",
+          "url": "codextra-fabric-1.0.0+1.20.6.jar",
+          "size": 104457,
+          "sha512": "b451d2e736659df86632cd0dc99c62ff7bd1608163536e582c373f98576876bd95787802287efd1298d96ee47c25f4ab724f2f63aa9fa484fb2eaeb4b6944fc3",
+          "sha256": "8716266423f95308ccb5a281f91b4cf3dc4b2c5e9db85e84ee428f5075e76e21",
+          "sha1": "afaef3dba1043aa62013768649d07589f8a5110b",
+          "md5": "7c0af2f2d4046be5eef903484dea39b0"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "codextra-fabric-1.0.0+1.20.6.jar",
+          "url": "codextra-fabric-1.0.0+1.20.6.jar",
+          "size": 104457,
+          "sha512": "b451d2e736659df86632cd0dc99c62ff7bd1608163536e582c373f98576876bd95787802287efd1298d96ee47c25f4ab724f2f63aa9fa484fb2eaeb4b6944fc3",
+          "sha256": "8716266423f95308ccb5a281f91b4cf3dc4b2c5e9db85e84ee428f5075e76e21",
+          "sha1": "afaef3dba1043aa62013768649d07589f8a5110b",
+          "md5": "7c0af2f2d4046be5eef903484dea39b0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "codextra-fabric-1.0.0+1.20.6-sources.jar",
+          "url": "codextra-fabric-1.0.0+1.20.6-sources.jar",
+          "size": 73682,
+          "sha512": "dc098612f064b7e4530ed3943619b1ed46c4e2f45bc47982054312e5f1770a67d91787fe9c9855fb5a2feaa398723f3cd4cb4d326182aee1be1fd6189b753abd",
+          "sha256": "2f587d3bc22dfee0b4188bc006c22578f4dda8d5a6690dffc4c63ed3baa5d206",
+          "sha1": "e61ecf732485a0fc5b5699703e0fb10effebf29a",
+          "md5": "f75b991d99546820fcd991d3e410ee9c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "codextra-fabric-1.0.0+1.20.6-javadoc.jar",
+          "url": "codextra-fabric-1.0.0+1.20.6-javadoc.jar",
+          "size": 252158,
+          "sha512": "dcff7b69e37445f135691ebe7217ada02af0b6d0d1e6266fbffe7b304979402701a13abf4b78c38ce244f1cae616c0dc571a2c520f24df545b065d5f06c3cf53",
+          "sha256": "0116c7b8973c37327f6394a56b320b158645c6a8a8b1697a6143ad102e568320",
+          "sha1": "ff9a5a4e51d259af1c8f44514126a59633fc5d9e",
+          "md5": "74ad85528024d4c1cdd21b90c4e5f568"
+        }
+      ]
+    }
+  ]
+}
