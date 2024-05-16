@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "core-xplat-intermediary",
+    "version": "2.0.0-alpha.15+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "codextra-xplat-intermediary",
+          "version": {
+            "requires": "1.0.0+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-xplat-intermediary-2.0.0-alpha.15+1.20.6.jar",
+          "url": "core-xplat-intermediary-2.0.0-alpha.15+1.20.6.jar",
+          "size": 306797,
+          "sha512": "458c90cd5d87aea21c874811fbf09641391ebd7f0dd5f8c897a656a49da36d205919f294a6e9974f58bc137a02b09511def28feb3a3ab4b200c94614620783d5",
+          "sha256": "32e49cd2db13746d90937c4eefe70afc47825dc39f4de0ded50fd7140fe6eec5",
+          "sha1": "b6a37ca0131d99210a651af78ea0e417f1c93c6f",
+          "md5": "373c4da7488dbd692952430277b89243"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "codextra-xplat-intermediary",
+          "version": {
+            "requires": "1.0.0+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-xplat-intermediary-2.0.0-alpha.15+1.20.6.jar",
+          "url": "core-xplat-intermediary-2.0.0-alpha.15+1.20.6.jar",
+          "size": 306797,
+          "sha512": "458c90cd5d87aea21c874811fbf09641391ebd7f0dd5f8c897a656a49da36d205919f294a6e9974f58bc137a02b09511def28feb3a3ab4b200c94614620783d5",
+          "sha256": "32e49cd2db13746d90937c4eefe70afc47825dc39f4de0ded50fd7140fe6eec5",
+          "sha1": "b6a37ca0131d99210a651af78ea0e417f1c93c6f",
+          "md5": "373c4da7488dbd692952430277b89243"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-xplat-intermediary-2.0.0-alpha.15+1.20.6-sources.jar",
+          "url": "core-xplat-intermediary-2.0.0-alpha.15+1.20.6-sources.jar",
+          "size": 227126,
+          "sha512": "d1f7bac4a4e76cb4ab7df7a1f737aba69c938bcad6c2692dfbcf14a6cad130ac087ff1bcc3dbd7ef3ea52910465ca6f678d34617a3284df34927d892af7f072d",
+          "sha256": "49471d9468bdb5eb9614d5eed60419cc125a980932b6cc67b12971e85fbd508b",
+          "sha1": "0ca243e8d4ccdac8723e90ae6c5d8cfda98dfee4",
+          "md5": "61e5aa1635f8d7aa7235e10575aeaf4b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-xplat-intermediary-2.0.0-alpha.15+1.20.6-javadoc.jar",
+          "url": "core-xplat-intermediary-2.0.0-alpha.15+1.20.6-javadoc.jar",
+          "size": 363005,
+          "sha512": "df5cfba40f7352454e041cd359a7e0aea875a80a311141471c241e82c3b4060194f5cbaf5b7f4a5e3afe94f019b35f9e4afefdcef5e5cdf56a366c5598f40b99",
+          "sha256": "bd23d9cf473d981c693f1c70b1eb7fcacdac5e6eab707fbdae3f1506cdceb6b5",
+          "sha1": "cbc9591ff98e5076455006bd2ba1441ca95a95a8",
+          "md5": "6339fa2181af580da3608aca1da7d1a7"
+        }
+      ]
+    }
+  ]
+}
