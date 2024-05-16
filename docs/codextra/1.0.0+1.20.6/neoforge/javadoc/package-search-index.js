@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"All Packages","u":"allpackages-index.html"},{"l":"com.kneelawk.codextra.api"},{"l":"com.kneelawk.codextra.api.attach"},{"l":"com.kneelawk.codextra.api.attach.codec"},{"l":"com.kneelawk.codextra.api.attach.stream"},{"l":"com.kneelawk.codextra.api.codec"},{"l":"com.kneelawk.codextra.api.util"}];updateSearchResults();
