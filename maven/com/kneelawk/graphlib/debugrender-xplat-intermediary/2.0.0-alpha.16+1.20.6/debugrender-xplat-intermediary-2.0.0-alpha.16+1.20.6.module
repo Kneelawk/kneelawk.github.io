@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "debugrender-xplat-intermediary",
+    "version": "2.0.0-alpha.16+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-xplat-intermediary",
+          "version": {
+            "requires": "2.0.0-alpha.16+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.16+1.20.6.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.16+1.20.6.jar",
+          "size": 79998,
+          "sha512": "600676e6737cf5cee7cd40130e6e18ff163ec7407b7b3eb588dc54c5f02ef1e2e788e05c2fcfa15d0131f2b099c34dbd6d0c4879b26c1bf87b05abad8ecc8131",
+          "sha256": "8231df752471099f62fc338c0ac053ca18b0e55e6059fa3a1070d4d4af4b2211",
+          "sha1": "238d3a8bb96db933649f4902e8c359313fdcd81e",
+          "md5": "5b237c78012dfde1dcb9c50c8160540d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-xplat-intermediary",
+          "version": {
+            "requires": "2.0.0-alpha.16+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.16+1.20.6.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.16+1.20.6.jar",
+          "size": 79998,
+          "sha512": "600676e6737cf5cee7cd40130e6e18ff163ec7407b7b3eb588dc54c5f02ef1e2e788e05c2fcfa15d0131f2b099c34dbd6d0c4879b26c1bf87b05abad8ecc8131",
+          "sha256": "8231df752471099f62fc338c0ac053ca18b0e55e6059fa3a1070d4d4af4b2211",
+          "sha1": "238d3a8bb96db933649f4902e8c359313fdcd81e",
+          "md5": "5b237c78012dfde1dcb9c50c8160540d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.16+1.20.6-sources.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.16+1.20.6-sources.jar",
+          "size": 70051,
+          "sha512": "1075dc3643b9a51051a56b56ef163263e87b01489496a590d957ef5d2672f5b7f503ed60c0b14af7f45c0696fd3eecd5a1342833893c2d188ebe8347aa042fa4",
+          "sha256": "412f70b536daeed3a65a766f3ba79b1e77aaf8620f58b505230c6ecfc44c1830",
+          "sha1": "fee839ffb7f8dd2c4b41edd3b8b41a9378134a4e",
+          "md5": "8daef0d5457b58e92a6d46d1a5b479c1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-xplat-intermediary-2.0.0-alpha.16+1.20.6-javadoc.jar",
+          "url": "debugrender-xplat-intermediary-2.0.0-alpha.16+1.20.6-javadoc.jar",
+          "size": 135921,
+          "sha512": "ba6ab68c5a70b9f6f7c0c319474de872205c00de7020eb2398c068ff746cc2ec12783ca5ddeba475205ae6a75ca994449e6cbe4a68f52dde87638e9c7a7fe3f2",
+          "sha256": "6474a93e5249f64fa7fbd5a35fea583105ecbec32268a24cd53db28548707cd0",
+          "sha1": "da7733bc3605380f830dd8a9f22fde7a3097b654",
+          "md5": "d2d7784975b9621a8729faae6e5ee657"
+        }
+      ]
+    }
+  ]
+}

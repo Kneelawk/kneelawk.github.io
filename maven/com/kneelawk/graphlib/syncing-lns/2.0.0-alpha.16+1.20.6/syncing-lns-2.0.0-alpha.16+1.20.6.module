@@ -1,0 +1,146 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "syncing-lns",
+    "version": "2.0.0-alpha.16+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.16+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "syncing-core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.16+1.20.6"
+          }
+        },
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.12.0-pre.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-lns-2.0.0-alpha.16+1.20.6.jar",
+          "url": "syncing-lns-2.0.0-alpha.16+1.20.6.jar",
+          "size": 1059418,
+          "sha512": "ef9dafe8da0dd076c7ad65194df4327fc52c78204f2bba18382f951b3340ca335d7d589762c4d48e2141f4242b47de3d624ab552d4ea7736c34c5f29e55934a7",
+          "sha256": "773280924341a0bd2ed9d639ff28b38203a669979aa008e78b69469570f1da52",
+          "sha1": "6c8a53b81de10d5b3ce02a685c25fbb68ce7a6ad",
+          "md5": "0ab72ab32e682aa696ed1b7ad2854e58"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.16+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "syncing-core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.16+1.20.6"
+          }
+        },
+        {
+          "group": "alexiil.mc.lib",
+          "module": "libnetworkstack-base",
+          "version": {
+            "requires": "0.12.0-pre.2"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-lns-2.0.0-alpha.16+1.20.6.jar",
+          "url": "syncing-lns-2.0.0-alpha.16+1.20.6.jar",
+          "size": 1059418,
+          "sha512": "ef9dafe8da0dd076c7ad65194df4327fc52c78204f2bba18382f951b3340ca335d7d589762c4d48e2141f4242b47de3d624ab552d4ea7736c34c5f29e55934a7",
+          "sha256": "773280924341a0bd2ed9d639ff28b38203a669979aa008e78b69469570f1da52",
+          "sha1": "6c8a53b81de10d5b3ce02a685c25fbb68ce7a6ad",
+          "md5": "0ab72ab32e682aa696ed1b7ad2854e58"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-lns-2.0.0-alpha.16+1.20.6-sources.jar",
+          "url": "syncing-lns-2.0.0-alpha.16+1.20.6-sources.jar",
+          "size": 60510,
+          "sha512": "9091216a7c3579e85f6995aa5f5889869f715eda4027fd4412a58853bc2fa3ac6eea244e3481c99e5c4aafaded20a85fcbd98f801b0750d343f8f9c41fb94a71",
+          "sha256": "03101d1a44075f4479c92cc7a58e516eb8d937d2ac4acbccff3b3ac115cf1ee7",
+          "sha1": "af3d6a50ce648d99e71f5bfa21b493e9e94e2c09",
+          "md5": "b9c9bed3fb0213bc3ca571831201461a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-lns-2.0.0-alpha.16+1.20.6-javadoc.jar",
+          "url": "syncing-lns-2.0.0-alpha.16+1.20.6-javadoc.jar",
+          "size": 156803,
+          "sha512": "72523cd2a4c1298978056d1ef50b3484e9c47e8ec4d5e98a9c8946553ede73113f2555c5d0811930e7eeebdd45b4b05e4f07cc7f8500bc7ff24a292c718d02fd",
+          "sha256": "b4ced4716a517aeeac863efe669529e793f5750b928c5109c1bf837092219089",
+          "sha1": "3e2784f8e971eae08df7c5acad59f7eec572d70b",
+          "md5": "f96bfefe9984d567e874473253ff7561"
+        }
+      ]
+    }
+  ]
+}
