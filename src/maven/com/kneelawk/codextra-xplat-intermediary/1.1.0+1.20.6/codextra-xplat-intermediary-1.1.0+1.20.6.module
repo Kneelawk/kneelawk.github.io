@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "codextra-xplat-intermediary",
+    "version": "1.1.0+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "codextra-xplat-intermediary-1.1.0+1.20.6.jar",
+          "url": "codextra-xplat-intermediary-1.1.0+1.20.6.jar",
+          "size": 107075,
+          "sha512": "d93d1e542f9c76d00dfa8f665efbe36aabaf0d497650e15db19d43940f1c3056c263ccc504ad3b9bd7d0703ff9465165cf60171f234ca8b4e87b709405d81f32",
+          "sha256": "beff2f3f780c5fc7fe89edc7e4c12f6b3bfd4b7a29b33d0a9fad59dd528081f5",
+          "sha1": "fd53cbcbc019c21c73c769fcca5d477b43792ebb",
+          "md5": "5ff33281cff78e00c9635a6f188dc89a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "codextra-xplat-intermediary-1.1.0+1.20.6.jar",
+          "url": "codextra-xplat-intermediary-1.1.0+1.20.6.jar",
+          "size": 107075,
+          "sha512": "d93d1e542f9c76d00dfa8f665efbe36aabaf0d497650e15db19d43940f1c3056c263ccc504ad3b9bd7d0703ff9465165cf60171f234ca8b4e87b709405d81f32",
+          "sha256": "beff2f3f780c5fc7fe89edc7e4c12f6b3bfd4b7a29b33d0a9fad59dd528081f5",
+          "sha1": "fd53cbcbc019c21c73c769fcca5d477b43792ebb",
+          "md5": "5ff33281cff78e00c9635a6f188dc89a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "codextra-xplat-intermediary-1.1.0+1.20.6-sources.jar",
+          "url": "codextra-xplat-intermediary-1.1.0+1.20.6-sources.jar",
+          "size": 74849,
+          "sha512": "dbbc44f0c009533ee8f17f37a5a0cf6c5713f436c37d78ceea6d273f72219a2ff0dd18b48d27b6998f0114328d85553cc50551e74297b2685190e3ba0983bda7",
+          "sha256": "5b3f76eeca44e04330f486dc69ecebed4f11bfffa5b5751224fb75d84c76d382",
+          "sha1": "9ac4f68f3da566fc227674196836c6e02e08dc48",
+          "md5": "9a0f862809012fa204e0c4392d5d8fce"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "codextra-xplat-intermediary-1.1.0+1.20.6-javadoc.jar",
+          "url": "codextra-xplat-intermediary-1.1.0+1.20.6-javadoc.jar",
+          "size": 259086,
+          "sha512": "d78a159a73122c890f4fc4d539261fe472343109ed3f820d5ae23bf619994af76593fb720a85cba83bf777f5821687cbb80cdb42a898b5666bd702e415ca1a3d",
+          "sha256": "1d99eda9f685f3936c667464b39c7220ed079a5919924047aa6f20727c6cca4e",
+          "sha1": "06efb5bcaa3d386012ce17aa05029d234a9dc9dc",
+          "md5": "b6c8c5f4411b782d7e9d8cc4e4757ce3"
+        }
+      ]
+    }
+  ]
+}
