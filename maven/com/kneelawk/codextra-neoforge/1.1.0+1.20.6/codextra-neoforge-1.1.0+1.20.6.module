@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk",
+    "module": "codextra-neoforge",
+    "version": "1.1.0+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "codextra-neoforge-1.1.0+1.20.6.jar",
+          "url": "codextra-neoforge-1.1.0+1.20.6.jar",
+          "size": 106948,
+          "sha512": "3cf6bb402a82a8d84594d8fe730a4938ef62d74d70ce148768ce71553a45a2e7416486a4c18c5be4395efdb919293636d4423bdf4ab07c9009e58a8fe36c402e",
+          "sha256": "c0743c78cb165fcd33581fc9753823ea9a2d2a958a244e511716ce33fa17cf5b",
+          "sha1": "9a5e12b1dc5cfef52b2f3bc5c509ae770c993308",
+          "md5": "e6bd35cb5a60b4fa665923e1fe161aa2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "codextra-neoforge-1.1.0+1.20.6.jar",
+          "url": "codextra-neoforge-1.1.0+1.20.6.jar",
+          "size": 106948,
+          "sha512": "3cf6bb402a82a8d84594d8fe730a4938ef62d74d70ce148768ce71553a45a2e7416486a4c18c5be4395efdb919293636d4423bdf4ab07c9009e58a8fe36c402e",
+          "sha256": "c0743c78cb165fcd33581fc9753823ea9a2d2a958a244e511716ce33fa17cf5b",
+          "sha1": "9a5e12b1dc5cfef52b2f3bc5c509ae770c993308",
+          "md5": "e6bd35cb5a60b4fa665923e1fe161aa2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "codextra-neoforge-1.1.0+1.20.6-sources.jar",
+          "url": "codextra-neoforge-1.1.0+1.20.6-sources.jar",
+          "size": 75371,
+          "sha512": "61612a6c8b08c32c0378e192a24c302151f0c8b969dff867259059b91c415c22f7b889f29d64974aae16dd3f0344836c3c489874642847cd6f21bb83f6f21445",
+          "sha256": "00dbf341e562c6b2de072f8b840da88f3c939af4bb196cf01e5978c5ee90833a",
+          "sha1": "409db9db6589076a2b880321969d747a73e2fb84",
+          "md5": "63002a5711a9934ecfbe1ac4759c806c"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "codextra-neoforge-1.1.0+1.20.6-javadoc.jar",
+          "url": "codextra-neoforge-1.1.0+1.20.6-javadoc.jar",
+          "size": 259195,
+          "sha512": "98cc75ebc891e3cea10bc84d422be7a3ddbf09fe75a0b0e6b347ddd41db7eb0e671fb788c9579a2f31ef1f16090e07fea58ca30141117e6ae2cf037846e713bd",
+          "sha256": "4afd438b031f96dc27cb2f7d60fd8beab13e0a57972b1b5bde00a9b17b9a221a",
+          "sha1": "97ab212814740f9db43985e13d2757aabc021361",
+          "md5": "df3c5afd7fc2525db923ea2fdc30faef"
+        }
+      ]
+    }
+  ]
+}
