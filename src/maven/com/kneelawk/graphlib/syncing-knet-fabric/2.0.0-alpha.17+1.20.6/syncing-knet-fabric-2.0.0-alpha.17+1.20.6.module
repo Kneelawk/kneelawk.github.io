@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "syncing-knet-fabric",
+    "version": "2.0.0-alpha.17+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "syncing-core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "knet-fabric",
+          "version": {
+            "requires": "0.3.0-beta.13+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "codextra-fabric",
+          "version": {
+            "requires": "1.1.0+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-knet-fabric-2.0.0-alpha.17+1.20.6.jar",
+          "url": "syncing-knet-fabric-2.0.0-alpha.17+1.20.6.jar",
+          "size": 1119443,
+          "sha512": "e4bd87a5149ed9a4a6ff40d6fb34d861f20f606ed05da5cd25e07d980f2f38fd103e454f7865cd0543c6c636966cdeb42d96c1cf96acffd4671dd1a742d52687",
+          "sha256": "a0aefcd2469c601c3eb29c3ea05199cd2ae190509d2c9ada0d59a753179c1cf2",
+          "sha1": "cf4a1dea259abdcd0f2291411f24555718051a8c",
+          "md5": "09a5f273f50b26426731ceee64b2d34a"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "syncing-core-fabric",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "knet-fabric",
+          "version": {
+            "requires": "0.3.0-beta.13+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "codextra-fabric",
+          "version": {
+            "requires": "1.1.0+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-knet-fabric-2.0.0-alpha.17+1.20.6.jar",
+          "url": "syncing-knet-fabric-2.0.0-alpha.17+1.20.6.jar",
+          "size": 1119443,
+          "sha512": "e4bd87a5149ed9a4a6ff40d6fb34d861f20f606ed05da5cd25e07d980f2f38fd103e454f7865cd0543c6c636966cdeb42d96c1cf96acffd4671dd1a742d52687",
+          "sha256": "a0aefcd2469c601c3eb29c3ea05199cd2ae190509d2c9ada0d59a753179c1cf2",
+          "sha1": "cf4a1dea259abdcd0f2291411f24555718051a8c",
+          "md5": "09a5f273f50b26426731ceee64b2d34a"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-knet-fabric-2.0.0-alpha.17+1.20.6-sources.jar",
+          "url": "syncing-knet-fabric-2.0.0-alpha.17+1.20.6-sources.jar",
+          "size": 63937,
+          "sha512": "d7750f593dcf051ecd08174a0b66700f61378bc6d1c988b1e874d0b1d6f411b928e2485a122fc97725c1081c8873362708ef6697d2dfe6338be7325006c7daa0",
+          "sha256": "9e0a2d46d7805647ac1b14ae8c67b64f5ed21c55fd759d3e183831fd12ca8412",
+          "sha1": "b0eeb39a4dfaf1601011176ebd2b0786e1d365e7",
+          "md5": "0938fe1eef2042969afae3cc3ffbf68b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-knet-fabric-2.0.0-alpha.17+1.20.6-javadoc.jar",
+          "url": "syncing-knet-fabric-2.0.0-alpha.17+1.20.6-javadoc.jar",
+          "size": 140781,
+          "sha512": "87a80ac005031832469e63a726f74730b23498288caf0c58e8908ce7145be9d024fd7fe4217248a5b6ef5eedb6c34212780d5bd7d70487da43159ed14d94564a",
+          "sha256": "78b1d34d6ff239c316537260e239081d689548395055d4562b1becf2b8bb5fe2",
+          "sha1": "b3074ec435e6e60e0697982aa677a2ad3dc53c9d",
+          "md5": "dbcbf747bf8d74b8f6e222b25f39211f"
+        }
+      ]
+    }
+  ]
+}

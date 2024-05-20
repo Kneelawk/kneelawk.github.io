@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "core-fabric",
+    "version": "2.0.0-alpha.17+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "codextra-fabric",
+          "version": {
+            "requires": "1.1.0+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-fabric-2.0.0-alpha.17+1.20.6.jar",
+          "url": "core-fabric-2.0.0-alpha.17+1.20.6.jar",
+          "size": 413547,
+          "sha512": "1168ecc9a9acaba2c39869bb431c5fff85b97fc655315c662dd4349c56c50958fec938aab5dcbf57efe836b8e246455837c8685eeed34fb00b802d4d4d850e40",
+          "sha256": "7010908c753c7b50d1799777b00acd442e6993d024944d8ca685c4e37bb97a23",
+          "sha1": "d8462491420ff572aa77101fa7ce136b92b1c420",
+          "md5": "f6ba54e489882b475cd8cebc921fd3c1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk",
+          "module": "codextra-fabric",
+          "version": {
+            "requires": "1.1.0+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-fabric-2.0.0-alpha.17+1.20.6.jar",
+          "url": "core-fabric-2.0.0-alpha.17+1.20.6.jar",
+          "size": 413547,
+          "sha512": "1168ecc9a9acaba2c39869bb431c5fff85b97fc655315c662dd4349c56c50958fec938aab5dcbf57efe836b8e246455837c8685eeed34fb00b802d4d4d850e40",
+          "sha256": "7010908c753c7b50d1799777b00acd442e6993d024944d8ca685c4e37bb97a23",
+          "sha1": "d8462491420ff572aa77101fa7ce136b92b1c420",
+          "md5": "f6ba54e489882b475cd8cebc921fd3c1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-fabric-2.0.0-alpha.17+1.20.6-sources.jar",
+          "url": "core-fabric-2.0.0-alpha.17+1.20.6-sources.jar",
+          "size": 235054,
+          "sha512": "ad0cb56eb3ca90e614069eb93b9c3c65800d0a34b0dec73e1e415e268be9d3a0cd18885f49945b27cfae64d68a0a1bc41eb822060ca1341cfa9ab4de5c5b5c7e",
+          "sha256": "387d148e2ab55d1b79d091b5b123d45f95e09850bc34f3741d3134d6dfdebe72",
+          "sha1": "4740035770495050188efc008a1409207a3d0c9f",
+          "md5": "38faffd71d80d3e0741cf0b316c7bc29"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "core-fabric-2.0.0-alpha.17+1.20.6-javadoc.jar",
+          "url": "core-fabric-2.0.0-alpha.17+1.20.6-javadoc.jar",
+          "size": 379408,
+          "sha512": "59ced44c0d54d299b57138ca77b93f299b87b27551d74c4d7279bd695297c966a10748e610e831cde8279b559fb27ff994deb278df231dd6bf1557d903fc159f",
+          "sha256": "128a732e0928b4d727e22cd1581e00d1c056f089e5bb4fb36a99fbde9db549a7",
+          "sha1": "6c8a4e519bf8abb1155016d1d2061441bfb11e22",
+          "md5": "0ad079fe5a99ece30a0bade1a99be487"
+        }
+      ]
+    }
+  ]
+}

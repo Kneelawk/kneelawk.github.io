@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "syncing-knet-xplat-mojmap",
+    "version": "2.0.0-alpha.17+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-xplat-mojmap",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "syncing-core-xplat-mojmap",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "codextra-xplat-mojmap",
+          "version": {
+            "requires": "1.1.0+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "knet-xplat-mojmap",
+          "version": {
+            "requires": "0.3.0-beta.13+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-knet-xplat-mojmap-2.0.0-alpha.17+1.20.6.jar",
+          "url": "syncing-knet-xplat-mojmap-2.0.0-alpha.17+1.20.6.jar",
+          "size": 83884,
+          "sha512": "4b72c6cfb88ce3384df2e90c5c0ce93c8904c0baeff1dd03adc53f80ebe6a312c9587b19b46bd1b2dba146dd7eab77d698cc405e780095dc5c173e86ffe84af4",
+          "sha256": "0d6b70002cf496e9aaaa8fb96f8f72d6491b898db2ca79e2b3a1a8af1446a157",
+          "sha1": "480fdca4908ae4c96e3fec37928729a0d7054e34",
+          "md5": "563948595b54c49d6018b14dabfa9cec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-xplat-mojmap",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "syncing-core-xplat-mojmap",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "codextra-xplat-mojmap",
+          "version": {
+            "requires": "1.1.0+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "knet-xplat-mojmap",
+          "version": {
+            "requires": "0.3.0-beta.13+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-knet-xplat-mojmap-2.0.0-alpha.17+1.20.6.jar",
+          "url": "syncing-knet-xplat-mojmap-2.0.0-alpha.17+1.20.6.jar",
+          "size": 83884,
+          "sha512": "4b72c6cfb88ce3384df2e90c5c0ce93c8904c0baeff1dd03adc53f80ebe6a312c9587b19b46bd1b2dba146dd7eab77d698cc405e780095dc5c173e86ffe84af4",
+          "sha256": "0d6b70002cf496e9aaaa8fb96f8f72d6491b898db2ca79e2b3a1a8af1446a157",
+          "sha1": "480fdca4908ae4c96e3fec37928729a0d7054e34",
+          "md5": "563948595b54c49d6018b14dabfa9cec"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-knet-xplat-mojmap-2.0.0-alpha.17+1.20.6-sources.jar",
+          "url": "syncing-knet-xplat-mojmap-2.0.0-alpha.17+1.20.6-sources.jar",
+          "size": 62034,
+          "sha512": "33e115e36edea60dc08b026057d68acd2e5fb65ea3e5663e9541708d5ec5d724f326193477a64f7aa78fd97d3f5ad9b3015fbf4f7c1332bd5279a2c85ba15d71",
+          "sha256": "c5db11ce5669c9e94844019991d9e9e211b010e9984352c78b141089aa7aa72a",
+          "sha1": "b9bfd68c3aefc5c1104bf3473e72e5bad47a4439",
+          "md5": "270013a22605a9addd2b82e23b6af791"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-knet-xplat-mojmap-2.0.0-alpha.17+1.20.6-javadoc.jar",
+          "url": "syncing-knet-xplat-mojmap-2.0.0-alpha.17+1.20.6-javadoc.jar",
+          "size": 140912,
+          "sha512": "4293091cf06232b4bafbd8a2a7762cbe3fddd54f9779e6e88d0e6889fa661659d67ec7f9bb1a4efcc6d3e637d5dba2c4d40b2be03338ac821fe822039b21c127",
+          "sha256": "7cbf0af6ac3f080db56c16bb4aab99c06aa89d81d57e34f2f3476e70bdcf6ae1",
+          "sha1": "7a717f9ae1c5de22828479c5773d9ef3ba50fce6",
+          "md5": "d1c9a46e42320e6064c7aba668234a99"
+        }
+      ]
+    }
+  ]
+}
