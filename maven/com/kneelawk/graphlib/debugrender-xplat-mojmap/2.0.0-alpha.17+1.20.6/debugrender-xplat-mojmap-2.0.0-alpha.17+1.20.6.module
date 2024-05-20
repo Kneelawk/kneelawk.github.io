@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "debugrender-xplat-mojmap",
+    "version": "2.0.0-alpha.17+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-xplat-mojmap",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "debugrender-xplat-mojmap-2.0.0-alpha.17+1.20.6.jar",
+          "url": "debugrender-xplat-mojmap-2.0.0-alpha.17+1.20.6.jar",
+          "size": 80238,
+          "sha512": "5405fed20491365a39e96f544791247c50d5e730f3eae8129e5bccbdf31447c5859f003ebbf5ae9be7ca604de80e87719c3bb24390519135807dc78a44ddc16c",
+          "sha256": "7c16444d60272a696a3c6fb67e9b6e7ab001668a08e7e7ad25a3e57d541305f3",
+          "sha1": "19091ad3c05c1e63918245e6e0ee0dc8820b7e78",
+          "md5": "d8a5dfd33b02e3f4f44db017e7f8d79e"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-xplat-mojmap",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "debugrender-xplat-mojmap-2.0.0-alpha.17+1.20.6.jar",
+          "url": "debugrender-xplat-mojmap-2.0.0-alpha.17+1.20.6.jar",
+          "size": 80238,
+          "sha512": "5405fed20491365a39e96f544791247c50d5e730f3eae8129e5bccbdf31447c5859f003ebbf5ae9be7ca604de80e87719c3bb24390519135807dc78a44ddc16c",
+          "sha256": "7c16444d60272a696a3c6fb67e9b6e7ab001668a08e7e7ad25a3e57d541305f3",
+          "sha1": "19091ad3c05c1e63918245e6e0ee0dc8820b7e78",
+          "md5": "d8a5dfd33b02e3f4f44db017e7f8d79e"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-xplat-mojmap-2.0.0-alpha.17+1.20.6-sources.jar",
+          "url": "debugrender-xplat-mojmap-2.0.0-alpha.17+1.20.6-sources.jar",
+          "size": 70491,
+          "sha512": "366a484b85f9e301942ebfa7ee1694f8e51c47a53bdfdddee7d97ece63d67a1ba82c6f4c87ffb360e080ea516198833075a8222ab0b108b385f80e20fca9985d",
+          "sha256": "02f478a8def90e883f437dee84bf487c4f85cbc4cc5394a4ffd9b6bdeeb58dc6",
+          "sha1": "f189cc3c7c218c239e9d7f402177c612f7071181",
+          "md5": "9979403aa2844fdd986434d41733dc1a"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "debugrender-xplat-mojmap-2.0.0-alpha.17+1.20.6-javadoc.jar",
+          "url": "debugrender-xplat-mojmap-2.0.0-alpha.17+1.20.6-javadoc.jar",
+          "size": 136069,
+          "sha512": "b281bab2d9107b1a551d66e417d0885d1204471dff8eea865889751d571a7f65395fcefaadc727fe93a280e1d0b9c9d1345b8d4bafe0cd8b9f74eaabb2fdf650",
+          "sha256": "622e37478afd9ba2b478b4e95fbbe9ce399ec1e7cae0a05a4c1e0acde2ce5c14",
+          "sha1": "e7c6a2cf33e25e611452cd8c1315d89e39c0bb04",
+          "md5": "9cd2f699e996804cc9cff3a01924b538"
+        }
+      ]
+    }
+  ]
+}

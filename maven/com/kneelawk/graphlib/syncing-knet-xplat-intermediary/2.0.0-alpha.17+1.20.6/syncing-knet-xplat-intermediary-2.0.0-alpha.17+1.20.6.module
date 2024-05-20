@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.kneelawk.graphlib",
+    "module": "syncing-knet-xplat-intermediary",
+    "version": "2.0.0-alpha.17+1.20.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-xplat-intermediary",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "syncing-core-xplat-intermediary",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "knet-xplat-intermediary",
+          "version": {
+            "requires": "0.3.0-beta.13+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "codextra-xplat-intermediary",
+          "version": {
+            "requires": "1.1.0+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-knet-xplat-intermediary-2.0.0-alpha.17+1.20.6.jar",
+          "url": "syncing-knet-xplat-intermediary-2.0.0-alpha.17+1.20.6.jar",
+          "size": 83904,
+          "sha512": "c2308a104130180811c5a30c5ed74defabcc7e1c4ab1e317e9143374115154fba175f4f03b3aead041dd29348aabf8af15cb1bfc521d47c7f35229fc2a5766c4",
+          "sha256": "3e6d77c45a6ce04851b2d727b0e05e183d72033717d6fdb8c22db03af164926b",
+          "sha1": "436119e53880662ca465d2e60dbf783267bac1b3",
+          "md5": "3a68ad1939ab99a2aa7badbe81ee76ec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "core-xplat-intermediary",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk.graphlib",
+          "module": "syncing-core-xplat-intermediary",
+          "version": {
+            "requires": "2.0.0-alpha.17+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "knet-xplat-intermediary",
+          "version": {
+            "requires": "0.3.0-beta.13+1.20.6"
+          }
+        },
+        {
+          "group": "com.kneelawk",
+          "module": "codextra-xplat-intermediary",
+          "version": {
+            "requires": "1.1.0+1.20.6"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "syncing-knet-xplat-intermediary-2.0.0-alpha.17+1.20.6.jar",
+          "url": "syncing-knet-xplat-intermediary-2.0.0-alpha.17+1.20.6.jar",
+          "size": 83904,
+          "sha512": "c2308a104130180811c5a30c5ed74defabcc7e1c4ab1e317e9143374115154fba175f4f03b3aead041dd29348aabf8af15cb1bfc521d47c7f35229fc2a5766c4",
+          "sha256": "3e6d77c45a6ce04851b2d727b0e05e183d72033717d6fdb8c22db03af164926b",
+          "sha1": "436119e53880662ca465d2e60dbf783267bac1b3",
+          "md5": "3a68ad1939ab99a2aa7badbe81ee76ec"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-knet-xplat-intermediary-2.0.0-alpha.17+1.20.6-sources.jar",
+          "url": "syncing-knet-xplat-intermediary-2.0.0-alpha.17+1.20.6-sources.jar",
+          "size": 61943,
+          "sha512": "dd0dd8c8712195ef80129dd55f79985ae44aff6759fb02a325c9e8589effa2d09d5d39cca29b29538b66c811d717bc3f1a1894b47ea7f75e5dbc587c6729b278",
+          "sha256": "d7062cbb33845b0416c6ebc8e29aad09551f7a336406348f6ecaf548eac225fd",
+          "sha1": "e202919d31e16ccda68ab8c0993ec7f5da91a080",
+          "md5": "29ff9563a7697b54dc96fd746c3faf90"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "syncing-knet-xplat-intermediary-2.0.0-alpha.17+1.20.6-javadoc.jar",
+          "url": "syncing-knet-xplat-intermediary-2.0.0-alpha.17+1.20.6-javadoc.jar",
+          "size": 140771,
+          "sha512": "259b2e6302c9d881cedf2fb44159b287131758af265b1598bf7b6f6116b70d311ecde824d2409eead2a64a1ade001093fdf4afafb8eaef9893930b0abcaa543a",
+          "sha256": "5c42f355ff9ba40dd260e18e0980303b1cbe92cd8ea227a332f1e344f3e7973d",
+          "sha1": "1879f8b9d37586c238df3e58187a50226c5c4608",
+          "md5": "da1de0ff8f80e47e8b813e2b60f0678d"
+        }
+      ]
+    }
+  ]
+}
