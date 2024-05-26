@@ -2,5 +2,12 @@
 name = "kneelawk-com"
 version = "0.1.0"
 edition = "2021"
+authors = ["Kneelawk <kneelawk@gmail.com>"]
 
 [dependencies]
+actix-web = "4"
+actix-web-static-files = "4"
+static-files = "0.2.3"
+
+[build-dependencies]
+static-files = "0.2.3"
