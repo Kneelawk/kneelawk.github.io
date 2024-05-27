@@ -10,6 +10,16 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Cache Build Files
+        uses: actions/cache@v3
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            target/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
       - name: Install Rust Toolchain
         uses: actions-rs/toolchain@v1
         with:
@@ -19,6 +29,9 @@ jobs:
         with:
           command: build
           args: --release --all-features
+      - name: Make Sure SSH Dir Exists
+        run: |
+          mkdir -p ~/.ssh/
       - name: Grab SSH Key
         run: |
           echo "$PRIVATE_KEY" > ~/.ssh/id_ed25519
