@@ -37,6 +37,11 @@ jobs:
           echo "$PRIVATE_KEY" > ~/.ssh/id_ed25519
         env:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY_ORACLE_MAIN_WEBSITE }}
+      - name: Add Known Hosts
+        run: |
+          echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+        env:
+          KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS_ORACLE_MAIN_WEBSITE }}
       - name: Stop Running Server
         run: |
           ssh opc@146.235.207.79 'sudo docker compose down'
