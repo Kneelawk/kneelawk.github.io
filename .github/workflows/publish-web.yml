@@ -1,0 +1,47 @@
+# This handles publishing of the project on push.
+
+name: publish-web
+
+on: push
+
+jobs:
+  publish:
+    runs-on: ubuntu-20.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 'latest'
+      - name: Cache NPM
+        uses: actions/cache@v3
+        id: npm-cache # use this to check for `cache-hit` ==> if: steps.npm-cache.outputs.cache-hit != 'true'
+        with:
+          path: ${{ steps.npm-cache-dir.outputs.dir }}
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+      - name: Install Project Dependencies
+        run: npm install
+      - name: Build Project
+        run: npm run build
+      - name: Make Sure SSH Dir Exists
+        run: |
+          mkdir -p ~/.ssh/
+      - name: Grab SSH Key
+        run: |
+          echo "$PRIVATE_KEY" > ~/.ssh/id_ed25519
+        env:
+          PRIVATE_KEY: ${{ secrets.PRIVATE_KEY_ORACLE_MAIN_WEBSITE }}
+      - name: Set Private Key Permissions
+        run: |
+          chmod 600 ~/.ssh/id_ed25519
+      - name: Add Known Hosts
+        run: |
+          echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts
+        env:
+          KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS_ORACLE_MAIN_WEBSITE }}
+      - name: Upload New Site
+        run: |
+          rsync -zv dist/ opc@146.235.207.79:kneelawk-com/site/
