@@ -37,6 +37,9 @@ jobs:
           echo "$PRIVATE_KEY" > ~/.ssh/id_ed25519
         env:
           PRIVATE_KEY: ${{ secrets.PRIVATE_KEY_ORACLE_MAIN_WEBSITE }}
+      - name: Set Private Key Permissions
+        run: |
+          chmod 600 ~/.ssh/id_ed25519
       - name: Add Known Hosts
         run: |
           echo "$KNOWN_HOSTS" > ~/.ssh/known_hosts
