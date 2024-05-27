@@ -1,0 +1,56 @@
+---
+import '../styles/global.css';
+import Menubar from '../components/Menubar.astro';
+
+interface Props {
+    title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+<head>
+    <base href="/">
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="generator" content="{Astro.generator}">
+    <meta content="Kneelawk's Website" property="og:title">
+    <meta content="This site is still under construction but feel free to stop by anyways." property="og:description">
+    <meta content="https://kneelawk.com/" property="og:url">
+    <meta content="https://kneelawk.com/assets/logo_128.png" property="og:image">
+    <meta content="#3d7e9a" data-react-helmet="true" name="theme-color">
+    <title>{title}</title>
+</head>
+<body>
+<div class="content-1">
+    <Menubar></Menubar>
+    <div class="content-2">
+        <main>
+            <slot></slot>
+        </main>
+    </div>
+</div>
+</body>
+</html>
+<style>
+    body {
+        background-color: #282828;
+        color: #c8c8c8;
+        font-family: monospace;
+        margin: 0;
+    }
+
+    .content-1 {
+        background-color: #3c3c3c;
+        max-width: 960px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .content-2 {
+        padding: 15px;
+    }
+</style>
