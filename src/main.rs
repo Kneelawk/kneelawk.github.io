@@ -1,10 +1,12 @@
+#[macro_use]
+extern crate tracing;
+
 use actix_web::web::Redirect;
 use actix_web::{get, web, App, HttpServer, Responder};
 use anyhow::Context;
+use std::fs::create_dir_all;
 
-mod frontend {
-    include!(concat!(env!("OUT_DIR"), "/generated.rs"));
-}
+mod config;
 
 #[get("/maven")]
 async fn maven_root_redirect() -> impl Responder {
@@ -25,14 +27,29 @@ async fn maven_redirect(path: web::Path<String>) -> impl Responder {
 async fn main() -> anyhow::Result<()> {
     tracing_subscriber::fmt().init();
 
+    info!("kneelawk-com initializing");
+
+    let config = config::load_config().context("Loading config")?;
+    let bind_addr = config.bind_addr.clone();
+
+    if !config.static_dir.exists() {
+        create_dir_all(&config.static_dir).context("Creating site dir")?;
+    }
+
+    info!("Starting server on {}", &bind_addr);
+    info!("Hosting files from {:?}", &config.static_dir);
+
     HttpServer::new(move || {
-        let generated = frontend::generate();
         App::new()
             .service(maven_root_redirect)
             .service(maven_redirect)
-            .service(actix_web_static_files::ResourceFiles::new("/", generated))
+            .service(
+                actix_files::Files::new("/", &config.static_dir)
+                    .index_file("index.html")
+                    .redirect_to_slash_directory(),
+            )
     })
-    .bind("0.0.0.0:8080")
+    .bind(bind_addr)
     .context("Binding port")?
     .run()
     .await
