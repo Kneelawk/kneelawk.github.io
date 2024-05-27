@@ -8,6 +8,8 @@ authors = ["Kneelawk <kneelawk@gmail.com>"]
 actix-web = "4"
 actix-web-static-files = "4"
 static-files = "0.2.3"
+tracing = "0.1.40"
+tracing-subscriber = "0.3.18"
 
 [build-dependencies]
 static-files = "0.2.3"

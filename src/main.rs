@@ -22,6 +22,8 @@ async fn maven_redirect(path: web::Path<String>) -> impl Responder {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
+    tracing_subscriber::fmt().init();
+
     HttpServer::new(move || {
         let generated = frontend::generate();
         App::new()
