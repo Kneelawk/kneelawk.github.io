@@ -50,7 +50,7 @@ jobs:
           ssh opc@146.235.207.79 'sudo docker compose down'
       - name: Upload New Binary
         run: |
-          rsync -v target/release/kneelawk-com opc@146.235.207.79:kneelawk-com/kneelawk-com
+          rsync -zv target/release/kneelawk-com opc@146.235.207.79:kneelawk-com/kneelawk-com
       - name: Start Server
         run: |
           ssh opc@146.235.207.79 'sudo docker compose up --wait --wait-timeout 10'
