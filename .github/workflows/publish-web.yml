@@ -14,6 +14,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 'latest'
+      - name: Get npm cache directory
+        id: npm-cache-dir
+        shell: bash
+        run: |
+          echo "dir=$(npm config get cache)" >> ${GITHUB_OUTPUT}
       - name: Cache NPM
         uses: actions/cache@v3
         id: npm-cache # use this to check for `cache-hit` ==> if: steps.npm-cache.outputs.cache-hit != 'true'
@@ -44,4 +49,4 @@ jobs:
           KNOWN_HOSTS: ${{ secrets.KNOWN_HOSTS_ORACLE_MAIN_WEBSITE }}
       - name: Upload New Site
         run: |
-          rsync -zv dist/ opc@146.235.207.79:kneelawk-com/site/
+          rsync -rzv dist/ opc@146.235.207.79:kneelawk-com/site/
