@@ -1,5 +1,6 @@
-use actix_web::{App, get, HttpServer, Responder, web};
 use actix_web::web::Redirect;
+use actix_web::{get, web, App, HttpServer, Responder};
+use anyhow::Context;
 
 mod frontend {
     include!(concat!(env!("OUT_DIR"), "/generated.rs"));
@@ -21,7 +22,7 @@ async fn maven_redirect(path: web::Path<String>) -> impl Responder {
 }
 
 #[actix_web::main]
-async fn main() -> std::io::Result<()> {
+async fn main() -> anyhow::Result<()> {
     tracing_subscriber::fmt().init();
 
     HttpServer::new(move || {
@@ -31,7 +32,11 @@ async fn main() -> std::io::Result<()> {
             .service(maven_redirect)
             .service(actix_web_static_files::ResourceFiles::new("/", generated))
     })
-        .bind("0.0.0.0:8080")?
-        .run()
-        .await
+    .bind("0.0.0.0:8080")
+    .context("Binding port")?
+    .run()
+    .await
+    .context("Starting primary server")?;
+
+    Ok(())
 }
