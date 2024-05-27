@@ -1,16 +1,13 @@
 [package]
 name = "kneelawk-com"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Kneelawk <kneelawk@gmail.com>"]
 
 [dependencies]
 actix-web = "4"
-actix-web-static-files = "4"
+actix-files = "0.6"
 anyhow = "1.0.86"
 static-files = "0.2.3"
 tracing = "0.1.40"
 tracing-subscriber = "0.3.18"
-
-[build-dependencies]
-static-files = "0.2.3"
