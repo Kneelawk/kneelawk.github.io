@@ -1,0 +1,76 @@
+<div id="canvas-container"></div>
+<script type="module">
+    import init, { start_neonet } from "/assets/neonet2.js";
+
+    let cur_flow;
+
+    function render_cur_flow() {
+        let flow = cur_flow;
+        if (flow) {
+            flow.render().then(() => {
+                window.requestAnimationFrame(render_cur_flow);
+            });
+        }
+    }
+
+    function stop_cur_flow() {
+        let flow = cur_flow;
+        cur_flow = null;
+        if (flow) {
+            flow.free();
+        }
+    }
+
+    function resize_cur_flow() {
+        let width = window.innerWidth;
+        let height = window.innerHeight;
+
+        let flow = cur_flow;
+        if (flow) {
+            flow.resize(width, height);
+        }
+    }
+
+    init().catch(console.error).then(() => {
+        // start the app
+        start_neonet("canvas-container", "canvas").then((flow) => {
+            cur_flow = flow;
+            window.requestAnimationFrame(render_cur_flow);
+
+            // setTimeout(() => {
+            //     stop_cur_flow();
+            // }, 5000);
+        });
+    });
+
+    window.addEventListener("resize", resize_cur_flow);
+</script>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    html {
+        width: 100%;
+        height: 100%;
+    }
+
+    #canvas-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: block;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+    }
+
+    #canvas {
+        position: fixed;
+        left: 0;
+        top: 0;
+        display: block;
+        overflow: hidden;
+    }
+</style>
