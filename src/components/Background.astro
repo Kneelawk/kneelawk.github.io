@@ -1,8 +1,16 @@
 <div id="canvas-container"></div>
-<script type="module">
+<script type="module" is:inline>
     import init, { start_neonet } from "/assets/neonet2.js";
 
-    let cur_flow;
+    const backgroundEnabled = (() => {
+        if (typeof localStorage !== "undefined" && localStorage.getItem("k:background")) {
+            return localStorage.getItem("k:background") === "neonet";
+        } else {
+            return false;
+        }
+    })();
+
+    let cur_flow = null;
 
     function render_cur_flow() {
         let flow = cur_flow;
@@ -31,17 +39,42 @@
         }
     }
 
-    init().catch(console.error).then(() => {
-        // start the app
-        start_neonet("canvas-container", "canvas").then((flow) => {
-            cur_flow = flow;
-            window.requestAnimationFrame(render_cur_flow);
+    function start_new_flow() {
+        let flow = cur_flow;
+        if (flow === null) {
+            init().catch(console.error).then(() => {
+                // start the app
+                start_neonet("canvas-container", "canvas").then((flow) => {
+                    cur_flow = flow;
+                    window.requestAnimationFrame(render_cur_flow);
 
-            // setTimeout(() => {
-            //     stop_cur_flow();
-            // }, 5000);
-        });
-    });
+                    // setTimeout(() => {
+                    //     stop_cur_flow();
+                    // }, 5000);
+                });
+            });
+        }
+    }
+
+    if (backgroundEnabled) {
+        start_new_flow();
+    }
+
+    document.addEventListener("k:background-change", (_e) => {
+        const backgroundEnabled = (() => {
+            if (typeof localStorage !== "undefined" && localStorage.getItem("k:background")) {
+                return localStorage.getItem("k:background") === "neonet";
+            } else {
+                return false;
+            }
+        })();
+
+        if (backgroundEnabled) {
+            start_new_flow();
+        } else {
+            stop_cur_flow();
+        }
+    }, false);
 
     window.addEventListener("resize", resize_cur_flow);
 </script>
