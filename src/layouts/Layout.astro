@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import Menubar from '../components/Menubar.astro';
-import Background from "../components/Background.html";
+import Background from "../components/Background.astro";
 
 interface Props {
     title: string;
@@ -27,7 +27,7 @@ const {title} = Astro.props;
 </head>
 <body>
 <div class="background">
-    <Background client:load></Background>
+    <Background></Background>
 </div>
 <div class="content-1">
     <Menubar></Menubar>
