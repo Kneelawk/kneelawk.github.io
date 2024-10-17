@@ -13,8 +13,9 @@ case "$1" in
         git checkout -b "$BRANCH"
         curl -fsSL 'https://kneelawk.com/assets/dots-install' -o dots-install
         echo "dots-install" >>.gitignore
+        git add .gitignore
         chmod a+x dots-install
-        bash -c ./dots-install -- get
+        bash ./dots-install get
         git commit -m "Initial $BRANCH commit"
         git push -u origin "$BRANCH"
         ;;
@@ -25,7 +26,7 @@ case "$1" in
         git reset --hard "origin/$BRANCH"
         curl -fsSL 'https://kneelawk.com/assets/dots-install' -o dots-install
         chmod a+x dots-install
-        bash -c ./dots-install -- put
+        bash ./dots-install put
         ;;
 esac
 
