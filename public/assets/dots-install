@@ -13,7 +13,7 @@ case "$1" in
         for p in "${!sudopaths[@]}"; do
             echo "Getting sudo file '$p' from '${sudopaths[$p]}'"
             sudo cp -rf "${sudopaths[$p]}" "$HOME/dots/$p"
-            chown -R "$USER:$USER" "$HOME/dots/$p"
+            sudo chown -R "$USER:$USER" "$HOME/dots/$p"
         done
         ;;
     put)
