@@ -13,9 +13,9 @@ case "$1" in
         git checkout -b "$BRANCH"
         curl -fsSL 'https://kneelawk.com/assets/dots-install' -o dots-install
         echo "dots-install" >>.gitignore
-        git add .gitignore
         chmod a+x dots-install
         bash ./dots-install get
+        git add .
         git commit -m "Initial $BRANCH commit"
         git push -u origin "$BRANCH"
         ;;
