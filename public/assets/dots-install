@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+declare -A paths=(["ags"]="$HOME/.config/ags" ["hypr"]="$HOME/.config/hypr")
+
+case "$1" in
+    get)
+        echo "Getting files..."
+        for p in "${!paths[@]}"; do
+            echo "Getting file '$p' from '${paths[$p]}'"
+            cp -rf "${paths[$p]}" "$HOME/dots/$p"
+        done
+        ;;
+    put)
+        echo "Putting files..."
+        for p in "${!paths[@]}"; do
+            echo "Putting file '$p' to '${paths[$p]}'"
+            cp -rf "$HOME/dosts/$p" "${paths[$p]}"
+        done
+        ;;
+esac
+

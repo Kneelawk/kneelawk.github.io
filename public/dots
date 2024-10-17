@@ -1,8 +1,6 @@
 #!/usr/bin/env bash
 
 mkdir -p "$HOME/dots"
-ln "$HOME/.config/ags" "$HOME/dots/ags"
-ln "$HOME/.config/hypr" "$HOME/dots/hypr"
 cd "$HOME/dots"
 git init
 git remote add origin git@github.com:Kneelawk/Dots.git
@@ -12,7 +10,11 @@ BRANCH="$2"
 case "$1" in
     new)
         echo "Creating new branch '$BRANCH'..."
-        git checkout -b "$BRANCH" --track "origin/$BRANCH"
+        git checkout -b "$BRANCH"
+        curl -fsSL 'https://kneelawk.com/assets/dots-install' -o dots-install
+        echo "dots-install" >>.gitignore
+        chmod a+x dots-install
+        bash -c ./dots-install -- get
         git commit -m "Initial $BRANCH commit"
         git push -u origin "$BRANCH"
         ;;
@@ -21,6 +23,9 @@ case "$1" in
         echo "Cloning existing branch '$BRANCH'..."
         git checkout -b "$BRANCH" --track "origin/$BRANCH"
         git reset --hard "origin/$BRANCH"
+        curl -fsSL 'https://kneelawk.com/assets/dots-install' -o dots-install
+        chmod a+x dots-install
+        bash -c ./dots-install -- put
         ;;
 esac
 
