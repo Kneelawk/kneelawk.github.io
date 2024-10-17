@@ -2,13 +2,13 @@
 
 mkdir -p "$HOME/dots"
 cd "$HOME/dots"
-git init
-git remote add origin git@github.com:Kneelawk/Dots.git
-git fetch origin
 
 BRANCH="$2"
 case "$1" in
     new)
+        git init
+        git remote add origin git@github.com:Kneelawk/Dots.git
+        git fetch origin
         echo "Creating new branch '$BRANCH'..."
         git checkout -b "$BRANCH"
         curl -fsSL 'https://kneelawk.com/assets/dots-install' -o dots-install
@@ -22,6 +22,9 @@ case "$1" in
         ;;
 
     clone)
+        git init
+        git remote add origin git@github.com:Kneelawk/Dots.git
+        git fetch origin
         echo "Cloning existing branch '$BRANCH'..."
         git checkout -b "$BRANCH" --track "origin/$BRANCH"
         git reset --hard "origin/$BRANCH"
