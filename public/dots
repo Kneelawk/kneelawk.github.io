@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 
 mkdir -p "$HOME/dots"
-ln -s "$HOME/.config/ags" "$HOME/dots/ags"
-ln -s "$HOME/.config/hypr" "$HOME/dots/hypr"
+ln "$HOME/.config/ags" "$HOME/dots/ags"
+ln "$HOME/.config/hypr" "$HOME/dots/hypr"
 cd "$HOME/dots"
 git init
 git remote add origin git@github.com:Kneelawk/Dots.git
