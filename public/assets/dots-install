@@ -7,10 +7,12 @@ case "$1" in
     get)
         echo "Getting files..."
         for p in "${!paths[@]}"; do
+            rm -rf "$HOME/dots/$p"
             echo "Getting file '$p' from '${paths[$p]}'"
             cp -rf "${paths[$p]}" "$HOME/dots/$p"
         done
         for p in "${!sudopaths[@]}"; do
+            rm -rf "$HOME/dots/$p"
             echo "Getting sudo file '$p' from '${sudopaths[$p]}'"
             sudo cp -rf "${sudopaths[$p]}" "$HOME/dots/$p"
             sudo chown -R "$USER:$USER" "$HOME/dots/$p"
@@ -20,11 +22,11 @@ case "$1" in
         echo "Putting files..."
         for p in "${!paths[@]}"; do
             echo "Putting file '$p' to '${paths[$p]}'"
-            cp -rf "$HOME/dosts/$p" "${paths[$p]}"
+            cp -rf "$HOME/dots/$p" "${paths[$p]}"
         done
         for p in "${!sudopaths[@]}"; do
             echo "Putting sudo file '$p' to '${sudopaths[$p]}'"
-            sudo cp -rf "$HOME/dosts/$p" "${sudopaths[$p]}"
+            sudo cp -rf "$HOME/dots/$p" "${sudopaths[$p]}"
         done
         ;;
 esac
