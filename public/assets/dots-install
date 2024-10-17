@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 declare -A paths=(["ags"]="$HOME/.config/ags" ["hypr"]="$HOME/.config/hypr")
+declare -A sudopaths=(["sugar-candy-theme.conf"]="/usr/share/sddm/themes/sugar-candy/theme.conf")
 
 case "$1" in
     get)
@@ -9,12 +10,20 @@ case "$1" in
             echo "Getting file '$p' from '${paths[$p]}'"
             cp -rf "${paths[$p]}" "$HOME/dots/$p"
         done
+        for p in "${!sudopaths[@]}"; do
+            echo "Getting sudo file '$p' from '${sudopaths[$p]}'"
+            sudo cp -rf "${sudopaths[$p]}" "$HOME/dots/$p"
+        done
         ;;
     put)
         echo "Putting files..."
         for p in "${!paths[@]}"; do
             echo "Putting file '$p' to '${paths[$p]}'"
             cp -rf "$HOME/dosts/$p" "${paths[$p]}"
+        done
+        for p in "${!sudopaths[@]}"; do
+            echo "Putting sudo file '$p' to '${sudopaths[$p]}'"
+            sudo cp -rf "$HOME/dosts/$p" "${sudopaths[$p]}"
         done
         ;;
 esac
