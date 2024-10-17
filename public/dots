@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+
+mkdir -p "$HOME/dots"
+ln -s "$HOME/.config/ags" "$HOME/dots/ags"
+ln -s "$HOME/.config/hypr" "$HOME/dots/hypr"
+cd "$HOME/dots"
+git init
+git remote add origin git@github.com:Kneelawk/Dots.git
+git fetch origin
+
+BRANCH="$2"
+case "$1" in
+    new)
+        echo "Creating new branch '$BRANCH'..."
+        git checkout -b "$BRANCH" --track "origin/$BRANCH"
+        git commit -m "Initial $BRANCH commit"
+        git push -u origin "$BRANCH"
+        ;;
+
+    clone)
+        echo "Cloning existing branch '$BRANCH'..."
+        git checkout -b "$BRANCH" --track "origin/$BRANCH"
+        git reset --hard "origin/$BRANCH"
+        ;;
+esac
+
