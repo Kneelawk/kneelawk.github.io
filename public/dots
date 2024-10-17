@@ -29,5 +29,10 @@ case "$1" in
         chmod a+x dots-install
         bash ./dots-install put
         ;;
+
+    update-installer)
+        echo "Updating installer..."
+        curl -fsSL 'https://kneelawk.com/assets/dots-install' -o dots-install
+        ;;
 esac
 
