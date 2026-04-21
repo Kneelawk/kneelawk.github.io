@@ -44,7 +44,7 @@ async fn main() -> anyhow::Result<()> {
             .service(maven_root_redirect)
             .service(maven_redirect)
             .service(
-                actix_files::Files::new("/cdn/", &config.cdn_dir)
+                actix_files::Files::new("/cdn", &config.cdn_dir)
                     .redirect_to_slash_directory()
                     .show_files_listing(),
             )
