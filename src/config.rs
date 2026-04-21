@@ -11,6 +11,7 @@ pub struct Config {
     pub bind_addr: String,
     pub static_dir: PathBuf,
     pub index_file_name: String,
+    pub cdn_dir: PathBuf,
 }
 
 impl Default for Config {
@@ -19,6 +20,7 @@ impl Default for Config {
             bind_addr: "0.0.0.0:8080".to_string(),
             static_dir: PathBuf::from("site"),
             index_file_name: "index.html".to_string(),
+            cdn_dir: PathBuf::from("/mnt/data/cdn"),
         }
     }
 }
